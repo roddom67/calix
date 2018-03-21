@@ -1,0 +1,95 @@
+/* Calix Nuñez */
+
+:root{
+	--main-bg-color: #2452f4;
+	--main-color: #2452f4;
+	
+	--bg-gray: #dcdee0;
+}
+
+/* Header */
+.navbar-brand{
+	
+}
+.navbar-brand span{
+	background:url(../images/logo-nav-nunez.png) no-repeat top left;
+	width: 100px;
+	height:50px;
+}
+.navbar-brand.gris span{
+	background:url(../images/logo-nav-nunez.png) no-repeat bottom left;
+	width: 100px;
+	height:50px;
+}
+#navbarSupportedContent{
+	background: var(--main-bg-color);
+}
+#navbarSupportedContent .navbar-nav li a{
+	color:#fff;
+}
+
+/* Home */
+
+.headerImage{
+	background-image: url(../images/imagen_home.jpg);
+}
+.headerImage h1{
+	color: var(--main-color)
+}
+
+.textImageArea.bgColor:before{
+	background-color: var(--main-bg-color);
+}
+
+.boxElProyecto:after{
+	background-image: url(../images/imagen_proyecto.jpg);
+}
+
+
+
+
+
+
+/*--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1200px*/
+
+@media (max-width: 575px) {
+
+	.home article ul{
+		padding-bottom: calc( 33.3333vh - 170px);
+	}
+	.home article ul li{
+		padding-top: 20px;
+		padding-bottom: 20px;
+		overflow:hidden;
+	}
+	
+	
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+	.home article ul{
+		padding-bottom: calc( 33.3333vh - 170px);
+	}
+	.home article ul li{
+		padding-top: 20px;
+		padding-bottom: 20px;
+		overflow:hidden;
+	}
+	
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
+}
