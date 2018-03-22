@@ -1,9 +1,9 @@
 /* Calix Nuñez */
 
 :root{
-	--main-bg-color: #2452f4;
 	--main-color: #2452f4;
 	
+	--white: #fff;
 	--bg-gray: #dcdee0;
 }
 
@@ -16,34 +16,58 @@
 	width: 100px;
 	height:50px;
 }
-.navbar-brand.gris span{
+.navGris .navbar-brand span{
 	background:url(../images/logo-nav-nunez.png) no-repeat bottom left;
 	width: 100px;
 	height:50px;
 }
 #navbarSupportedContent{
-	background: var(--main-bg-color);
+	background: var(--main-color);
 }
 #navbarSupportedContent .navbar-nav li a{
-	color:#fff;
+	color: var(--white);
 }
 
 /* Home */
 
-.headerImage{
+.index .headerImage{
 	background-image: url(../images/imagen_home.jpg);
 }
-.headerImage h1{
+.index .headerImage h1{
 	color: var(--main-color)
 }
 
 .textImageArea.bgColor:before{
-	background-color: var(--main-bg-color);
+	background-color: var(--main-color);
 }
 
 .boxElProyecto:after{
 	background-image: url(../images/imagen_proyecto.jpg);
 }
+
+.boxElBarrio:after{
+	background-image: url(../images/imagen_barrio.jpg);
+}
+
+/* El Proyecto */
+
+.el-proyecto .headerImage{
+	background-image: url(../images/imagen_el_proyecto.jpg);
+}
+
+/* Los Departamentos */
+
+.los-departamentos .headerImage{
+	background-image: url(../images/imagen_el_departamento.jpg);
+}
+
+/* El Barrio */
+
+.el-barrio .headerImage{
+	background-image: url(../images/imagen_el_barrio.jpg);
+}
+
+
 
 
 

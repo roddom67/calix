@@ -3,14 +3,13 @@
 <?php
 	require("data.php");
 	
-	$pagina = 'index';
-	$activoH = true;
+	$pagina = 'el-proyecto';
+	$activoEP = true;
 	//$navGris = true;
 	require("head.php");
-
+	
 	require("template.php");
-
-
 ?>
+
 
 </html>

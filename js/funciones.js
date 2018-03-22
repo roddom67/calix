@@ -56,6 +56,7 @@ $(function(){
 			if($('article').hasClass('slider')){
 				$('.sliderArea').bxSlider({
 					autoControls: true,
+					pager: false
 				});
 			}
 		}
@@ -63,7 +64,22 @@ $(function(){
 	
 	sliderGaleria.init();
 	
+	goDown = {
+		init: function(){
+			
+			$('.headerImage').append('<a href="" title="" class="goDown">goDown</a>');
+			this.onClickGoDown(); 
+		},
+		onClickGoDown: function(){
+			$('.goDown').on('click',function(e){
+				var sectionH = $('.headerImage').height();
+				e.preventDefault();
+				$('html, body').animate({scrollTop:sectionH},800);
+			});
+		}
+	}
 	
+	goDown.init();
 
 })
 
