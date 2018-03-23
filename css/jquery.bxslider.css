@@ -5,7 +5,7 @@
 .bx-wrapper {
   position: relative;
   /*margin-bottom: 60px;*/
-  padding: 0 80px;
+  padding: 0 ;
   *zoom: 1;
   -ms-touch-action: pan-y;
   touch-action: pan-y;
@@ -90,7 +90,7 @@ ul.bxslider {
 }
 /* DIRECTION CONTROLS (NEXT / PREV) */
 .bx-wrapper .bx-prev {
-  left: 10px;
+  left: -9rem;
   background: url('../images/controls.png') no-repeat 0 -32px;
 }
 .bx-wrapper .bx-prev:hover,
@@ -98,7 +98,7 @@ ul.bxslider {
   background-position: 0 0;
 }
 .bx-wrapper .bx-next {
-  right: 10px;
+  right: -9rem;
   background: url('../images/controls.png') no-repeat -43px -32px;
 }
 .bx-wrapper .bx-next:hover,

@@ -11,7 +11,13 @@ $(function(){
 		init: function(){
 			var self = this;
 			
-			var ancho = -($(window).width());
+			
+			if($(window).width() > 768 ){
+				var pad = parseInt($('.container-fluid').css('padding-right'));
+				var ancho = -($(window).width() * .4 - pad);
+			} else{
+				var ancho = -($(window).width());
+			}
 			
 			$('.navbar-toggler').on('click',function(e){
 				e.preventDefault();
@@ -23,24 +29,27 @@ $(function(){
 					divColapse
 						.stop()
 						.animate({
-							left: ancho
+							right: ancho
 						} , 800 , function(){
 							$(this)
 								.css('display','none')
 								.parent()
-								.removeClass('colapseOn')
+								.removeClass('colapseOn');
+							$('html').removeClass('overflow');
 						});
 
 				}else{
 
 					$(this).addClass('toggled');
+					$('html').addClass('overflow');
 					divColapse
 						.stop()
 						.css('display','block')
 						.animate({
-							left:0
+							right:0
 						} , 1000 , function(){
-							$(this).parent().addClass('colapseOn')
+							$(this).parent().addClass('colapseOn');
+							
 						});
 				}
 				
@@ -80,6 +89,34 @@ $(function(){
 	}
 	
 	goDown.init();
+	
+	articleHeight = {
+		init: function(){
+			var self = this;
+			if( $('html').hasClass('mobile')){
+				if($('section').hasClass('textImageArea')){
+					this.alturas($('.textImageArea'));
+				}
+				if($('section').hasClass('textMapArea')){
+					this.alturas($('.textMapArea'));
+				}
+			}
+		},
+		alturas: function(e){
+			var e = e;
+			var alt = 0;
+			e.find('article').each(function(e){
+				if( alt < $(this).outerHeight()){
+					alt = $(this).outerHeight();
+				}
+			});
+			$('.textImageArea article').each(function(e){
+				$(this).css('height', alt);
+			});
+			
+		}
+	}
+	articleHeight.init();
 
 })
 

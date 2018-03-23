@@ -5,7 +5,7 @@
 	include("head.php");
 ?>
 <body class="home">
-	<main class="container">
+	<main class="container-fluid">
   	<!-- Content here -->
   		<section>
   			<article>

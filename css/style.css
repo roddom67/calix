@@ -1,6 +1,6 @@
 /*GLOBAL FRAMEWORK V1.9 - AUTHORIZED PERSONNEL ONLY - EYES ONLY - W3C VALID*/
 * {margin: 0px; padding: 0px; border: 0px none; outline: 0px;}
-BODY {font: 62.5% 'Libre Franklin', sans-serif; color: #333; background: #fff; height:100%; min-height:100%;}
+BODY {font: 100% 'Libre Franklin', sans-serif; color: #333; background: #fff; height:100%; min-height:100%;}
 P, TD, TH, DIV, SPAN, LI, BLOCKQUOTE {margin:0; padding:0;}
 H1, H2, H3, H4, H5, H6 {font-weight: normal; font-size: 100%; display: block}
 ARTICLE, ASIDE, AUDIO, CANVAS, FIGURE, FIGCAPTION, FOOTER, HEADER, NAV ,SECTION {display: block}
@@ -33,8 +33,12 @@ button:focus{
 	--dark-gray: #52575F;
 }
 
+.overflow{
+	overflow: hidden;
+}
+
 h1{
-	font-size: 53px;
+	font-size: 5.3em;
 	font-weight: 200;
 	color:  var(--white);
 }
@@ -54,7 +58,7 @@ h2{
 	padding-bottom: 20px;
 }
 .home p{
-	font-size:21px;
+	font-size:2.1em;
 	font-weight: 300;
 	color: var(--white);
 	text-align: center;
@@ -82,7 +86,7 @@ h2{
 	height: 50px;
 }
 .home .menuCalix a small{
-	font-size:13px;
+	font-size:1.3em;
 	font-weight: 100;
 	color: var(--white);
 	position: absolute;
@@ -132,11 +136,11 @@ h2{
 #navbarSupportedContent{
 	position: fixed;
 	z-index: 8888;
-	width: 100%;
+	width: 40%;
 	height: 100vh;
 	background: var(--white);
 	top: 0;
-	left: -100%;
+	right: -40%;
 }
 #navbarSupportedContent .navbar-nav{
 	position: relative;
@@ -146,7 +150,7 @@ h2{
 }
 #navbarSupportedContent .navbar-nav li{
 	text-align: center;
-	font-size: 32px;
+	font-size: 3.2em;
 	
 }
 #navbarSupportedContent .navbar-nav li a{
@@ -350,11 +354,11 @@ footer .legalesArea li small{
 }
 
 section p{
-	font-size: 23px;
+	font-size: 2.3em;
 	line-height: 1.362em;
 }
 .textGray{
-	padding: 140px 0;
+	padding: 14.0em 0;
 	background: var(--light-gray);
 }
 .textGray article{
@@ -482,8 +486,8 @@ section p{
 	padding: 40px;
 }
 .textMapArea h2{
-	font-size: 15px;
-	padding-bottom: 55px;
+	font-size: 1.5em;
+	padding-bottom: 5.5em;
 }
 
 /* TextImageArea Before - texto */
@@ -515,25 +519,88 @@ section p{
 		padding-bottom: 20px;
 		overflow:hidden;
 	}
-	.threeImagesArea .imgArea{
-		height: 200px;
-	}
-	.threeImagesArea .imgArea img{
-		transform:translate(0,-50%);
-	}
 	
 }
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
+}
+/* Small devices (landscape phones, 767px and down)*/
+@media (max-width: 767px) {
+	body{
+		font-size: 80%;
+	}
+	#navbarSupportedContent{
+		width: 100%;
+		right: -100%;
+	}
+	footer .addressFooter li{
+		padding-bottom: 6.0rem;
+	}
+	.index .headerImage h1{
+		padding: 1rem 1rem 2rem;
+		background: rgba(255,255,255,.75);
+		position:absolute;
+		top:20vh;
+		left:0;
+	}
+	.textGray article{
+		padding: 0;
+	}
+	.textImageArea{
+		overflow: hidden;
+		height: auto;
+	}
+	.textImageArea article{
+		padding-bottom: 80px;
+	}
+	.textMapArea.bgGray:before,
+	.textMapArea .mapArea,
+	.textImageArea:after, 
+	.textImageArea:before{
+		width: 100%;
+		height: 50%;
+	}
+	.textMapArea .mapArea,
+	.textImageArea.imageBgRight:after,
+	.textImageArea.imageBgLeft:before{
+		bottom: 0;
+		top: inherit;
+		left: 0;
+	}
+	.textMapArea.bgGray:before,
+	.textImageArea.imageBgRight:before,
+	.textImageArea.imageBgLeft:after{
+		top: 0;
+	}
+	
+	.galeriaArea{
+		padding-bottom: 150px;	
+	}
+	.bx-controls .bx-controls-direction{
+		position: relative;
+		top:3.0rem;
+	}
+	
+	.bx-wrapper .bx-prev{
+		left: 1rem;
+	}
+	.bx-wrapper .bx-next{
+		right: 1rem;
+	}
 	.threeImagesArea .imgArea{
-		height: 250px;
+		height: 350px;
 	}
 	.threeImagesArea .imgArea img{
 		transform:translate(0,-50%);
+		top:50%;
+		position: relative;
 	}
+	.textMapArea h2{
+		padding-bottom: 2.5em;
+	}
+	
 }
-
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
 	.home article ul{

@@ -5,6 +5,9 @@
 	
 	/* Paginas */
 	/* Home */
+	$headTitulo['index'] = 'Tu vida a 5 minutos de todo | Calix Núñez';
+	$headDesc['index'] = 'Calix Núñez - Tu vida a 5 minutos de todo. Departamentos en el barrio de Núñez. 54 911 4773 6619';
+	
 	$titulo['index'] = 'Tu vida a 5 minutos de todo.';
 	$textGray['index'] = '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>';
 	$textImageArea['left']['index'] = array(
@@ -37,6 +40,9 @@
 	$position['index'] = array('textGrayContent','textImageLeftContent','textImageRightContent','galeriaContent');
 			
 	/* El proyecto */
+	$headTitulo['el-proyecto'] = 'El Proyecto | Calix Núñez';
+	$headDesc['el-proyecto'] = 'Calix Núñez - El Proyecto. Departamentos en el barrio de Núñez. 54 911 4773 6619';
+	
 	$titulo['el-proyecto'] = 'El Proyecto';
 	$textGray['el-proyecto'] = '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>';
 	$galeriaArea['el-proyecto'] = array(
@@ -80,6 +86,9 @@
 	$position['el-proyecto'] = array('textGrayContent','galeriaContent','caracteristicaContent');
 	
 	/* Los departamentos */
+	$headTitulo['los-departamentos'] = 'Los Departamentos | Calix Núñez';
+	$headDesc['los-departamentos'] = 'Calix Núñez - Los Departamentos. Departamentos en el barrio de Núñez. 54 911 4773 6619';
+
 	$titulo['los-departamentos'] = 'Los Departamentos';
 	$textGray['los-departamentos'] = '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>';
 	
@@ -141,6 +150,9 @@
 	$position['los-departamentos'] = array('textGrayContent','threeImagesContent','galeriaContent','caracteristicaContent');
 	
 	/* EL Barrio */
+	$headTitulo['el-barrio'] = 'El Barrio | Calix Núñez';
+	$headDesc['el-barrio'] = 'Calix Núñez - El Barrio. Departamentos en el barrio de Núñez. 54 911 4773 6619';
+
 	$titulo['el-barrio'] = 'El barrio';
 	$textGray['el-barrio'] = '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>';
 	

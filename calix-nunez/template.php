@@ -4,7 +4,7 @@
 	if(isset($titulo[$pagina])){
 ?>
 		<section class="headerImage">
-  			<div class="container">
+  			<div class="container-fluid">
   				<?php
 					include("nav.php")
 				?>
@@ -20,7 +20,7 @@
 	if(isset($textGray[$pagina])){
 		$textGrayContent = '
 		<section class="textGray">
- 			<div class="container">
+ 			<div class="container-fluid">
   				<article>
   					'.$textGray[$pagina].'
   				</article>
@@ -33,7 +33,7 @@
 	if(isset($textImageArea['left'][$pagina])){
 		$textImageLeftContent = '
 		<section class="textImageArea imageBgLeft bgColor boxElProyecto">
- 			<div class="container">
+ 			<div class="container-fluid">
  				<div class="row">
   					<article class="col-sm-12 col-md-6">
   					</article>
@@ -52,7 +52,7 @@
 	if(isset($textImageArea['right'][$pagina])){
 		$textImageRightContent ='
 		<section class="textImageArea imageBgRight bgGray boxElBarrio">
- 			<div class="container">
+ 			<div class="container-fluid">
  				<div class="row">
    				<article class="col-sm-12 col-md-6">
   						<h2>'.$textImageArea['right'][$pagina]['titulo'].'</h2>
@@ -121,7 +121,7 @@
 	if(isset($galeriaArea[$pagina])){
 		$galeriaContent = '
 		<section class="galeriaArea">
- 			<div class="container">
+ 			<div class="container-fluid">
  				<article class="slider">
  					<p>'.$galeriaArea[$pagina]['titulo'].'</p>
  					<ul class="sliderArea">';
@@ -144,7 +144,7 @@
 	if(isset($caracteristicasArea[$pagina])){
 		$caracteristicaContent = '
 		<section class="textArea boxCaracteristicas">
- 			<div class="container">
+ 			<div class="container-fluid">
  				<div class="row">
   					<article class="col-sm-12">
   						<h2>'.$caracteristicasArea[$pagina]['titulo'].'</h2>
@@ -177,7 +177,7 @@
 	if(isset($textMapArea[$pagina])){
 		$textMapContent = '
 		<section class="textMapArea bgGray">
- 			<div class="container">
+ 			<div class="container-fluid">
  				<div class="row">
    				<article class="col-sm-12 col-md-6 textos">
   						<h2>'.$textMapArea[$pagina]['titulo'].'</h2>';
