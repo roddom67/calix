@@ -117,6 +117,15 @@ $(function(){
 		}
 	}
 	articleHeight.init();
+	
+	acordion = {
+		init: function(){
+			if($('section').find('.accordion')){
+				$('.accordion').accordion();
+			}
+		}
+	}
+	acordion.init();
 
 })
 

@@ -14,6 +14,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Libre+Franklin:100,200,300,400,600,700,900" rel="stylesheet">
 	<link rel="stylesheet" href="../css/bootstrap.min.css" >
 	<link rel="stylesheet" href="../css/jquery.bxslider.css" >
+	<!--link rel="stylesheet" href="../css/jquery-ui.css"-->
+	
 	<link rel="stylesheet" href="../css/style.css?v=1.0.0" >
 	<link rel="stylesheet" href="css/style.css?v=1.0.0" >
 	

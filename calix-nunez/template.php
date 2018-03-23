@@ -182,9 +182,20 @@
    				<article class="col-sm-12 col-md-6 textos">
   						<h2>'.$textMapArea[$pagina]['titulo'].'</h2>';
   		$cant = sizeof($textMapArea[$pagina]['listado']);
+  		$textMapContent .= '<ul class="accordion">';
   		for($a = 0; $a < $cant; $a++){
+  			$textMapContent .= '<li>';
   			$textMapContent .= '<h4>'.$textMapArea[$pagina]['listado'][$a]['titulo'].'</h4>';
-  		}				
+  			
+  			$lug = sizeof($textMapArea[$pagina]['listado'][$a]['lugares']);
+  			$textMapContent .= '<div><ul>';
+  			for($l = 0; $l < $lug; $l++){
+  				$textMapContent .= '<li>_'.$textMapArea[$pagina]['listado'][$a]['lugares'][$l].'</li>';
+  			}
+  			
+  			$textMapContent .= '</ul></div></li>';
+  		}
+  		$textMapContent .= '</ul>';			
   						
   		$textMapContent .= '';				
   		$textMapContent .= '</article>
