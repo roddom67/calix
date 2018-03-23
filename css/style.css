@@ -471,6 +471,37 @@ section p{
 	width: 100%;
 }
 
+.textMapArea{
+	position:relative;
+	height: 530px;
+}
+.textMapArea div{
+	height:100%;
+}
+.textMapArea article.textos{
+	padding: 40px;
+}
+.textMapArea h2{
+	font-size: 15px;
+	padding-bottom: 55px;
+}
+
+/* TextImageArea Before - texto */
+.textMapArea .mapArea,
+.textMapArea:before{
+	content: '';
+	width:50%;
+	height: 100%;
+	position: absolute;
+	top:0;
+}
+.textMapArea.bgGray:before{
+	background-color: var(--light-gray);
+}
+.textMapArea .mapArea{
+	right: 0;
+}
+
 
 /*--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1200px*/
 

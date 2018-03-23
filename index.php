@@ -2,7 +2,7 @@
 <html lang="es">
 <?php 
 	$page = 'index';
-	require("head.php");
+	include("head.php");
 ?>
 <body class="home">
 	<main class="container">

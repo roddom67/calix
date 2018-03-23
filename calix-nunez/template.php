@@ -6,7 +6,7 @@
 		<section class="headerImage">
   			<div class="container">
   				<?php
-					require("nav.php")
+					include("nav.php")
 				?>
   				<article>
   					<h1><?php echo $titulo[$pagina]; ?></h1>
@@ -150,8 +150,6 @@
   						<h2>'.$caracteristicasArea[$pagina]['titulo'].'</h2>
   						<ul class="row">';
 		$cant = sizeof($caracteristicasArea[$pagina]['caracteristicas']);
-  							
-		$rest = $cant % 3;
 		for($a = 0; $a < $cant; $a++){
 			if(($a%3)==0){
 		 		$caracteristicaContent .= '<li class="col-sm-12 col-md-4">
@@ -176,17 +174,50 @@
 ?>
 
 <?php
+	if(isset($textMapArea[$pagina])){
+		$textMapContent = '
+		<section class="textMapArea bgGray">
+ 			<div class="container">
+ 				<div class="row">
+   				<article class="col-sm-12 col-md-6 textos">
+  						<h2>'.$textMapArea[$pagina]['titulo'].'</h2>';
+  		$cant = sizeof($textMapArea[$pagina]['listado']);
+  		for($a = 0; $a < $cant; $a++){
+  			$textMapContent .= '<h4>'.$textMapArea[$pagina]['listado'][$a]['titulo'].'</h4>';
+  		}				
+  						
+  		$textMapContent .= '';				
+  		$textMapContent .= '</article>
+ 					<article class="col-sm-12 col-md-6">
+ 						
+  					</article>
+ 				</div>
+  			</div>
+  			<div class="mapArea">
+  				<iframe src="https://www.google.com/maps/d/embed?mid='.$textMapArea[$pagina]['coordenadas'].'&hl=es" width="100%" height="100%"></iframe>
+  			</div>
+ 		</section>
+		';
+	}
+?>
+
+
+
+
+<?php
+//http://rod.calixdesarrollos.com.ar/
 	if(isset($position[$pagina])){
+		
 		$pos = sizeof($position[$pagina]);
 	
 		for($p=0;$p < $pos; $p++){
-			echo $$position[$pagina][$p];
+			echo ${$position[$pagina][$p]};
 		}
 	}
 ?>
 	</main>
 <?php 
-	require("footer.php");
+	include("footer.php");
 ?>
 
 </body>

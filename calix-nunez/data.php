@@ -179,6 +179,47 @@
 			'imagen' => 'mapa.jpg',
 			'titulo' => ''
 		);
+		
+	$textMapArea['el-barrio'] = array(
+			'titulo' => 'Cerca de todo lo que te gusta',
+			'listado' => array(
+				0 => array(
+						'titulo' => 'Restaurantes y bares',
+						'lugares' => array(
+							'Manolos',
+							'Carlitos',
+							'Toto\'s',
+							'Burger King'
+						)
+					),
+				1 => array(
+						'titulo' => 'Interés general',
+						'lugares' => array(
+							'Supermercado Jumbo',
+							'Ferretería Luciano',
+							'Patio Los Alces'
+						)
+					),
+				2 => array(
+						'titulo' => 'Educación',
+						'lugares' => array(
+							'Inst. Ind. Luis A. Puerto',
+							'UB Universidad de Belgrano',
+							'Colegio Las Adoratrices'
+						)
+					),
+				3 => array(
+						'titulo' => 'Salud',
+						'lugares' => array(
+							'Fundación Fleni',
+							'CBA Inst. Cardiovascular BA',
+							'Stambulian Servicio Médico'
+						)
+					)
+				),
+			'parrafo' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.',
+			'coordenadas' => '1rlk1EfTsWwRyVpTOfVbwZ_R-SWGcj0Dj&hl'			
+		);
 	
-	$position['el-barrio'] = array('threeImagesContent','textGrayContent','oneImagesContent','galeriaContent');
+	$position['el-barrio'] = array('threeImagesContent','textGrayContent','oneImagesContent','textMapContent','galeriaContent');
 ?>
