@@ -346,11 +346,24 @@
 ?>
 
 <?php
+
+		$directory = "images/planos/";
+		$dirint = dir($directory);
+		$a = 0;
+		while (($archivo = $dirint->read()) !== false){
+			//if(preg_match("/gif/", $archivo) || preg_match("/jpg/", $archivo) || preg_match("/png/", $archivo)){
+			if( preg_match("..", $archivo) || preg_match(".", $archivo)){
+				echo '<p>'.$archivo.'</p>';
+	 		 	$a +=1;
+	 		}
+		}
+
+		$dirint->close();
 	$disponibilidadContent = '
 		<section class="disponibilidadArea">
  			<div class="container-fluid">
  				<div class="row">
-  					<article class="col-sm-12 col-md-4">
+  					<article class="col-sm-12 col-md-4 plantaArea">
   						<p>Planta</p>
   					</article>
   					<article class="col-sm-12 col-md-8">
