@@ -1,4 +1,4 @@
-<body class="<?php echo $proyecto.' '.$pagina; if($pagina != 'index'){ echo ' internal' ;}   ?>">
+<body class="<?php echo $proyecto.' '.$pagina; if($pagina != 'index'){ echo ' internal' ;} if(isset($navGris)){ echo ' navGris' ;} ?>">
 	<main>
 <?php
 	if(isset($titulo[$pagina])){
@@ -16,6 +16,24 @@
 <?php
 	}
 ?>
+
+<?php
+	if(isset($tituloG[$pagina])){
+?>
+		<section class="header">
+  			<div class="container-fluid">
+  				<?php
+					include("nav.php")
+				?>
+  				<article>
+  					<h1><?php echo $tituloG[$pagina]; ?></h1>
+  				</article>
+ 			</div>
+ 		</section>
+<?php
+	}
+?>
+
 <?php
 	if(isset($textGray[$pagina])){
 		$textGrayContent = '
@@ -212,7 +230,31 @@
 	}
 ?>
 
+<?php
+	if(isset($elequipo[$pagina])){
+		$elequipoContent = '<section class="elequipoArea">
+			<div class="container-fluid">
+				<ul class="row">';
 
+		$cant = sizeof($elequipo[$pagina]);
+		for($a = 0; $a < $cant; $a++){
+
+			$elequipoContent .= '<li class="col-sm-12 col-md-4">
+											<h2>'.$elequipo[$pagina][$a]['titulo'].'</h2>
+											<span class="imgArea">
+												<img src="../images/equipo/'.$elequipo[$pagina][$a]['logo'].'" alt="">
+											</span>
+											<div>'.$elequipo[$pagina][$a]['texto'].'</div>';
+			$elequipoContent .= '</li>';
+		}
+
+		$elequipoContent .= '</ul>
+
+ 			</div>
+ 		</section>
+		';
+	}
+?>
 
 
 <?php

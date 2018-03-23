@@ -90,6 +90,15 @@ $(function(){
 	
 	goDown.init();
 	
+	acordion = {
+		init: function(){
+			if($('section').find('.accordion')){
+				$('.accordion').accordion();
+			}
+		}
+	}
+	acordion.init();
+	
 	articleHeight = {
 		init: function(){
 			var self = this;
@@ -110,7 +119,7 @@ $(function(){
 					alt = $(this).outerHeight();
 				}
 			});
-			$('.textImageArea article').each(function(e){
+			e.find('article').each(function(e){
 				$(this).css('height', alt);
 			});
 			
@@ -118,14 +127,6 @@ $(function(){
 	}
 	articleHeight.init();
 	
-	acordion = {
-		init: function(){
-			if($('section').find('.accordion')){
-				$('.accordion').accordion();
-			}
-		}
-	}
-	acordion.init();
 
 })
 

@@ -2,6 +2,8 @@
 <html lang="es">
 <?php 
 	$page = 'index';
+	$headTitulo = 'Viví tu mejor versión | Calix';
+	$headDesc ='Calix - Viví tu mejor versión. Departamentos en Núñez, Barrancas de Belgrano, Palermo. 54 911 4773 6619';
 	include("head.php");
 ?>
 <body class="home">

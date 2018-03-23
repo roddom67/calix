@@ -1,5 +1,5 @@
 <footer>
-	<div class="container">
+	<div class="container-fluid">
 		<div class="footerTop">
   			<ul class="row addressFooter">
   				<li class="col-xs-12 col-md-3 col-lg-2">

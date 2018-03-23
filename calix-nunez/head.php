@@ -19,7 +19,7 @@
 	<link rel="stylesheet" href="../css/style.css?v=1.0.0" >
 	<link rel="stylesheet" href="css/style.css?v=1.0.0" >
 	
-	<title><?php echo $headTitulo['index'] ?></title>
-	<meta name="description" content="<?php echo $headDesc['index'] ?>" />
+	<title><?php echo $headTitulo[$pagina] ?></title>
+	<meta name="description" content="<?php echo $headDesc[$pagina] ?>" />
 	
 </head>

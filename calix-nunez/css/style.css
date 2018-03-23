@@ -67,6 +67,11 @@
 	background-image: url(../images/imagen_el_barrio.jpg);
 }
 
+/* Background White */
+.navGris .header h1{
+	color: var(--main-color);
+}
+
 
 
 

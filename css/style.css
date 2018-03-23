@@ -25,6 +25,9 @@ img{display: block; width:100%;}
 button:focus{
 	outline:0;
 }
+main{
+	overflow: hidden;
+}
 /*FIN GLOBAL*/
 
 :root{
@@ -286,7 +289,7 @@ footer .logosFooter.logoCBarrancas span{background-position: 0 -35px;}
 footer .logosFooter.logoCPalermo span{background-position: 0 -70px;}
 
 footer p{
-	font-size: 12px;
+	font-size: 1.2rem;
 	line-height:1.667em;
 	font-weight:300;
 }
@@ -310,7 +313,7 @@ footer .legalesArea li a:hover{
 	text-decoration: underline;
 }
 footer .legalesArea li small{
-	font-size: 11px;
+	font-size: 1.1rem;
 }
 
 
@@ -352,6 +355,15 @@ footer .legalesArea li small{
 .index .headerImage h1{
 	padding: 10vh 20px 0 60%;
 }
+.header h1{
+	padding:9.0rem 0 3.5rem;
+	font-size:3.7em;
+	font-weight: 200;
+	margin-bottom:4.0rem;
+	border-bottom:1px solid var(--dark-gray)
+}
+
+
 
 section p{
 	font-size: 2.3em;
@@ -416,18 +428,18 @@ section p{
 	background-position: top left;
 }
 .galeriaArea{
-	padding: 100px 0;
+	padding: 10.0rem 0;
 }
 .galeriaArea p{
 	text-align: center;
-	padding-bottom: 60px;
+	padding-bottom: 6.0rem;
 }
 
 /* text Area */
 .textArea h2{
-	font-size:23px;
+	font-size:2.3em;
 	font-weight: 300;
-	padding-bottom:35px;
+	padding-bottom:3.5rem;
 }
 
 .boxCaracteristicas article{
@@ -435,7 +447,7 @@ section p{
 	padding:30px 20px 100px;
 }
 .boxCaracteristicas li{
-	font-size: 15px;
+	font-size: 1.5em;
 	font-weight: 100;
 }
 
@@ -532,6 +544,23 @@ section p{
 	font-size: 1.5em;
 	font-weight: 300;
 }
+.elequipoArea li{
+	padding-bottom: 6.0rem;
+}
+.elequipoArea h2{
+	font-size:1.5em;
+	font-weight:300;
+	padding-bottom: 2.0rem;
+}
+.elequipoArea .imgArea img{
+	width:auto;
+}
+.elequipoArea p{
+	font-size:1.5em;
+	font-weight:300;
+	line-height: 1.5em;
+	padding-bottom: 3.0rem;
+}
 
 /*--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1200px*/
 
@@ -601,7 +630,7 @@ section p{
 	}
 	
 	.galeriaArea{
-		padding-bottom: 150px;	
+		padding-bottom: 15.0rem;	
 	}
 	.bx-controls .bx-controls-direction{
 		position: relative;
@@ -621,6 +650,9 @@ section p{
 		transform:translate(0,-50%);
 		top:50%;
 		position: relative;
+	}
+	.textMapArea{
+		height: auto;
 	}
 	.textMapArea h2{
 		padding-bottom: 2.5em;
@@ -644,6 +676,7 @@ section p{
 		bottom: -35px;
 		opacity: 1;
 	}
+	
 	.threeImagesArea .imgArea{
 		height: auto;
 	}

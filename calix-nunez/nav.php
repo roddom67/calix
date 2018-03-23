@@ -1,4 +1,4 @@
-<nav class="navbar <?php if(isset($navGris)){ echo 'navGris' ;} ?>">
+<nav class="navbar">
 	<a class="navbar-brand " href="../calix-nunez/"><span>Calix Núñez</span></a>
 	<button class="navbar-toggler menu-toggle" aria-controls="main-menu" aria-expanded="false">
 	 	<span class="menu-toggle-box"><span class="menu-toggle-inner"></span></span>
@@ -25,7 +25,7 @@
         <a class="nav-link " href="#">Contacto</a>
       </li>
       <li class="nav-item <?php if(isset($activoEE)){ echo 'active'; } ?>">
-        <a class="nav-link " href="#">El equipo</a>
+        <a class="nav-link " href="el-equipo.php">El equipo</a>
       </li>
       <li class="nav-item">
         <a class="nav-link " href="../" title="Otros Calix">Otros Calix</a>

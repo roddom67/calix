@@ -15,7 +15,8 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css" >
 	<link rel="stylesheet" href="css/style.css?v=1.0.0" >
 	
-	<title>Viví tu mejor versión | Calix</title>
-	<meta name="description" content="Calix - Viví tu mejor versión. Departamentos en Núñez, Barrancas de Belgrano, Palermo. 54 911 4773 6619" />
+	<title><?php echo $headTitulo['index'] ?></title>
+	<meta name="description" content="<?php echo $headDesc['index'] ?>" />
 	
+
 </head>
