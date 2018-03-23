@@ -2,8 +2,8 @@
 	include("../global-data.php");
 	include("data.php");
 	
-	$pagina = 'el-equipo';
-	$activoEE = true;
+	$pagina = 'contacto';
+	$activoC = true;
 	$navGris = true;
 	include("head.php");
 	

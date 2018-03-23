@@ -6,7 +6,7 @@
 		<section class="headerImage">
   			<div class="container-fluid">
   				<?php
-					include("nav.php")
+					include("../nav.php")
 				?>
   				<article>
   					<h1><?php echo $titulo[$pagina]; ?></h1>
@@ -23,7 +23,7 @@
 		<section class="header">
   			<div class="container-fluid">
   				<?php
-					include("nav.php")
+					include("../nav.php")
 				?>
   				<article>
   					<h1><?php echo $tituloG[$pagina]; ?></h1>
@@ -98,7 +98,7 @@
  			$threeImagesContent .= '<li class="col-sm-12 col-md-4">';
  			
  			if(isset($threeImagesArea[$pagina]['imagenes'][$a]['video'])){
- 				$threeImagesContent .= '<a href="" title="'.$threeImagesArea[$pagina]['imagenes'][$a]['titulo'].'">';	
+ 				$threeImagesContent .= '<a href="#video'.$a.'" title="'.$threeImagesArea[$pagina]['imagenes'][$a]['titulo'].'" class="showVideo">';	
  			}
  			
  			$threeImagesContent .= '<span class="imgArea">
@@ -256,9 +256,154 @@
 	}
 ?>
 
+<?php
+	if(isset($textHeaderForm[$pagina])){
+		$textHeaderFormContent = '
+		<section class="textArea">
+ 			<div class="container-fluid">
+  				<article class="contactTextArea">
+  					<p>'.$textHeaderForm[$pagina]['parrafo'].'</p>
+  					<h4>'.$textHeaderForm[$pagina]['titulo'].'</h4>
+  					<p><a href="mailto:'.$textHeaderForm[$pagina]['email'].'" title="Email de '.$textHeaderForm[$pagina]['titulo'].'">'.$textHeaderForm[$pagina]['email'].'</a></p>
+  					<p>'.$textHeaderForm[$pagina]['telefono'].'</p>
+  				</article>';
+
+  		if(isset($_GET['ok'])){
+  			$textHeaderFormContent .= '<article class="contactGraciasArea">
+  					<p>Gracias por contactarse con nosotros.</p>
+  				</article>';
+  		}else{
+  					
+      	$textHeaderFormContent .= '<article class="contactFormArea">
+      		<form method="post" name="contactoForm" action="form-to-email.php">
+      			<fieldset>
+						<ul class="row">
+							<li class="col-sm-12 col-md-4">
+								<ul>
+									<li>
+										<label for="name">Nombre</label>
+										<input type="text" name="name">
+										<span id="myform_Name_errorloc"></span>
+									</li>
+									<li>
+										<label for="surname">Apellido</label>
+										<input type="text" name="surname">
+										<span id="myform_Name_errorloc"></span>
+									</li>
+									<li>
+										<label for="email">Email</label>
+										<input type="text" name="email">
+										<span id="myform_Name_errorloc"></span>
+									</li>
+									<li>
+										<label for="phone">Teléfono</label>
+										<input type="text" name="phone">
+										<span id="myform_Name_errorloc"></span>
+									</li>
+									<li>
+										<label for="depto">Tipo de departamento</label>
+										<select type="text" name="depto">
+											<option></option>
+										</select>
+										<span id="myform_Name_errorloc"></span>
+									</li>
+									<li>
+										<label for="price">Rango de precio</label>
+										<select type="text" name="price">
+											<option></option>
+										</select>
+										<span id="myform_Name_errorloc"></span>
+									</li>
+								</ul>
+							</li>
+							<li class="col-sm-12 col-md-4">
+								<ul>
+									<li>
+										<label for="medios">¿Cómo se enteró de Calix?</label>
+										<select type="text" name="medios">
+											<option></option>
+										</select>
+										<span id="myform_Name_errorloc"></span>
+									</li>
+									<li>
+										<label for="message">Enter Message:</label> <br>
+										<textarea name="message"></textarea>
+									</li>
+								</ul>
+							</li>
+							<li class="col-sm-12 col-md-8 buttonArea">
+								<input type="submit" name="submit" value="Enviar">
+							</li>
+						</ul>
+      			</fieldset>
+				</form>
+			</article>';
+  	}
+  	$textHeaderFormContent .= '</div>
+ 		</section>
+		';
+	}
+?>
 
 <?php
-//http://rod.calixdesarrollos.com.ar/
+	$disponibilidadContent = '
+		<section class="disponibilidadArea">
+ 			<div class="container-fluid">
+ 				<div class="row">
+  					<article class="col-sm-12 col-md-4">
+  						<p>Planta</p>
+  					</article>
+  					<article class="col-sm-12 col-md-8">
+  						<div class="accordion">';
+  	$cant = 3;
+  	for($a=0;$a < $cant; $a++){
+  		$disponibilidadContent .= '
+  							<h2>Depto 401<span>2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza</span></h2>
+  							<div>
+  								<ul class="row linksArea">
+  									<li>
+  										<p>Planta</p>
+  									</li>
+  									<li>
+  										<p><a href="#" title="Bajar Planta">Bajar Planta</a></p>
+  									</li>
+  									<li>
+  										<p><a href="#" title="Enviar Planta por email">Enviar</a></p>
+  									</li>
+  								</ul>
+  								<ul class="row superficieArea">
+  									<li class="col-sm-12 col-md-6">
+  										<ul>
+    										<li>Superficie Cubierta: 67 m2 </li>
+  											<li>Balcón: 5,1 m2  /  Terraza: 62 m2</li>
+  											<li>Superficie total: 94,9 m2</li>
+ 										</ul>
+ 									</li>
+ 									<li class="col-sm-6 col-md-3">
+ 										<img src="" alt="planta'.$a.'">
+ 									</li>
+ 									<li class="col-sm-6 col-md-3">
+ 										<img src="" alt="Orientación">
+ 									</li>
+  								</ul>
+  								<span class="imgArea">
+  									<img src="" alt="Planta'.$a.'">
+  								</span>
+  							</div>';
+  	}
+  	$disponibilidadContent .= '
+  						</div>
+  					</article>
+  				</div>
+  			</div>
+  		</section>
+		
+	';
+?>
+
+
+
+<?php
 	if(isset($position[$pagina])){
 		
 		$pos = sizeof($position[$pagina]);
@@ -273,4 +418,19 @@
 	include("footer.php");
 ?>
 
+<?php 
+	if(isset($threeImagesArea[$pagina]['imagenes'])){
+		$cant = sizeof($threeImagesArea[$pagina]['imagenes']);
+		for($a = 0; $a < $cant; $a++){
+			if(isset($threeImagesArea[$pagina]['imagenes'][$a]['video'])){
+				echo '<div class="videoContent" id="video'.$a.'" title="Video">
+  					'.$threeImagesArea[$pagina]['imagenes'][$a]['video'].'
+				</div>';
+			}
+		}
+		
+	}
+?>
+
 </body>
+</html>

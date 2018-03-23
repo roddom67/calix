@@ -1,5 +1,4 @@
-<!DOCTYPE HTML>
-<html lang="es">
+
 <?php
 	include("data.php");
 	
@@ -13,4 +12,3 @@
 
 ?>
 
-</html>

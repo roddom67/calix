@@ -441,6 +441,18 @@ section p{
 	font-weight: 300;
 	padding-bottom:3.5rem;
 }
+.textArea h4{
+	font-size:1.4em;
+	font-weight: 300;
+	padding-bottom: 2.0rem;
+	padding-top: 5.0rem;
+}
+.textArea p a{
+	color: var(--dark-gray);
+}
+.textArea p a:hover{
+	text-decoration: underline;
+}
 
 .boxCaracteristicas article{
 	border-top:1px solid  var(--dark-gray);
@@ -560,6 +572,75 @@ section p{
 	font-weight:300;
 	line-height: 1.5em;
 	padding-bottom: 3.0rem;
+}
+
+.contactFormArea{
+	padding: 3.4rem 0 6.0rem;
+}
+.contactFormArea fieldset ul li ul li{
+	padding-bottom: 1.5rem;
+}
+.contactFormArea label,
+.contactFormArea input[type=text],
+.contactFormArea select,
+.contactFormArea textarea{
+	width: 100%;
+}
+.contactFormArea label{
+	font-size: 1.4em;
+}
+.contactFormArea input[type=text],
+.contactFormArea select{
+	height: 4.3rem;
+	border:1px solid var(--dark-gray);
+}
+.contactFormArea textarea{
+	resize: none;
+	height: 21.5rem;
+	border:1px solid var(--dark-gray);
+}
+
+.contactFormArea input[type=submit]{
+	height: 4.3rem;
+	font-size: 1.7em;
+	text-align: center;
+	float:right;
+	padding: 0 4.7rem;
+	line-height: 4.3rem;
+	border: 1px solid var(--dark-gray);
+	background-color: var(--dark-gray);
+	color: var(--white); 
+}
+.contactFormArea input[type=submit]:hover{
+	background-color: var(--white);
+	color: var(--dark-gray);
+}
+.contactFormArea .buttonArea{
+	overflow: hidden;
+	padding-top: 1.5rem;
+}
+
+.disponibilidadArea{
+	padding-bottom:12.0rem;
+}
+
+.disponibilidadArea h2{
+	font-size: 1.8em;
+	font-weight:600;
+	margin:0;
+	padding: 3.0rem 0;
+	border-top:1px solid var(--dark-gray);
+}
+.disponibilidadArea h2:first-child{
+	border:none;
+}
+.disponibilidadArea .imgArea{
+	padding-bottom: 3.0rem;
+	display:block;
+}
+.disponibilidadArea h2 span{
+	display:block;
+	font-weight:300;
 }
 
 /*--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1200px*/

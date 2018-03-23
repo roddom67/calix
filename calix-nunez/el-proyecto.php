@@ -1,5 +1,4 @@
-<!DOCTYPE HTML>
-<html lang="es">
+
 <?php
 	include("data.php");
 	
@@ -10,6 +9,3 @@
 	
 	include("template.php");
 ?>
-
-
-</html>

@@ -1,15 +1,12 @@
 <?php
 
-	/* titulo Proyecto */
-	$proyecto = 'calix-nunez';
-	
+		
 	/* Paginas */
 	/* El Equipo */
 	$headTitulo['el-equipo'] = 'El Equipo | Calix Núñez';
 	$headDesc['el-equipo'] = 'Calix Núñez - El Equipo. Departamentos en el barrio de Núñez. 54 911 4773 6619';
 	
 	$tituloG['el-equipo'] = 'El Equipo';
-	$textGray['el-equipo'] = '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>';
 	
 	$elequipo['el-equipo'] = array(
 		array(
@@ -45,5 +42,21 @@
 	);
 	
 	$position['el-equipo'] = array('elequipoContent');
+	
+	
+	/* Contacto */
+	$headTitulo['contacto'] = 'Contacto | Calix Núñez';
+	$headDesc['contacto'] = 'Calix Núñez - Contacto. Departamentos en el barrio de Núñez. 54 911 4773 6619';
+	
+	$tituloG['contacto'] = 'Contacto';
+	$textHeaderForm['contacto'] = array(
+		'parrafo' => 'Gracias por su interés en Calix 3F. Regístrese a continuación o póngase en contacto con el equipo de ventas directamente para programar una cita',
+		'titulo' => 'Equipo de Venta',
+		'telefono' => '718 488 0265',
+		'email' => 'info@zoning.com.ar'
+	);
+	
+	$position['contacto'] = array('textHeaderFormContent');
+
 	
 ?>

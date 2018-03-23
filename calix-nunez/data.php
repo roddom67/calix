@@ -2,6 +2,7 @@
 
 	/* titulo Proyecto */
 	$proyecto = 'calix-nunez';
+	$proyectoNombre = 'calix-nunez';
 	
 	/* Paginas */
 	/* Home */
@@ -241,7 +242,11 @@
 	$headTitulo['disponibilidad'] = 'Disponibilidad | Calix Núñez';
 	$headDesc['disponibilidad'] = 'Calix Núñez - Disponibilidad. Departamentos en el barrio de Núñez. 54 911 4773 6619';
 
-	$titulo['disponibilidad'] = 'Disponibilidad';
+	$tituloG['disponibilidad'] = 'Disponibilidad';
 	$textGray['disponibilidad'] = '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>';
+	
+	$position['disponibilidad'] = array('disponibilidadContent');
+	
+
 	
 ?>

@@ -93,7 +93,10 @@ $(function(){
 	acordion = {
 		init: function(){
 			if($('section').find('.accordion')){
-				$('.accordion').accordion();
+				$('.accordion').accordion({
+					active: false,
+					collapsible: true
+				});
 			}
 		}
 	}
@@ -126,6 +129,35 @@ $(function(){
 		}
 	}
 	articleHeight.init();
+	
+	formulario = {
+		init: function(){
+			if($('body').hasClass('contacto')){
+				var frmvalidator  = new Validator("contactoForm");
+				frmvalidator.addValidation("name","req","Ingrese un nombre, gracias"); 
+				frmvalidator.addValidation("surname","req","Ingrese un nombre, gracias");
+				frmvalidator.addValidation("email","req","Ingrese un email, gracias"); 
+				frmvalidator.addValidation("email","email","Ingrese un email válido, gracias"); 
+				
+				frmvalidator.EnableOnPageErrorDisplay();
+				frmvalidator.EnableMsgsTogether();
+			}
+		}
+	}
+	formulario.init();
+	
+	showVideos = {
+		init:function(){
+			$('.showVideo').on('click',function(e){
+				e.preventDefault();
+				var openContent = $(this).attr('href');
+				$(openContent).dialog();
+			})
+			
+		}
+	}
+	
+	showVideos.init();
 	
 
 })
