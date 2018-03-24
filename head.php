@@ -15,8 +15,8 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css" >
 	<link rel="stylesheet" href="css/style.css?v=1.0.0" >
 	
-	<title><?php echo $headTitulo['index'] ?></title>
-	<meta name="description" content="<?php echo $headDesc['index'] ?>" />
+	<title><?php echo $headTitulo; ?></title>
+	<meta name="description" content="<?php echo $headDesc; ?>" />
 	
 
 </head>

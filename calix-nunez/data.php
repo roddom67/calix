@@ -245,6 +245,77 @@
 	$tituloG['disponibilidad'] = 'Disponibilidad';
 	$textGray['disponibilidad'] = '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>';
 	
+	$disponibilidad['disponibilidad'] = array(
+			array(
+				'piso' => 'Planta Baja',
+				'tipo' => array('Entrada / Cocheras')
+			),
+			array(
+				'piso' => 'Planta Cocheras',
+				'tipo' => array('Cocheras')
+			),
+			array(
+				'piso' => 2,
+				'deptos' => array(
+					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
+					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
+					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
+					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
+					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza'
+				)
+			),
+			array(
+				'piso' => 3,
+				'deptos' => array(
+					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
+					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
+					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
+					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
+					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza'
+				)
+			),
+			array(
+				'piso' => 4,
+				'deptos' => array(
+					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
+					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
+					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
+					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
+					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza'
+				)
+			),
+			array(
+				'piso' => 5,
+				'deptos' => array(
+					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
+					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
+					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
+					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
+					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza'
+				)
+			),
+			array(
+				'piso' => 6,
+				'deptos' => array(
+					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
+					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
+					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
+					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
+					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza'
+				)
+			),
+			array(
+				'piso' => 7,
+				'deptos' => array(
+					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
+					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
+					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
+					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
+					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza'
+				)
+			)
+		);
+	
 	$position['disponibilidad'] = array('disponibilidadContent');
 	
 
