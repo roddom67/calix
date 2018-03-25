@@ -3,31 +3,22 @@
 		<div class="footerTop">
   			<ul class="row addressFooter">
   				<li class="col-xs-12 col-md-3 col-lg-2">
-  					<a href="../calix-nunez/" title="Calix Núñez" class="logosFooter logoCNunez">
-  						<span>Calix Núñez</span>
+  					<a href="<?php echo $calix-nunez['link']; ?>" title="<?php echo $calix-nunez['titulo']; ?>" class="logosFooter logoCNunez">
+  						<span><?php echo $calix-nunez['titulo']; ?></span>
   					</a>
-  					<p>3 de Febrero 2936,<br>
-  						Caba, Argentina C1428A<br>
-  						T 549 11 4773 6619
-  					</p>
+  					<p><?php echo $calix-nunez['direccion']; ?></p>
   				</li>
   				<li class="col-xs-12 col-md-3 col-lg-2">
-  					<a href="../calix-barrancas/" title="Calix Barrancas" class="logosFooter logoCBarrancas">
-  						<span>Calix Barrancas</span>
+  					<a href="<?php echo $calix-barrancas['link']; ?>" title="<?php echo $calix-barrancas['titulo']; ?>" class="logosFooter logoCBarrancas">
+  						<span><?php echo $calix-barrancas['titulo']; ?></span>
   					</a>
-  					<p>3 de Febrero 2936,<br>
-  						Caba, Argentina C1428A<br>
-  						T 549 11 4773 6619
-  					</p>
+  					<p><?php echo $calix-barrancas['direccion']; ?></p>
   				</li>
   				<li class="col-xs-12 col-md-3 col-lg-2">
-  					<a href="../calix-palermo/" title="Calix Palermo" class="logosFooter logoCPalermo">
-  						<span>Calix Palermo</span>
+  					<a href="<?php echo $calix-palermo['link']; ?>" title="<?php echo $calix-palermo['titulo']; ?>" class="logosFooter logoCPalermo">
+  						<span><?php echo $calix-palermo['titulo']; ?></span>
   					</a>
-  					<p>3 de Febrero 2936,<br>
-  						Caba, Argentina C1428A<br>
-  						T 549 11 4773 6619
-  					</p>
+  					<p><?php echo $calix-palermo['direccion']; ?></p>
   				</li>
   			</ul>
 		</div>
