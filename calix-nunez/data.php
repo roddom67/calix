@@ -19,8 +19,7 @@
 	);
 	$textImageArea['right']['index'] = array(
 		'titulo' => 'Núñez',
-		'parrafo' => 'Un barrio en plena
-transformación',
+		'parrafo' => 'Un barrio en plena transformación',
 		'verMasLink' => 'el-barrio.php',
 		'verMasTitulo' => 'Conocer más del barrio'			
 	);

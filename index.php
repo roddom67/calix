@@ -18,15 +18,15 @@
  				</div>
   				<ul class="row menuCalix">
   					<li class="col-xs-12 col-md-4">
-  						<a href="calix-nunez/" title="Calix Núñez" class="calixNunez">
-  							<span>Calix Núñez</span>
-  							<small>3 de febrero 2399</small>
-  						</a>
-  					</li>
-  					<li class="col-xs-12 col-md-4">
   						<a href="" title="Calix Barrancas" class="calixBarrancas">
   							<span>Calix Barrancas</span>
   							<small>Blanco Encalada 2936</small>
+  						</a>
+  					</li>
+  					<li class="col-xs-12 col-md-4">
+  						<a href="calix-nunez/" title="Calix Núñez" class="calixNunez">
+  							<span>Calix Núñez</span>
+  							<small>3 de febrero 2399</small>
   						</a>
   					</li>
   					<li class="col-xs-12 col-md-4">

@@ -3,13 +3,14 @@
 		$textHeaderFormContent = '
 		<section class="textArea">
  			<div class="container-fluid">
-  				<article class="contactTextArea">
-  					<p>'.$textHeaderForm[$pagina]['parrafo'].'</p>
-  					<h4>'.$textHeaderForm[$pagina]['titulo'].'</h4>
-  					<p><a href="mailto:'.$textHeaderForm[$pagina]['email'].'" title="Email de '.$textHeaderForm[$pagina]['titulo'].'">'.$textHeaderForm[$pagina]['email'].'</a></p>
-  					<p>'.$textHeaderForm[$pagina]['telefono'].'</p>
-  				</article>';
-
+ 				<div class="row">
+					<article class="contactTextArea col-sm-12 col-md-6">
+						<p>'.$textHeaderForm[$pagina]['parrafo'].'</p>
+						<h4>'.$textHeaderForm[$pagina]['titulo'].'</h4>
+						<p><a href="mailto:'.$textHeaderForm[$pagina]['email'].'" title="Email de '.$textHeaderForm[$pagina]['titulo'].'">'.$textHeaderForm[$pagina]['email'].'</a></p>
+						<p>'.$textHeaderForm[$pagina]['telefono'].'</p>
+					</article>
+				</div>';
   		if(isset($_GET['ok'])){
   			$textHeaderFormContent .= '<article class="contactGraciasArea">
   					<p>Gracias por contactarse con nosotros.</p>
