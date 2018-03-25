@@ -22,7 +22,7 @@
   					<article class="col-sm-12 col-md-6">
   						<h2>'.$textImageArea['left'][$pagina]['titulo'].'</h2>
   						<p>'.$textImageArea['left'][$pagina]['parrafo'].'</p>
-  						<a href="'.$textImageArea['left'][$pagina]['verMasLink'].'" title="Ver más sobre '.$textImageArea['left'][$pagina]['verMasTitulo'].'">Ver más sobre '.$textImageArea['left'][$pagina]['verMasTitulo'].' ></a>
+  						<a href="'.$textImageArea['left'][$pagina]['verMasLink'].'" title="'.$textImageArea['left'][$pagina]['verMasTitulo'].'">'.$textImageArea['left'][$pagina]['verMasTitulo'].' ></a>
   					</article>
  				</div>
   			</div>

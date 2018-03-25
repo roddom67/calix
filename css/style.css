@@ -354,6 +354,7 @@ footer .legalesArea li small{
 	top: 50%;
 	left: 50%;
 	transform: translate3d(-50%,-50%,0);
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 .index .headerImage h1{
 	padding: 10vh 20px 0 60%;

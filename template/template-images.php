@@ -53,9 +53,11 @@
 		$galeriaContent = '
 		<section class="galeriaArea">
  			<div class="container-fluid">
- 				<article class="slider">
- 					<p>'.$galeriaArea[$pagina]['titulo'].'</p>
- 					<ul class="sliderArea">';
+ 				<article class="slider">';
+ 		if(isset($galeriaArea[$pagina]['titulo'])){
+ 			$galeriaContent .= '<p>'.$galeriaArea[$pagina]['titulo'].'</p>';
+ 		}
+ 		$galeriaContent .= '<ul class="sliderArea">';
 
  						$cant = sizeof($galeriaArea[$pagina]['imagenes']);
  						for($a = 0; $a < $cant; $a++){

@@ -1,24 +1,33 @@
+<?php
+	include('../global-data.php');
+?>
 <footer>
 	<div class="container-fluid">
 		<div class="footerTop">
   			<ul class="row addressFooter">
   				<li class="col-xs-12 col-md-3 col-lg-2">
-  					<a href="<?php echo $calix-nunez['link']; ?>" title="<?php echo $calix-nunez['titulo']; ?>" class="logosFooter logoCNunez">
-  						<span><?php echo $calix-nunez['titulo']; ?></span>
+  					<a href="<?php echo $calixNunez['link']; ?>" 
+  						title="<?php echo $calixNunez['titulo']; ?>" 
+  						class="logosFooter logoCNunez">
+  						<span><?php echo $calixNunez['titulo']; ?></span>
   					</a>
-  					<p><?php echo $calix-nunez['direccion']; ?></p>
+  					<p><?php echo $calixNunez['direccion']; ?></p>
   				</li>
   				<li class="col-xs-12 col-md-3 col-lg-2">
-  					<a href="<?php echo $calix-barrancas['link']; ?>" title="<?php echo $calix-barrancas['titulo']; ?>" class="logosFooter logoCBarrancas">
-  						<span><?php echo $calix-barrancas['titulo']; ?></span>
+  					<a href="<?php echo $calixBarrancas['link']; ?>" 
+  						title="<?php echo $calixBarrancas['titulo']; ?>" 
+  						class="logosFooter logoCBarrancas">
+  						<span><?php echo $calixBarrancas['titulo']; ?></span>
   					</a>
-  					<p><?php echo $calix-barrancas['direccion']; ?></p>
+  					<p><?php echo $calixBarrancas['direccion']; ?></p>
   				</li>
   				<li class="col-xs-12 col-md-3 col-lg-2">
-  					<a href="<?php echo $calix-palermo['link']; ?>" title="<?php echo $calix-palermo['titulo']; ?>" class="logosFooter logoCPalermo">
-  						<span><?php echo $calix-palermo['titulo']; ?></span>
+  					<a href="<?php echo $calixPalermo['link']; ?>" 
+  						title="<?php echo $calixPalermo['titulo']; ?>" 
+  						class="logosFooter logoCPalermo">
+  						<span><?php echo $calixPalermo['titulo']; ?></span>
   					</a>
-  					<p><?php echo $calix-palermo['direccion']; ?></p>
+  					<p><?php echo $calixPalermo['direccion']; ?></p>
   				</li>
   			</ul>
 		</div>

@@ -1,22 +1,21 @@
 <?php
 
+
 	/* Footer */
 	
-	$calix-nunez = array(
+	$calixNunez = array(
 		'titulo' => 'Calix Núñez',
 		'link' => '../calix-nunez/',
-		'direccion' => '3 de Febrero 2936,<br>
-  						Caba, Argentina C1428A<br>
-  						T 549 11 4773 6619'
+		'direccion' => '3 de Febrero 2936,<br>Caba, Argentina C1428A<br>T 549 11 4773 6619'
 	);
-	$calix-barrancas = array(
+	$calixBarrancas = array(
 		'titulo' => 'Calix Barrancas',
 		'link' => '../calix-barrancas/',
 		'direccion' => 'Blanco Encalada,<br>
   						Caba, Argentina C1428A<br>
   						T 549 11 4773 6619'
 	);
-	$calix-palermo = array(
+	$calixPalermo = array(
 		'titulo' => 'Calix Palermo',
 		'link' => '../calix-palermo/',
 		'direccion' => 'Blanco Encalada,<br>

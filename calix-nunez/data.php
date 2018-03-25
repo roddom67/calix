@@ -10,22 +10,23 @@
 	$headDesc['index'] = 'Calix Núñez - Tu vida a 5 minutos de todo. Departamentos en el barrio de Núñez. 54 911 4773 6619';
 	
 	$titulo['index'] = 'Tu vida a 5 minutos de todo.';
-	$textGray['index'] = '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>';
+	$textGray['index'] = '<p>Cuando pensamos Calix 3 de Febrero, pensamos un proyecto en el que quisieramos vivir, un lugar donde disfrutar cada momento de tu día.</p>';
 	$textImageArea['left']['index'] = array(
 		'titulo' => 'El Proyecto',
-		'parrafo' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.',
+		'parrafo' => 'Diseño moderno, espacios flexibles, ventanales de piso a techo, mucha luz natural.',
 		'verMasLink' => 'el-proyecto.php',
-		'verMasTitulo' => 'el proyecto'			
+		'verMasTitulo' => 'Ver más del proyecto'			
 	);
 	$textImageArea['right']['index'] = array(
-		'titulo' => 'El Barrio',
-		'parrafo' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.',
+		'titulo' => 'Núñez',
+		'parrafo' => 'Un barrio en plena
+transformación',
 		'verMasLink' => 'el-barrio.php',
-		'verMasTitulo' => 'el barrio'			
+		'verMasTitulo' => 'Conocer más del barrio'			
 	);
 	
 	$galeriaArea['index'] = array(
-		'titulo' => 'Galería de renders',
+		'titulo' => 'Calix',
 		'imagenes' => array (
 			array (
 				'imagen' => 'galeria_0.jpg',
@@ -44,10 +45,9 @@
 	$headTitulo['el-proyecto'] = 'El Proyecto | Calix Núñez';
 	$headDesc['el-proyecto'] = 'Calix Núñez - El Proyecto. Departamentos en el barrio de Núñez. 54 911 4773 6619';
 	
-	$titulo['el-proyecto'] = 'El Proyecto';
-	$textGray['el-proyecto'] = '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>';
+	$titulo['el-proyecto'] = 'Diseñado para capturar<br>lux y aire';
+	$textGray['el-proyecto'] = '<p>Calix está diseñado para la máxima habitabilidad, flexibilidad y seguridad. Ya sea que elijas vivir solo, en familia o con amigos, en Calix 3F vas a encontrar espacios privados, espacio para socializar y todas las comodidades que estás buscando.</p>';
 	$galeriaArea['el-proyecto'] = array(
-		'titulo' => 'Galerías fotos',
 		'imagenes' => array (
 			array (
 				'imagen' => 'galeria_0.jpg',
@@ -90,8 +90,8 @@
 	$headTitulo['los-departamentos'] = 'Los Departamentos | Calix Núñez';
 	$headDesc['los-departamentos'] = 'Calix Núñez - Los Departamentos. Departamentos en el barrio de Núñez. 54 911 4773 6619';
 
-	$titulo['los-departamentos'] = 'Los Departamentos';
-	$textGray['los-departamentos'] = '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>';
+	$titulo['los-departamentos'] = 'La suma de sus detalles';
+	$textGray['los-departamentos'] = '<p>Diseñamos departamentos de 1 a 2 dormitorios pensando cada rincón, cada terminación. Ideales para crear un <em>“efecto paréntesis”</em> de lo cotidiano y construir una ambiente personal donde quieras vivir, disfrutar y relajarte.</p>';
 	
 	$threeImagesArea['los-departamentos']= array(
 		'imagenes' => array (
@@ -110,7 +110,6 @@
 		)
 	);
 	$galeriaArea['los-departamentos'] = array(
-		'titulo' => 'Galerías fotos',
 		'imagenes' => array (
 			array (
 				'imagen' => 'galeria_0.jpg',
@@ -154,8 +153,8 @@
 	$headTitulo['el-barrio'] = 'El Barrio | Calix Núñez';
 	$headDesc['el-barrio'] = 'Calix Núñez - El Barrio. Departamentos en el barrio de Núñez. 54 911 4773 6619';
 
-	$titulo['el-barrio'] = 'El barrio';
-	$textGray['el-barrio'] = '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>';
+	$titulo['el-barrio'] = 'Tu vida a 5 minutos de todo lo que te gusta';
+	$textGray['el-barrio'] = '<p>Nuñez es un barrio en transformación, está re inventandose. Es un nuevo polo gastronómico con restaurantes y bares, zonas comerciales y de entretenimiento. Cuenta con un sólido centro de educación primario, secundaria y universitaria. En Buenos Aires no hay otro lugar como este. Sumale las zonas verdes, los extensos enlaces de transporte, los famosos mercados de alimentos, transforman este barrio en un destino tan atractivo y conveniente. Todo esto a solo 5 minutos.</p>';
 	
 	$threeImagesArea['el-barrio']= array(
 		'imagenes' => array (
@@ -175,7 +174,6 @@
 		)
 	);
 	$galeriaArea['el-barrio'] = array(
-		'titulo' => 'Galerías imagenes',
 		'imagenes' => array (
 			array (
 				'imagen' => 'galeria_1.jpg',
@@ -199,10 +197,16 @@
 			array(
 				'titulo' => 'Restaurantes y bares',
 				'lugares' => array(
-					'Manolos',
-					'Carlitos',
-					'Toto\'s',
-					'Burger King'
+					'Francis Plats',
+					'Chef Leon',
+					'Taco box',
+					'POE',
+					'Solomia Parrilla',
+					'El Pollo Gomez',
+					'Luzmala Bar',
+					'La Escondida Parrilla',
+					'Mc Donald´s',
+					'Los Arribeños'
 				)
 			),
 			array(
