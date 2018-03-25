@@ -12,8 +12,8 @@
    <meta name="mobile-web-app-capable" content="yes">
    
 	<link href="https://fonts.googleapis.com/css?family=Libre+Franklin:100,200,300,400,600,700,900" rel="stylesheet">
-	<link rel="stylesheet" href="css/bootstrap.min.css" >
-	<link rel="stylesheet" href="css/style.css?v=1.0.0" >
+	<link rel="stylesheet" href="css/bootstrap.min.css?v=<?php echo $v; ?>" >
+	<link rel="stylesheet" href="css/style.css?v=<?php echo $v; ?>" >
 	
 	<title><?php echo $headTitulo; ?></title>
 	<meta name="description" content="<?php echo $headDesc; ?>" />

@@ -1,5 +1,8 @@
 <!DOCTYPE HTML>
 <html lang="es">
+<?php
+	$v = '1.0.1';
+?>
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="cache-control" content="max-age=0" />
@@ -14,12 +17,12 @@
    	<meta name="mobile-web-app-capable" content="yes">
    
 		<link href="https://fonts.googleapis.com/css?family=Libre+Franklin:100,200,300,400,600,700,900" rel="stylesheet">
-		<link rel="stylesheet" href="../css/bootstrap.min.css" >
-		<link rel="stylesheet" href="../css/jquery.bxslider.css" >
+		<link rel="stylesheet" href="../css/bootstrap.min.css?v=<?php echo $v; ?>" >
+		<link rel="stylesheet" href="../css/jquery.bxslider.css?v=<?php echo $v; ?>" >
 		<!--link rel="stylesheet" href="../css/jquery-ui.css"-->
 	
-		<link rel="stylesheet" href="../css/style.css?v=1.0.0" >
-		<link rel="stylesheet" href="css/style.css?v=1.0.0" >
+		<link rel="stylesheet" href="../css/style.css?v=<?php echo $v; ?>" >
+		<link rel="stylesheet" href="css/style.css?v=<?php echo $v; ?>" >
 	
 		<title><?php echo $headTitulo[$pagina] ?></title>
 		<meta name="description" content="<?php echo $headDesc[$pagina] ?>" />
