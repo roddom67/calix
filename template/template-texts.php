@@ -51,6 +51,10 @@
 ?>
 <?php
 	if(isset($caracteristicasArea[$pagina])){
+		$cant = sizeof($caracteristicasArea[$pagina]['caracteristicas']);
+		
+		$p = intval($cant / 3) + ($cant%3);
+
 		$caracteristicaContent = '
 		<section class="textArea boxCaracteristicas">
  			<div class="container-fluid">
@@ -58,16 +62,15 @@
   					<article class="col-sm-12">
   						<h2>'.$caracteristicasArea[$pagina]['titulo'].'</h2>
   						<ul class="row">';
-		$cant = sizeof($caracteristicasArea[$pagina]['caracteristicas']);
 		for($a = 0; $a < $cant; $a++){
-			if(($a%3)==0){
+			if(($a%$p)==0){
 		 		$caracteristicaContent .= '<li class="col-sm-12 col-md-4">
   								<ul>';
  			}
  								
  			$caracteristicaContent .= '<li>- '.$caracteristicasArea[$pagina]['caracteristicas'][$a].'</li>';
   			
-  			if(($a%3)==2){
+  			if(($a%$p)==($p-1)){
   				$caracteristicaContent .= '</ul>
   							</li>';
 			}

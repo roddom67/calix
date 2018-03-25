@@ -461,7 +461,7 @@ section p{
 	border-top:1px solid  var(--dark-gray);
 	padding:30px 20px 100px;
 }
-.boxCaracteristicas li{
+.boxCaracteristicas li li{
 	font-size: 1.5em;
 	font-weight: 100;
 }
