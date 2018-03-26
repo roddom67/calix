@@ -4,9 +4,11 @@
 	include('../template/template-header.php');
 	include('../template/template-texts.php');
 	include('../template/template-images.php');
-	include('../template/template-form.php');
+	
 	include('../template/template-disponibilidad.php');
 
+	include('../template/template-form.php');
+	
 	if(isset($position[$pagina])){
 		
 		$pos = sizeof($position[$pagina]);

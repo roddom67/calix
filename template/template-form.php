@@ -9,8 +9,8 @@
 						<h4>'.$textHeaderForm[$pagina]['titulo'].'</h4>
 						<p><a href="mailto:'.$textHeaderForm[$pagina]['email'].'" title="Email de '.$textHeaderForm[$pagina]['titulo'].'">'.$textHeaderForm[$pagina]['email'].'</a></p>
 						<p>'.$textHeaderForm[$pagina]['telefono'].'</p>
-					</article>
-				</div>';
+					</article>'
+;
   		if(isset($_GET['ok']) && $_GET['ok'] == '1'){
   			$textHeaderFormContent .= '<article class="contactGraciasArea">
   					<p>Gracias por contactarse con nosotros.</p>
