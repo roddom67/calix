@@ -11,7 +11,7 @@
 						<p>'.$textHeaderForm[$pagina]['telefono'].'</p>
 					</article>
 				</div>';
-  		if(isset($_GET['ok'])){
+  		if(isset($_GET['ok']) && $_GET['ok'] == '1'){
   			$textHeaderFormContent .= '<article class="contactGraciasArea">
   					<p>Gracias por contactarse con nosotros.</p>
   				</article>';
@@ -21,31 +21,33 @@
       		<form method="post" name="contactoForm" id="contactoForm" action="form-to-email.php">
       			<fieldset>
 						<ul class="row">
-							<li class="col-sm-12 col-md-8">
-								<ul class="row">
+							<li class="col-sm-12 col-md-8">';
+			if(isset($_GET['error'])){
+				$textHeaderFormContent .= '<div class="container">
+                            <h4>Ingrese los datos requeridos y como corresponda según lo solicitado. Gracias.</h4>
+                            <p>'.$_GET['error'].'</p>
+                        </div>';
+         }
+			$textHeaderFormContent .= '<ul class="row">
 									<li class="col-sm-12 col-md-6">
 										<label for="name">Nombre</label>
-										<input type="text" name="name">
-										<span id="myform_name_errorloc" class="error"></span>
+										<input type="text" name="name" minlength="4" required>
 									</li>
 									<li class="col-sm-12 col-md-6">
 										<label for="surname">Apellido</label>
-										<input type="text" name="surname">
-										<span id="myform_surname_errorloc" class="error"></span>
+										<input type="text" name="surname" required>
 									</li>
 									<li class="col-sm-12 col-md-6">
 										<label for="email">Email</label>
-										<input type="text" name="email">
-										<span id="myform_email_errorloc" class="error"></span>
+										<input type="text" name="email" required>
 									</li>
 									<li class="col-sm-12 col-md-6">
 										<label for="phone">Teléfono</label>
-										<input type="text" name="phone">
-										<span id="myform_phone_errorloc" class="error"></span>
+										<input type="text" name="phone" required>
 									</li>
 									<li class="col-sm-12 col-md-6">
 										<label for="depto">Tipo de departamento</label>
-										<select type="text" name="depto">
+										<select type="text" name="depto" required>
 											<option value="">Seleccione un departamento</option>
 											<option value="depto_201">201</option>
 											<option value="depto_202">202</option>
@@ -53,21 +55,23 @@
 									</li>
 									<li class="col-sm-12 col-md-6">
 										<label for="price">Rango de precio</label>
-										<select type="text" name="price">
-											<option value=">Seleccione un rango</option>
+										<select type="text" name="price" required>
+											<option value="">Seleccione un rango</option>
 											<option value="1">mayor a us$ 100.000</option>
 											<option value="2">mayor a us$200.000</option>
 										</select>
 									</li>
 									<li class="col-sm-12 col-md-6">
 										<label for="medios">¿Cómo se enteró de Calix?</label>
-										<select type="text" name="medios">
-											<option></option>
+										<select type="text" name="medios" required>
+											<option value="">Seleccione un medio</option>
+											<option value="1">Radio</option>
+											<option value="1">Televisión</option>
 										</select>
 									</li>
 									<li class="col-sm-12 col-md-12">
 										<label for="message">Enter Message:</label> <br>
-										<textarea name="message"></textarea>
+										<textarea name="message" required></textarea>
 									</li>
 								</ul>
 							</li>
@@ -81,6 +85,7 @@
   	}
   	$textHeaderFormContent .= '</div>
  		</section>
+ 		<div id="page-wrap"></div>
 		';
 	}
 ?>

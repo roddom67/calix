@@ -1,11 +1,14 @@
-<?
-include('contacto_seg.php');
-$newToken = generateFormToken('commentForm');   
+<?php
+include_once('contacto_seg.php');
+$newToken = generateFormToken('contactoForm');
+
+	include("../global-data.php");
+	include("data.php");
+	
+	$pagina = 'contacto';
+	$activoH = true;
+include('head.php');
 ?>
-<!DOCTYPE HTML>
-<html lang="es">
-<head>
-</head>
 
 <body id="Contacto">
     <section>
@@ -13,8 +16,8 @@ $newToken = generateFormToken('commentForm');
         	<h2><span>Portfolio</span></h2>
             <section>
                 <article id="content">
-				<?
-                if ($ok == "") {
+					<?php
+                if (!isset($ok)) {
                 ?>
                		<h3>Fomulario de Contacto</h3>
                     <div class="Box">
@@ -27,7 +30,7 @@ $newToken = generateFormToken('commentForm');
                                 <li><label for="coment" class="error">Por favor, ingrese un comentario.</label></li>
                             </ol>
                         </div>
-                        <form id="commentForm" method="post" action="contacto.php" class="jqtransform">
+                        <form id="contactoForm" method="post" action="contacto_form.php">
                             <fieldset>
                             <div class="Col01">	
                                 <p>
@@ -49,8 +52,9 @@ $newToken = generateFormToken('commentForm');
                             </fieldset>
                         </form>
                     </div>
-				<?
-                   } else {
+				<?php
+                   } 
+                   if (isset($ok) && $ok == '1') {
                 ?>
                     <div class="Box Respuesta">
                         <p>Gracias <?php echo $name;?> por comunicarse con nosotros.</p>
@@ -58,7 +62,7 @@ $newToken = generateFormToken('commentForm');
                         <h4>RD diseño web</h4>
                     </div>
     
-				<? } ?>
+				<?php } ?>
                     <!--aside>
                         <h3>Datos Bancarios</h3>
                         <p>Banco Santander Rio</p>
@@ -73,29 +77,3 @@ $newToken = generateFormToken('commentForm');
 	<?php
 	include("footer.php");
 	?>
-	<script src="scripts/jquery.jqtransform.js" type="text/javascript"></script>
-	<script src="scripts/jquery.validate.min.js" type="text/javascript"></script>
-    <script type="text/javascript">
-	$(document).ready(function() {
-		$("form.jqtransform").jqTransform();
-
-		var container = $('div.container');
-		// validate the form when it is submitted
-		var validator = $("#commentForm").validate({
-			errorContainer: container,
-			errorLabelContainer: $("ol", container),
-			wrapper: 'li',
-			meta: "validate"
-		});
-		$.validator.setDefaults({
-			submitHandler: function() {}
-		});
-		$("#commentForm").validate();
-		$(".cancel").click(function() {
-			validator.resetForm();
-		});
-	
-	});
-</script>
-</body>
-</html>

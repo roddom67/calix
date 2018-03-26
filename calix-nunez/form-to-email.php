@@ -15,8 +15,10 @@ $message = $_POST['message'];
 
 //Validate first
 if(empty($name)||empty($visitor_email)||empty($surname)||empty($phone)||empty($depto)||empty($price)||empty($medios)||empty($message)){
-    echo "¡Nombre y email son obligatorios!";
-    exit;
+	$error = "¡Nombre y email son obligatorios!";
+	
+	header('Location: contacto.php?error='.$error);
+	exit;
 }
 
 if(IsInjected($visitor_email)){
@@ -27,7 +29,7 @@ if(IsInjected($visitor_email)){
 $email_from = 'tom@amazing-designs.com';//<== update the email address
 $email_subject = "New Form submission";
 
-require('email_body.php');
+include_once('email_body.php');
 
 //$email_body = "You have received a new message from the user $name.\n".
 //    "Here is the message:\n $message".
@@ -37,7 +39,11 @@ $headers = "From: $email_from \r\n";
 $headers .= "Reply-To: $visitor_email \r\n";
 
 //Send the email!
-mail($to,$email_subject,$email_body,$headers);
+if (mail($to,$email_subject,$email_body,$headers)){
+	$ok = '1';
+}else{
+	$ok = '2';
+}
 
 //done. redirect to thank-you page.
 header('Location: contacto.php?ok=ok');

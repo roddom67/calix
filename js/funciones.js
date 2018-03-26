@@ -130,30 +130,6 @@ $(function(){
 	}
 	articleHeight.init();
 	
-	formulario = {
-		init: function(){
-			var frmvalidator  = new Validator("contactoForm");
-			frmvalidator.EnableOnPageErrorDisplay();
-			frmvalidator.EnableMsgsTogether();
-			
-			frmvalidator.addValidation("name","req","Ingrese su nombre, gracias");
-			frmvalidator.addValidation("name","minlen=4","El nombre tiene que tener más de 4 letras, gracias"); 
-			frmvalidator.addValidation("surname","req","Ingrese su apellido, gracias");
-			frmvalidator.addValidation("surname","minlen=4","El nombre tiene que tener más de 4 letras, gracias"); 
-			frmvalidator.addValidation("email","req","Ingrese un email, gracias"); 
-			frmvalidator.addValidation("email","email","Ingrese un email válido, gracias");
-			frmvalidator.addValidation("phone","req","Ingrese su teléfono de contacto, gracias");
-			frmvalidator.addValidation("phone","numeric","El telefono tiene que tener números, gracias");
-			frmvalidator.addValidation("depto","dontselect=''","Seleccione un departamento, gracias");
-			frmvalidator.addValidation("price","dontselect=''","Seleccione un rango de precios, gracias");
-			frmvalidator.addValidation("message","minlen=10","Ingrese un mensaje mayor a 10 letras, gracias"); 
-				
-		}
-	}
-	if($('body').hasClass('contacto')){
-		formulario.init();
-	}
-	
 	showVideos = {
 		init:function(){
 			$('.showVideo').on('click',function(e){
@@ -166,6 +142,35 @@ $(function(){
 	}
 	
 	showVideos.init();
+	
+	formulario = {
+		init: function(){
+			
+		//	var container = $('div.container');
+			// validate the form when it is submitted
+			
+	/*		var validator = $("#contactoForm").validate({
+				errorContainer: container,
+				errorLabelContainer: $("ol", container),
+				wrapper: 'li',
+				meta: "validate"
+			});*/
+
+			$.validator.setDefaults({
+				submitHandler: function(form) {
+           		$(form).ajaxSubmit({
+                	success: function() {
+                    	$('#page-wrap').append("<p class='thanks'>Thanks! Your request has been sent.</p>")
+                	}
+           		});
+         	}
+			});
+			$("#contactoForm").validate();
+		}
+	}
+	if($('body').hasClass('contacto')){
+		formulario.init();
+	}
 	
 
 })
