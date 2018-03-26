@@ -597,10 +597,12 @@ section p{
 .contactFormArea select{
 	height: 4.3rem;
 	border:1px solid var(--dark-gray);
+	padding: 0.5rem 1rem;
 }
 .contactFormArea textarea{
 	resize: none;
 	height: 21.5rem;
+	padding: 0.5rem 1rem;
 	border:1px solid var(--dark-gray);
 }
 

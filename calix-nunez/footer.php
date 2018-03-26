@@ -61,4 +61,27 @@
 
 <script type="text/javascript" src="../js/jquery-ui.min.js?v=<?php echo $v; ?>"></script>
 
+<script src="../js/jquery.validate.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+	$(document).ready(function() {
+		var container = $('div.container');
+		// validate the form when it is submitted
+		var validator = $("#commentForm").validate({
+			errorContainer: container,
+			errorLabelContainer: $("ol", container),
+			wrapper: 'li',
+			meta: "validate"
+		});
+		$.validator.setDefaults({
+			submitHandler: function() {}
+		});
+		$("#commentForm").validate();
+		$(".cancel").click(function() {
+			validator.resetForm();
+		});
+	
+	});
+</script>
+
+
 <script type="text/javascript" src="../js/funciones.js?v=<?php echo $v; ?>"></script>

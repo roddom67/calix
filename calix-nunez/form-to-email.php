@@ -5,11 +5,16 @@ if(!isset($_POST['submit'])){
 }
 
 $name = $_POST['name'];
+$surname = $_POST['surname'];
 $visitor_email = $_POST['email'];
+$phone = $_POST['phone'];
+$depto = $_POST['depto'];
+$price = $_POST['price'];
+$medios = $_POST['medios'];
 $message = $_POST['message'];
 
 //Validate first
-if(empty($name)||empty($visitor_email)){
+if(empty($name)||empty($visitor_email)||empty($surname)||empty($phone)||empty($depto)||empty($price)||empty($medios)||empty($message)){
     echo "¡Nombre y email son obligatorios!";
     exit;
 }

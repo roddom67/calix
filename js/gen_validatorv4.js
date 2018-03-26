@@ -171,6 +171,7 @@ function form_submit_handler()
 
     if (this.show_errors_together || bRet && !this.show_errors_together)
     {
+
         if (!this.runAddnlValidations())
         {
             bRet = false;

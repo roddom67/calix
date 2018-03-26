@@ -132,19 +132,27 @@ $(function(){
 	
 	formulario = {
 		init: function(){
-			if($('body').hasClass('contacto')){
-				var frmvalidator  = new Validator("contactoForm");
-				frmvalidator.addValidation("name","req","Ingrese un nombre, gracias"); 
-				frmvalidator.addValidation("surname","req","Ingrese un nombre, gracias");
-				frmvalidator.addValidation("email","req","Ingrese un email, gracias"); 
-				frmvalidator.addValidation("email","email","Ingrese un email válido, gracias"); 
+			var frmvalidator  = new Validator("contactoForm");
+			frmvalidator.EnableOnPageErrorDisplay();
+			frmvalidator.EnableMsgsTogether();
+			
+			frmvalidator.addValidation("name","req","Ingrese su nombre, gracias");
+			frmvalidator.addValidation("name","minlen=4","El nombre tiene que tener más de 4 letras, gracias"); 
+			frmvalidator.addValidation("surname","req","Ingrese su apellido, gracias");
+			frmvalidator.addValidation("surname","minlen=4","El nombre tiene que tener más de 4 letras, gracias"); 
+			frmvalidator.addValidation("email","req","Ingrese un email, gracias"); 
+			frmvalidator.addValidation("email","email","Ingrese un email válido, gracias");
+			frmvalidator.addValidation("phone","req","Ingrese su teléfono de contacto, gracias");
+			frmvalidator.addValidation("phone","numeric","El telefono tiene que tener números, gracias");
+			frmvalidator.addValidation("depto","dontselect=''","Seleccione un departamento, gracias");
+			frmvalidator.addValidation("price","dontselect=''","Seleccione un rango de precios, gracias");
+			frmvalidator.addValidation("message","minlen=10","Ingrese un mensaje mayor a 10 letras, gracias"); 
 				
-				frmvalidator.EnableOnPageErrorDisplay();
-				frmvalidator.EnableMsgsTogether();
-			}
 		}
 	}
-	formulario.init();
+	if($('body').hasClass('contacto')){
+		formulario.init();
+	}
 	
 	showVideos = {
 		init:function(){

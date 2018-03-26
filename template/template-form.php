@@ -18,57 +18,54 @@
   		}else{
   					
       	$textHeaderFormContent .= '<article class="contactFormArea">
-      		<form method="post" name="contactoForm" action="form-to-email.php">
+      		<form method="post" name="contactoForm" id="contactoForm" action="form-to-email.php">
       			<fieldset>
 						<ul class="row">
-							<li class="col-sm-12 col-md-4">
-								<ul>
-									<li>
+							<li class="col-sm-12 col-md-8">
+								<ul class="row">
+									<li class="col-sm-12 col-md-6">
 										<label for="name">Nombre</label>
 										<input type="text" name="name">
-										<span id="myform_Name_errorloc"></span>
+										<span id="myform_name_errorloc" class="error"></span>
 									</li>
-									<li>
+									<li class="col-sm-12 col-md-6">
 										<label for="surname">Apellido</label>
 										<input type="text" name="surname">
-										<span id="myform_Name_errorloc"></span>
+										<span id="myform_surname_errorloc" class="error"></span>
 									</li>
-									<li>
+									<li class="col-sm-12 col-md-6">
 										<label for="email">Email</label>
 										<input type="text" name="email">
-										<span id="myform_Name_errorloc"></span>
+										<span id="myform_email_errorloc" class="error"></span>
 									</li>
-									<li>
+									<li class="col-sm-12 col-md-6">
 										<label for="phone">Teléfono</label>
 										<input type="text" name="phone">
-										<span id="myform_Name_errorloc"></span>
+										<span id="myform_phone_errorloc" class="error"></span>
 									</li>
-									<li>
+									<li class="col-sm-12 col-md-6">
 										<label for="depto">Tipo de departamento</label>
 										<select type="text" name="depto">
-											<option></option>
+											<option value="">Seleccione un departamento</option>
+											<option value="depto_201">201</option>
+											<option value="depto_202">202</option>
 										</select>
-										<span id="myform_Name_errorloc"></span>
 									</li>
-									<li>
+									<li class="col-sm-12 col-md-6">
 										<label for="price">Rango de precio</label>
 										<select type="text" name="price">
-											<option></option>
+											<option value=">Seleccione un rango</option>
+											<option value="1">mayor a us$ 100.000</option>
+											<option value="2">mayor a us$200.000</option>
 										</select>
-										<span id="myform_Name_errorloc"></span>
 									</li>
-								</ul>
-							</li>
-							<li class="col-sm-12 col-md-4">
-								<ul>
-									<li>
+									<li class="col-sm-12 col-md-6">
 										<label for="medios">¿Cómo se enteró de Calix?</label>
 										<select type="text" name="medios">
 											<option></option>
 										</select>
-										<span id="myform_Name_errorloc"></span>
 									</li>
-									<li>
+									<li class="col-sm-12 col-md-12">
 										<label for="message">Enter Message:</label> <br>
 										<textarea name="message"></textarea>
 									</li>
