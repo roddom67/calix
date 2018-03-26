@@ -18,7 +18,7 @@
   		}else{
   					
       	$textHeaderFormContent .= '<article class="contactFormArea">
-      		<form method="post" name="commentForm" id="commentForm" action="contacto.php">
+      		<form method="post" name="contactoForm" id="contactoForm" action="form-to-email.php">
       			<fieldset>
 						<ul class="row">
 							<li class="col-sm-12 col-md-8">';

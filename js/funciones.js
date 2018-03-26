@@ -146,30 +146,25 @@ $(function(){
 	formulario = {
 		init: function(){
 			
-		//	var container = $('div.container');
+			var container = $('div.container');
 			// validate the form when it is submitted
-			
-	/*		var validator = $("#contactoForm").validate({
+			var validator = $("#commentForm").validate({
 				errorContainer: container,
 				errorLabelContainer: $("ol", container),
 				wrapper: 'li',
 				meta: "validate"
-			});*/
-
-			$.validator.setDefaults({
-				submitHandler: function(form) {
-           		$(form).ajaxSubmit({
-                	success: function() {
-                    	$('#page-wrap').append("<p class='thanks'>Thanks! Your request has been sent.</p>")
-                	}
-           		});
-         	}
 			});
-			$("#contactoForm").validate();
+			$.validator.setDefaults({
+				submitHandler: function() {}
+			});
+			$("#commentForm").validate();
+			$(".cancel").click(function() {
+				validator.resetForm();
+			});
 		}
 	}
 	if($('body').hasClass('contacto')){
-		formulario.init();
+		//formulario.init();
 	}
 	
 
