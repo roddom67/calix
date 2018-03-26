@@ -1,0 +1,365 @@
+/*  --------------------------------------------------------
+SELECTION COLOR
+-------------------------------------------------------- */
+::-moz-selection { /* Code for Firefox */
+    background: #5abcad;
+}
+::selection {
+    background: #5abcad;
+}
+
+.ubicacion {background-image: url(../../../assets/img/bg/img-bg-22.jpg);
+    background-position: center center;width: 100%; height:100%;padding-top: 110px;}
+.home-back {background-image: url(../../../assets/img/bg/img-bg-17.jpg);
+    background-position: center center;width: 100%; height:100%;padding-top: 110px;}
+.planos-back {background-image: url(../../../assets/img/bg/planos.jpg);
+    background-position: center center;width: 100%; height:100%;padding-top: 110px;}
+.contacto-back {background-image: url(../../../assets/img/bg/img-bg-22.jpg);
+    background-position: center center;width: 100%; height:100%;padding-top: 110px;}
+.edificio-back {background-image: url(../../../assets/img/bg/img-bg-22.jpg);
+    background-position: center center;width: 100%; height:100%;padding-top: 110px;}
+.titular { font-size:30px; color:#fff;font-family: 'GothamBook' !important;text-shadow: 0 0px 0px rgba(0,0,0,.6);}
+.listado-ub { font-size:12px; line-height:14px; color:#fff !important; padding-top: 3%;}
+.listado-ubicacion { margin:0; padding:0; list-style:none;}
+.listado-ubicacion li{ margin-bottom: 8px;font-family: 'GothamBook' !important;}
+.ajuste-pad { padding-top: 2% !important;}
+.mapa { padding-top:30px;}
+.descripcion-entorno {font-size: 12px;
+    line-height: 14px;
+    background-color: #fff;
+    min-height: 72px;
+    padding: 15px 15px;
+    text-align: left;font-family: 'GothamBook' !important; color:#072e54;}
+.col1-gal { float:left; width:30%;}
+.col2-gal { float:left; width:70%;}
+.titular_home {font-family: 'GothamBook' !important;
+    font-size: 40px;
+    color: #939598;
+    text-shadow: 0 0px 0px rgba(0,0,0,.6);
+    text-align: left;
+    padding: 29px 0 0 0;}
+.bajada-planos {    font-size: 12px;
+    line-height: 14px;
+    color: #fff !important;
+    ;font-family: 'GothamBook' !important;}
+.bajada-home {font-family: 'GothamBook' !important;
+    font-size: 20px;
+    color: #939598;
+    text-shadow: 0 0px 0px rgba(0,0,0,.6);
+    text-align: left;
+   s}
+.espaciado { margin-top:20px;}
+.bolder {font-family: 'GOTHAMBOLD' !important;}
+.edificio {
+    /*padding-left: 83px;*/
+	padding-left: 65px;
+	background-image:url(../../img/planos/plano_back.png); /*background-size:cover;*/ background-size: 93%;background-repeat:no-repeat;
+	/*min-height:500px;*/
+	    padding-top: 74px;
+		    /*padding-top: 102px;*/
+}
+.edificio li {color: #dcddde;
+    font-size: 15px;
+    font-family: 'GothamBook' !important;
+    padding-bottom: 10px;
+	height: 34px;
+	}
+	
+	.edificio li a{color: #dcddde !important;
+  
+	}
+	
+.edificio2 {
+    padding-left: 19px;
+	
+}
+.edificio2 li {color: #dcddde;
+    font-size: 14px;
+    font-family: 'GothamBook' !important;
+    padding-bottom: 0px;
+	
+	}
+.edificio-activo { color:#5ec4b4 !important;}	
+	
+.glyphiconb	{top: -66% !important;}
+.form-txt {font-family: 'GothamBook'; color:#FFF; font-size:13px;}
+form input {
+    width: 100%;
+    margin-bottom: 12px;
+    margin-top: 5px;
+    border: 0;
+    height: 30px;
+}
+
+form textarea {width: 100%;
+    margin-bottom: 12px;
+    margin-top: 5px;
+    border: 0;
+    /*height: 160px;*/height: 52px;}
+.contacto-logo { width:46%; padding:20px 0;}
+.datos-contacto { color:#79cbbe; font-size:13px;font-family: 'GothamBook' !important;}
+.datos-contacto a {color:#79cbbe !important;}
+
+.contacto-titulo {font-family: 'GOTHAMBOLD';color:#123e5d !important;}
+.contacto-bajada {font-family: 'GothamBook';color:#123e5d !important;}
+.contacto-tdescripcion {font-family: 'GothamBook';color:#123e5d !important; padding-bottom:15px; font-size:11px; line-height:13px; padding-top:5px;}
+.blue { color:#123e5d !important;}
+
+
+.gal_edificio { /*height:270px;*/height: 240px}
+.float-left { float:left;}
+.padding-gal1 {padding: 0 5px 5px 0;}
+.padding-gal2 {padding: 0 0 5px 0;}
+.padding-gal3 {padding: 0 5px 0 0;}
+.back-blue { background-color:#0f2941;}
+.display-responsive { display:none;}
+.display-escritorio { display:block;}
+.video-ajuste {position: relative;top: -58px;}
+.video-ajuste2 {position: relative;top: 25px;}
+.planitos { padding-top:40px;}
+.icon-ub2 { height:30px !important;position: relative;top: 8px;}
+
+
+@media(min-width:1200px) and (max-width:1500px) {
+	
+	.edificio {padding-top: 70px !important;}
+	.edificio li {height: 34px !important;}
+}
+
+@media(min-width:1500px) {
+	.edificio {padding-top: 72px !important;  background-size: 99%;}
+	.edificio li {height: 37px !important;}
+	
+}
+
+@media(min-width:960px) and (max-width:1200px) {
+	
+	.edificio {padding-top: 54px !important;}
+	.edificio li {height: 29px !important;}
+}
+
+
+@media(max-width:1200px) {.gal_edificio {height: 174px !important;}
+.video-ajuste2 {top: 25px !important;}
+.ubicacion {padding-top: 150px;}
+.planos-back {padding-top: 150px;}
+.contacto-back {padding-top: 150px;}
+.edificio-back {padding-top: 150px;}
+.padincito {padding-top: 39px;}
+}
+
+
+@media(max-width:960px)  {.gal_edificio {height: 170px !important;}
+.titular_home { padding: 190px 0 0 0;}
+.ajuste-gal { padding-top: 50px;    padding-bottom: 50px;}
+.contacto-logo {width: 35%;padding: 10px 0;}
+.video-ajuste {top: -22px !important;}
+.planos-back {background-image: url(../../../assets/img/bg/img-bg-22.jpg);
+    background-position: center center;width: 100%; height:100%;padding-top: 150px;}
+	.ajuste-h1-home { position: relative !important;top: 20px !important;}
+.video-ajuste2 {top: 25px !important;}
+.home-back {background-image: url(../../../assets/img/bg/img-bg-17b.jpg);background-size: cover;}
+.edificio { background-size:119%;}
+
+
+}
+
+@media(max-width:768px) {
+	.gal_edificio { width:100% !important; height:auto !important;}
+	.padding-gal1 {padding: 0 0 5px 0 !important;}
+	.padding-gal2 {padding: 0 0 5px 0 !important;}
+	.padding-gal3 {padding: 0 0 5px 0 !important;}
+	.float-left { float:none !important;}
+	.titular_home {padding: 89px 0 0 0 !important;}	
+	.ubicacion { background-image: url(../../../assets/img/bg/ubicacion.jpg);padding-top: 104px;}
+	.planos-back { background-image: url(../../../assets/img/bg/plano-responsive.jpg);padding-top: 104px;}
+	.edificio-back {background-image: url(../../../assets/img/bg/back-gal.jpg);
+    background-position: center center;width: 100%; height:100%;padding-top: 150px;}
+	.contacto-back {background-image: url(../../../assets/img/bg/back-gal.jpg);
+    background-position: center center;width: 100%; height:100%;padding-top: 150px;}
+	.display-responsive { display: block !important; visibility:visible !important;}
+.display-escritorio { display:none !important;}
+	.icon-ub { width:30px !important;}
+	
+}
+
+@media(min-width:480px) and (max-width:768px)  {
+	.edificio {background-size: 73%;}
+	.planos-back {background-size: 100%;}
+	.carousel-indicators li { border: 1px solid #173955 !important;}
+	.carousel-indicators .active { background-color:#173955 !important;}
+	.carousel-indicators {bottom: -32px;}
+	
+}
+
+@media(max-width:480px) {
+	.gal_edificio { width:100% !important; height:auto !important;}
+	.padding-gal1 {padding: 0 0 5px 0 !important;}
+	.padding-gal2 {padding: 0 0 5px 0 !important;}
+	.padding-gal3 {padding: 0 0 5px 0 !important;}
+	.float-left { float:none !important;}
+	.owl-item { width:400px !important;}
+	.carousel-control.right { right:0 !important;}
+	.carousel-control.left { left:0 !important;}
+	.carousel-indicators li { border: 1px solid #173955 !important;}
+	.carousel-indicators .active { background-color:#173955 !important;}
+	.carousel-indicators {bottom: -32px;}
+	.edificio {background-size: 91%;}
+	
+
+}
+
+
+/*  --------------------------------------------------------
+BACKGROUND COLOR
+-------------------------------------------------------- */
+.mouse-icon .wheel,
+.navbar-pasific .navbar-toggle .icon-bar,
+.bg-pasific,
+.button-pasific-o:hover,
+.button.button-pasific,
+.button-3d.button-pasific,
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus,
+.nav-pills-vertical li.active a,
+a.add-to-cart:hover,
+#blog form.blog-form-search button,
+.badge-pasific,
+.price-three .price-badge,
+#sidebar ul.tag li:hover,
+.irs-from, .irs-to, .irs-single,
+input[type=checkbox]:checked + label:before,
+.button-pasific.hover-fade:hover, .button-pasific.hover-fade:focus, .button-pasific.hover-fade:active,
+.button-pasific.hover-back-pulse:hover, .button-pasific.hover-back-pulse:focus, .button-pasific.hover-back-pulse:active,
+.button-pasific.hover-sweep-to-right:before,
+.button-pasific.hover-sweep-to-left:before,
+.button-pasific.hover-sweep-to-bottom:before,
+.button-pasific.hover-sweep-to-top:before,
+.button-pasific.hover-bounce-to-right:before,
+.button-pasific.hover-bounce-to-left:before,
+.button-pasific.hover-bounce-to-top:before,
+.button-pasific.hover-bounce-to-bottom:before,
+.button-pasific.hover-radial-out:before,
+.button-pasific.hover-rectangle-out:before,
+.button-pasific.hover-shutter-out-horizontal:before,
+.button-pasific.hover-shutter-out-vertical:before {
+    background-color: #5abcad !important;
+}
+
+/*  --------------------------------------------------------
+BORDER COLOR
+-------------------------------------------------------- */
+.heading-icon,
+.heading-icon-o,
+.button-o.button-pasific,
+blockquote,
+blockquote.blockquote-reverse,
+blockquote.blockquote-pasific,
+blockquote.blockquote-pasific-reverse,
+.navbar-pasific .navbar-toggle,
+.nav-tabs-vertical li a:hover,
+.nav-tabs-vertical li.active,
+.nav-tabs-vertical li.active a,
+.testimonial-triangle-isosceles-has-bg.bottom-center .testimonial-body.bg-pasific:after,
+.button-pasific-o,
+.button-pasific-o:hover,
+.heading-divider,
+.hover-ripple-out:before,
+.hover-ripple-in:before,
+.button-pasific.hover-ripple-out:before,
+.button-pasific.hover-ripple-in:before,
+a.add-to-cart:hover,
+input[type=checkbox]:checked + label:before,
+#sidebar ul.tag li:hover,
+.copyright a:hover {        
+    border-color: #5abcad;
+}
+
+
+/*  --------------------------------------------------------
+TEXT COLOR
+-------------------------------------------------------- */
+a:hover,
+a[class*="color-"]:hover,
+.heading,
+.heading-icon-o,
+.button-o.button-pasific,
+.header-search:hover,
+.color-pasific,
+.button-o.button-pasific,
+.w3_megamenu .dropdown-menu .withoutdesc ul li a:hover,
+.nav-tabs-vertical li a:hover,
+.nav-tabs-vertical li.active,
+.nav-tabs-vertical li.active a,
+.testimonial .testimonial-header i,
+.testimonial .testimonial-footer,
+.box-content a:hover,
+.modal-footer a:hover,
+.testimonial-container a:hover,
+#portfolioGrid .portfolio .portfolio-item a span:hover,
+#portfolioMasonry ul li a.active,
+#portfolioGrid ul li a.active,
+#portfolioMasonry .portfolio-masonry-one-item .portfolio-mask a,
+#portfolioGrid .portfolio .portfolio-item a span:hover,
+#blog a:hover i.fa,
+#blog nav ul li a:hover,
+#blog nav ul li.active a,
+#blog ul.pagination li a:hover,
+.blog-one .blog-one-attrib .blog-author-name,
+.blog-one .blog-one-footer i,
+.blog-one .blog-one-footer a:hover,
+.blog-attrib-container a:hover,
+.blog-post-read-tag a:hover,
+#blog .blog-sidebar-popular-post-container a:hover,
+.shop-item-price,
+.shop-layout:hover,
+.shop-control-prev:hover,
+.shop-control-next:hover,
+#portfolio ul li a.active,
+#portfolioNoGutter ul li a.active,
+#portfolio .portfolio-mask p a,
+#portfolio .portfolio-mask .portfolio-mask-attr span a:hover,
+#shop .shop-layout ul li.active a,
+#shop ul.pagination li a:hover,
+#shop ul.shop-sidebar li.active a,
+#shop ul.shop-sidebar li a:hover,
+.feature-container-in:hover > div.feature-icon,
+#footer ul li a:hover,
+.copyright i.fa,
+.typed-cursor {
+    color: #5abcad;
+}
+
+.top-nav-collapse .navbar-nav li a:hover,
+.top-nav-collapse .navbar-nav li a.active,
+.top-nav-collapse .navbar-nav li a.active:hover,
+.top-nav-collapse .navbar-nav li.active a,
+.navbar-pasific .navbar-brand:hover,
+.navbar-pasific .navbar-brand:focus,
+a.color-light:hover,
+.blog-title a:hover,
+.megamenu .dropdown .dropdown-menu li a:hover {
+    color: #5abcad !important;
+}
+/*  --------------------------------------------------------
+OTHER
+-------------------------------------------------------- */
+.irs-from:after, .irs-to:after, .irs-single:after {
+    border-top-color: #5abcad;
+}
+.heading,
+.heading-solid-icon div,
+.heading-dotted-icon div,
+.heading-dashed-icon div,
+.heading-solid-icon div div,
+.heading-dotted-icon div div,
+.heading-dashed-icon div div,
+.heading-double-icon div,
+.heading-double-icon div div {
+    border-top-color: #5abcad !important;
+}
+.megamenu .dropdown-submenu:hover>a:after{
+	border-left-color:#5abcad;
+}
+
