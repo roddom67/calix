@@ -250,71 +250,190 @@
 	
 	$disponibilidad['disponibilidad'] = array(
 			array(
-				'piso' => 'Planta Baja',
-				'tipo' => array('Entrada / Cocheras')
+				'piso' => 0,
+				'titulo' => 'Planta Baja / Cocheras',
+				'planos' => true,
+				'deptos' => array(
+					array('Planta Baja / Cocheras','12 + 1 Cocheras','Cocheras.pdf')
+				)
 			),
 			array(
-				'piso' => 'Planta Cocheras',
-				'tipo' => array('Cocheras')
+				'piso' => 1,
+				'titulo' => 'Piso 1',
+				'planos' => true,
+				'deptos' => array(
+					array(
+						'Depto 101 - Frente',
+						'2 dormitorios / 2 baños completos / Espacio de lavado / Terraza / Patio',
+						'101.pdf',
+						'Superficie Cubierta 67 m2',
+						'Terraza 5,1 m2',
+						'Patio 14.4 m2',
+						'Superficie total: 86,5 m2'
+					),
+					array(
+						'Depto 102 - Frente',
+						'2 dormitorios / 2 baños completos / Espacio de lavado / Terraza / Patio',
+						'102.pdf',
+						'Superficie Cubierta 67 m2',
+						'Terraza 5,1 m2',
+						'Patio 14.4 m2',
+						'Superficie total: 86,5 m2'
+					),
+					array(
+						'Depto 103 - Contrafrente',
+						'1 Dormitorio / 2 Baños / Terraza / Patio',
+						'103.pdf',
+						'Superficie Cubierta 52 m2',
+						'Terraza 4,8 m2',
+						'Patio 14.4 m2',
+						'Superficie total: 71,2 m2'
+					),
+					array(
+						'Depto 104 - Contrafrente',
+						'1  Dormitorio / 2 Baños / Terraza / Patio',
+						'104.pdf',
+						'Superficie Cubierta 52 m2',
+						'Terraza 4,8 m2',
+						'Patio 14.4 m2',
+						'Superficie total: 71,2 m2'
+					)
+				),
+				'show' => true
 			),
 			array(
 				'piso' => 2,
+				'titulo' => 'Piso 2',
+				'planos' => true,
 				'deptos' => array(
-					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
-					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
-					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
-					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
-					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza'
+					array(
+						'Depto 201 - Frente',
+						'2 Dormitorios / 2 Baños / Balcón',
+						'201.pdf',
+						'Superficie Cubierta 67 m2',
+						'Terraza 5,1 m2',
+						'Superficie total: 72,1 m2'
+					),
+					array(
+						'Depto 202 - Frente',
+						'2 Dormitorios / 2 Baños / Balcón',
+						'202.pdf',
+						'Superficie Cubierta 67 m2',
+						'Terraza 5,1 m2',
+						'',
+						'Superficie total: 72,1 m2'
+					),
+					array(
+						'Depto 203 - Contrafrente',
+						'1 Dormitorio / 2 Baños / Terraza',
+						'203.pdf',
+						'Superficie Cubierta 52 m2',
+						'Terraza 4,8 m2',
+						'',
+						'Superficie total: 56,8 m2'
+					),
+					array(
+						'Depto 204 - Contrafrente',
+						'1 Dormitorio / 2 Baños / Terraza',
+						'204.pdf',
+						'Superficie Cubierta 52 m2',
+						'Terraza 4,8 m2',
+						'',
+						'Superficie total: 56,8 m2'
+					)
 				)
 			),
 			array(
 				'piso' => 3,
+				'titulo' => 'Piso 3',
+				'planos' => true,
 				'deptos' => array(
-					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
-					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
-					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
-					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
-					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza'
+					array(
+						'Depto 301 - Frente',
+						'2 Dormitorios / 2 Baños / Terraza',
+						'301.pdf',
+						'Superficie Cubierta 67 m2',
+						'Terraza 5,1 m2',
+						'',
+						'Superficie total: 72,1 m2'
+					),
+					array(
+						'Depto 302 - Frente',
+						'2 Dormitorios / 2 Baños / Terraza',
+						'302.pdf',
+						'Superficie Cubierta 67 m2',
+						'Terraza 5,1 m2',
+						'',
+						'Superficie total: 72,1 m2'
+					),
+					array(
+						'Depto 303 - Contrafrente',
+						'1 Dormitorio / 2 Baños / Terraza',
+						'303.pdf',
+						'Superficie Cubierta 52 m2',
+						'Terraza 4,8 m2',
+						'Superficie total: 56,8 m2'
+					),
+					array(
+						'Depto 304 - Contrafrente',
+						'1 Dormitorio / 2 Baños / Terraza',
+						'304.pdf',
+						'Superficie Cubierta 52 m2',
+						'Terraza 4,8 m2',
+						'',
+						'Superficie total: 56,8 m2'
+					)
 				)
 			),
 			array(
 				'piso' => 4,
+				'titulo' => 'Piso 4',
+				'planos' => true,
 				'deptos' => array(
-					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
-					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
-					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
-					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
-					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza'
+					array(
+						'Depto 401 - Frente',
+						'2 Dormitorios / 2 Baños / Terraza 1 / Terraza 2',
+						'401.pdf',
+						'Superficie Cubierta 67 m2',
+						'Terraza A 5,1 m2',
+						'Terraza B 65 m2',
+						'Superficie total: 137,1 m2'
+					),
+					array(
+						'Depto 402 - Frente',
+						'2 Dormitorios / 2 Baños / Terraza A / Terraza B',
+						'402.pdf',
+						'Superficie Cubierta 67 m2',
+						'Terraza A 5,1 m2',
+						'Terraza B 65 m2',
+						'Superficie total: 137,1 m2'
+					),
+					array(
+						'Depto 403 - Contrafrente',
+						'1 Dormitorio / 2 Baños / Terraza A / Terraza B',
+						'403.pdf',
+						'Superficie Cubierta 52 m2',
+						'Terraza A 4,8 m2',
+						'Terraza B 47 m2',
+						'Superficie total: 103,8 m2'
+					),
+					array(
+						'Depto 404 - Contrafrente',
+						'1 Dormitorio / 2 Baños / Terraza A / Terraza B',
+						'404.pdf',
+						'Superficie Cubierta 52 m2',
+						'Terraza A 4,8 m2',
+						'Terraza B 47 m2',
+						'Superficie total: 103,8 m2'
+					)
 				)
 			),
 			array(
 				'piso' => 5,
+				'titulo' => 'Terraza',
+				'planos' => false,
 				'deptos' => array(
-					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
-					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
-					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
-					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
-					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza'
-				)
-			),
-			array(
-				'piso' => 6,
-				'deptos' => array(
-					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
-					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
-					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
-					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
-					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza'
-				)
-			),
-			array(
-				'piso' => 7,
-				'deptos' => array(
-					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
-					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
-					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
-					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza',
-					'2 Dormitorios  /  2 Baños  /  Balcón  /  Terraza'
+					array('SUM')
 				)
 			)
 		);

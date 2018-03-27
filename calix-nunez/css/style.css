@@ -11,11 +11,13 @@
 .navbar-brand{
 	
 }
+
 .navbar-brand span{
 	background:url(../images/logo-nav-nunez.png) no-repeat top left;
 	width: 100px;
 	height:50px;
 }
+.logo span,
 .navGris .navbar-brand span{
 	background:url(../images/logo-nav-nunez.png) no-repeat bottom left;
 	width: 100px;
@@ -32,9 +34,6 @@
 
 .index .headerImage{
 	background-image: url(../images/imagen_home.jpg);
-}
-.index .headerImage h1{
-	color: var(--main-color)
 }
 
 .textImageArea.bgColor:before{
@@ -68,10 +67,33 @@
 }
 
 /* Background White */
-.navGris .header h1{
-	color: var(--main-color);
+.navGris .header h1,
+.linksArea a,
+.disponibilidadArea h2 strong,
+.index .headerImage h1{
+	color: var(--main-color)
 }
 
+/* Disponibilidad Pisos */
+.pisos{
+	width:250px;
+	height: 230px;
+	background: url(../images/planos/frente.png) no-repeat top center;
+	padding:18px 25px 0;
+}
+.pisos a{
+	text-indent:-1000em; 
+	display: block;
+}
+.pisos a.piso0{height: 39px;}
+.pisos a.piso1{height: 44px;}
+.pisos a.piso2{height: 43px;}
+.pisos a.piso3{height: 42px;}
+.pisos a.piso4{height: 44px;}
+
+.pisos .activo{
+	background: rgba(0,0,0,.25);
+}
 
 
 

@@ -90,17 +90,6 @@ $(function(){
 	
 	goDown.init();
 	
-	acordion = {
-		init: function(){
-			if($('section').find('.accordion')){
-				$('.accordion').accordion({
-					active: false,
-					collapsible: true
-				});
-			}
-		}
-	}
-	acordion.init();
 	
 	articleHeight = {
 		init: function(){
@@ -167,6 +156,44 @@ $(function(){
 		//formulario.init();
 	}
 	
+	disponibilidad = {
+		init: function(){
+			var pisos = $('.pisos a');
+			var plantas = $('.plantas');
+			$(pisos).on('click',function(e){
+				e.preventDefault();
+				$(pisos).removeClass('activo');
+				$(this).addClass('activo');
+				var planta = $(this).attr('href');
+				
+				$(plantas).find('.accordion').addClass('hidden').parent().find(planta).removeClass('hidden');
+			
+				
+			})
+		}
+	}
+	if($('body').hasClass('disponibilidad')){
+		disponibilidad.init();
+	}
+	acordion = {
+		init: function(){
+			if($('section').find('.accordion')){
+				$('.accordion').accordion({
+					active: false,
+					collapsible: true,
+					heightStyle: "content"
+				});
+			}
+		}
+	}
+	acordion.init();
+	
+	modal = {
+		init: function(){
+			$('.modal').dialog()
+		}
+	}
+	modal.init();
 
 })
 

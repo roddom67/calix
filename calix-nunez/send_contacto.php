@@ -1,11 +1,29 @@
 <?php
   session_start();
- 
-    $fecha=date("d/m/Y H:I");
-    $headers .= "MIME-Version: 1.0\nContent-type: text/html; charset=iso-8859-1\nFrom: ".$_POST["email"]."\nReply-To: ".$_POST["email"]." \nX-Mailer: PHP/". phpversion();
-    $subject.= $_POST["nombre"].": Contacto desde la web";
-    $content='
-      <html>
+  
+	$name = $_POST["name"];
+	$surname = $_POST["surname"];
+	
+	$nombre = $name.' '.$surname;
+	
+	$email = $_POST["email"];
+	$phone = $_POST["phone"];
+	$depto = $_POST["depto"];
+	$price = $_POST["price"];
+	$medios = $_POST["medios"];
+	$message = $_POST["message"];
+	$submit = $_POST["submit"];
+	
+	$fecha=date("d/m/Y H:I");
+	$headers .= "MIME-Version: 1.0\nContent-type: text/html; charset=iso-8859-1\n";
+	$headers .= "From: ".$email;
+	$headers .= "\nReply-To: ".$email;
+	$headers .= " \nX-Mailer: PHP/". phpversion();
+    
+	$subject.= $nombre.": Contacto desde la web";
+    
+	$content='
+	<html>
 	  
 	  <style>
 		 body { font-family:Verdana, Geneva, sans-serif;}
@@ -36,25 +54,46 @@
 		
 		<div class="linea"></div>
 		<div class="titulo left w_150">Nombre</div>
-		<div class="cont left w_550">'.$_POST["nombre"].'</div>
+		<div class="cont left w_550">'.$nombre.'</div>
 		<div class="clear"></div>
 		<div class="linea"></div>
 		
 		
 		<div class="titulo left w_150">E-mail</div>
-		<div class="cont left w_550">'.$_POST["email"].'</div>
+		<div class="cont left w_550">'.$email.'</div>
 		<div class="clear"></div>
 		<div class="linea"></div>
 		
 		
 		<div class="titulo left w_150">Tel&eacute;fono</div>
-		<div class="cont left w_550">'.$_POST["telefono"].'</div>
+		<div class="cont left w_550">'.$phone.'</div>
+		<div class="clear"></div>
+		<div class="linea"></div>
+		
+		
+		<br /><br />
+		<h2>Interesado en:</h2>
+		<div class="linea"></div>
+		<br />
+		
+		<div class="titulo left w_150">Departamento</div>
+		<div class="cont left w_550">'.$depto.'</div>
+		<div class="clear"></div>
+		<div class="linea"></div>
+		
+		<div class="titulo left w_150">Precio</div>
+		<div class="cont left w_550">'.$price.'</div>
+		<div class="clear"></div>
+		<div class="linea"></div>
+		
+		<div class="titulo left w_150">Se enteró de Calix por:</div>
+		<div class="cont left w_550">'.$medios.'</div>
 		<div class="clear"></div>
 		<div class="linea"></div>
 		
 		
 		<div class="titulo left w_150">Mensaje</div>
-		<div class="cont left w_550">'.$_POST["comentario"].'</div>
+		<div class="cont left w_550">'.$message.'</div>
 		<div class="clear"></div>
 		<div class="linea"></div>
 		

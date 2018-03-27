@@ -39,9 +39,6 @@
   			</article>
   		</section>
 	</main>
-<?php 
-	require("scripts.php");
-?>
 
 </body>
 </html>
