@@ -129,8 +129,7 @@
 	 
         </body>
       </html>';
-   //if(mail("diego.alchourron@zoning.com.ar.com",$subject,$content,$headers)){
-   if(mail("roddom67@gmail.com",$subject,$content,$headers)){
+   if(mail("diego.alchourron@zoning.com.ar.com",$subject,$content,$headers)){
       echo '<script>window.location.href="contacto.php?sent=ok";</script>';
     }else{
       echo '<script>window.location.href="contacto.php?sent=bad";</script>';

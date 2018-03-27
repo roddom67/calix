@@ -132,30 +132,6 @@ $(function(){
 	
 	showVideos.init();
 	
-	formulario = {
-		init: function(){
-			
-			var container = $('div.container');
-			// validate the form when it is submitted
-			var validator = $("#commentForm").validate({
-				errorContainer: container,
-				errorLabelContainer: $("ol", container),
-				wrapper: 'li',
-				meta: "validate"
-			});
-			$.validator.setDefaults({
-				submitHandler: function() {}
-			});
-			$("#commentForm").validate();
-			$(".cancel").click(function() {
-				validator.resetForm();
-			});
-		}
-	}
-	if($('body').hasClass('contacto')){
-		//formulario.init();
-	}
-	
 	disponibilidad = {
 		init: function(){
 			var pisos = $('.pisos a');

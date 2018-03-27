@@ -22,7 +22,7 @@
         <a class="nav-link " href="disponibilidad.php">Disponibilidad</a>
       </li>
       <li class="nav-item <?php if(isset($activoC)){ echo 'active'; } ?>">
-        <a class="nav-link " href="#">Contacto</a>
+        <a class="nav-link " href="contacto.php">Contacto</a>
       </li>
       <li class="nav-item <?php if(isset($activoEE)){ echo 'active'; } ?>">
         <a class="nav-link " href="el-equipo.php">El equipo</a>
