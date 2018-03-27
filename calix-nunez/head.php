@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="es">
 <?php
-	$v = '1.0.1';
+	$v = '1.0.6';
 ?>
 	<head>
 		<meta charset="utf-8">

@@ -59,20 +59,23 @@
   						<article class="col-sm-12 col-md-4 plantaArea">
   							<ul class="pisos">';
 
+  		$carpetasR = array_reverse($carpetas);
+  		$disponibilidadR = array_reverse($disponibilidad[$pagina]);
   		$n = $cant;
   		for($c=0; $c<$cant ;$c++){
   			$n--;
-  			$piso = $disponibilidad[$pagina][$n]['titulo'];
-  			if($disponibilidad[$pagina][$n]['planos']){
-  				$disponibilidadContent .= '<li><a href="#'.$carpetas[$n].'" title="'.$piso.'"';
-  				if(isset($disponibilidad[$pagina][$n]['show']) && $disponibilidad[$pagina][$n]['show']){
+  			$piso = $disponibilidadR[$c]['titulo'];
+  			if($disponibilidadR[$c]['planos']){
+  				$disponibilidadContent .= '<li>
+  					<a href="#planta_'.$n.'" title="'.$piso.'"';
+  				if(isset($disponibilidadR[$c]['show']) && $disponibilidadR[$c]['show']){
   					$disponibilidadContent .= ' class="activo piso'.$n.'"';
   				}else{
   					$disponibilidadContent .= ' class="piso'.$n.'"';
   				}
   				$disponibilidadContent .= '><span>'.$piso.'</span></a></li>';
   			}else{
-  				$disponibilidadContent .= '<li><span>'.$piso.'</span></li>';
+  				$disponibilidadContent .= '<li class="desktop"><span>'.$piso.'</span></li>';
   			}
   		}
   		

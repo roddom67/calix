@@ -427,14 +427,6 @@
 						'Superficie total: 103,8 m2'
 					)
 				)
-			),
-			array(
-				'piso' => 5,
-				'titulo' => 'Terraza',
-				'planos' => false,
-				'deptos' => array(
-					array('SUM')
-				)
 			)
 		);
 	

@@ -141,8 +141,13 @@ $(function(){
 				$(pisos).removeClass('activo');
 				$(this).addClass('activo');
 				var planta = $(this).attr('href');
-				
-				$(plantas).find('.accordion').addClass('hidden').parent().find(planta).removeClass('hidden');
+				//alert(planta);
+				$(plantas)
+					.find('.accordion')
+						.addClass('hidden')
+					.parent()
+					.find(planta)
+						.removeClass('hidden');
 			
 				
 			})
