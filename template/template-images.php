@@ -111,3 +111,37 @@
 		';
 	}
 ?>
+<?php
+	if(isset($twoImagesMiddleTextArea[$pagina])){
+		$twoImagesMiddleTextContent = '
+		<section class="twoImagesMiddleTextArea">
+ 			<div class="">
+ 				<ul class="row">';
+
+		$cant = sizeof($twoImagesMiddleTextArea[$pagina]['imagenes']);
+		for($a = 0; $a < $cant; $a++){
+
+ 			$twoImagesMiddleTextContent .= '<li class="col-sm-12 col-md-4">';
+ 			if(isset($twoImagesMiddleTextArea[$pagina]['imagenes'][$a]['text'])){
+ 				$twoImagesMiddleTextContent .= '<p>'.$twoImagesMiddleTextArea[$pagina]['imagenes'][$a]['text'].'</p>';
+ 			}else{
+ 				if(isset($twoImagesMiddleTextArea[$pagina]['imagenes'][$a]['video'])){
+ 					$twoImagesMiddleTextContent .= '<a href="#video'.$a.'" title="'.$twoImagesMiddleTextArea[$pagina]['imagenes'][$a]['titulo'].'" class="showVideo">';	
+ 				}
+ 			
+ 				$twoImagesMiddleTextContent .= '<span class="imgArea">
+ 								<img src="images/'.$twoImagesMiddleTextArea[$pagina]['imagenes'][$a]['imagen'].'" alt="'.$twoImagesMiddleTextArea[$pagina]['imagenes'][$a]['titulo'].'">
+ 							</span>';
+ 				if(isset($twoImagesMiddleTextArea[$pagina]['imagenes'][$a]['video'])){
+ 					$twoImagesMiddleTextContent .= '</a>';	
+ 				}
+ 			}
+ 			$twoImagesMiddleTextContent .= '</li>';
+		}
+
+ 		$twoImagesMiddleTextContent .= '</ul>
+ 			</div>
+ 		</section>
+		';
+	}
+?>

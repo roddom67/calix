@@ -53,6 +53,9 @@
 .el-proyecto .headerImage{
 	background-image: url(../images/imagen_el_proyecto.jpg);
 }
+.twoImagesMiddleTextArea li:nth-child(2){
+	background:var(--main-color);
+}
 
 /* Los Departamentos */
 

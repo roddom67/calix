@@ -9,7 +9,7 @@
 	$email = $_POST["email"];
 	$phone = $_POST["phone"];
 	$depto = $_POST["depto"];
-	$price = $_POST["price"];
+//	$price = $_POST["price"];
 	$medios = $_POST["medios"];
 	$message = $_POST["message"];
 	$submit = $_POST["submit"];
@@ -78,11 +78,6 @@
 		
 		<div class="titulo left w_150">Departamento</div>
 		<div class="cont left w_550">'.$depto.'</div>
-		<div class="clear"></div>
-		<div class="linea"></div>
-		
-		<div class="titulo left w_150">Precio</div>
-		<div class="cont left w_550">'.$price.'</div>
 		<div class="clear"></div>
 		<div class="linea"></div>
 		

@@ -172,6 +172,7 @@
 			)
 		)
 	);
+
 	$galeriaArea['el-barrio'] = array(
 		'imagenes' => array (
 			array (
@@ -234,10 +235,27 @@
 			)
 		),
 		'parrafo' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.',
-		'coordenadas' => '1rlk1EfTsWwRyVpTOfVbwZ_R-SWGcj0Dj&hl'			
+		'coordenadas' => '1lSuBloUUNKWySzEPyXK5lIMJaM6ixBXS'			
 	);
 	
-	$position['el-barrio'] = array('threeImagesContent','textGrayContent','oneImagesContent','textMapContent','galeriaContent');
+	$twoImagesMiddleTextArea['el-barrio']= array(
+		'imagenes' => array (
+			array (
+				'imagen' => 'plantas.jpg',
+				'titulo' => '',
+				'video' => 'video'
+			),
+			array (
+				'text' => 'En Buenos Aires no hay otro lugar como este. Smale a eso las zonas verdes, los innumerables enlaces de transporte, los famosos mercados de alimentos, que transforman a este barrio en un destino tan deseable, atractivo y conveniente. Todo esto a solo 5 minutos.'
+			),
+			array (
+				'imagen' => 'lampara.jpg',
+				'titulo' => ''
+			)
+		)
+	);
+	
+	$position['el-barrio'] = array('threeImagesContent','textGrayContent','oneImagesContent','textMapContent','twoImagesMiddleTextContent','galeriaContent');
 	
 	
 	/* Disponibilidad */
@@ -433,5 +451,20 @@
 	$position['disponibilidad'] = array('disponibilidadContent');
 	
 
+	/* Contacto */
+	
+	$medio['contacto'] = array(
+		'Por cartel de Obra',
+		'Busqueda en Google',
+		'Referido',
+		'Por agente inmobiliario',
+	);
+	
+	$tipoDepto['contacto'] = array(
+		'1 dormitorio',
+		'2 dormitorios',
+		'1 dormitorio con terraza',
+		'2 dormitorios con terraza'
+	)
 	
 ?>

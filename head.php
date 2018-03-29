@@ -1,3 +1,6 @@
+<?php
+	include('version.php');
+?>
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="cache-control" content="max-age=0" />
@@ -7,6 +10,14 @@
 	<meta http-equiv="pragma" content="no-cache" />
 	<meta http-equiv="pragma-directive: no-cache">
 	<meta http-equiv="cache-directive: no-cache">
+	
+	<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+
 	
    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
    <meta name="mobile-web-app-capable" content="yes">

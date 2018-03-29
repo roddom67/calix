@@ -35,26 +35,31 @@
 											<li class="col-sm-12 col-md-6">
 												<label for="depto">Tipo de departamento</label>
 												<select type="text" name="depto" required>
-													<option value="">Seleccione un departamento</option>
-													<option value="depto_201">201</option>
-													<option value="depto_202">202</option>
-												</select>
+													<option value="">Seleccione un departamento</option>';
+
+				$cant = sizeof($tipoDepto[$pagina]);
+				for($t=0;$t<$cant;$t++){
+					$textHeaderFormContent .= '<option value="'.$tipoDepto[$pagina][$t].'">'.$tipoDepto[$pagina][$t].'</option>';
+				}
+				$textHeaderFormContent .= '</select>
 											</li>
-											<li class="col-sm-12 col-md-6">
+											<!-- li class="col-sm-12 col-md-6">
 												<label for="price">Rango de precio</label>
 												<select type="text" name="price" required>
 													<option value="">Seleccione un rango</option>
 													<option value="1">mayor a us$ 100.000</option>
 													<option value="2">mayor a us$200.000</option>
 												</select>
-											</li>
+											</li -->
 											<li class="col-sm-12 col-md-6">
 												<label for="medios">¿Cómo se enteró de Calix?</label>
 												<select type="text" name="medios" required>
-													<option value="">Seleccione un medio</option>
-													<option value="1">Radio</option>
-													<option value="1">Televisión</option>
-												</select>
+													<option value="">Seleccione un medio</option>';
+				$cant = sizeof($medio[$pagina]);
+				for($t=0;$t<$cant;$t++){
+					$textHeaderFormContent .= '<option value="'.$medio[$pagina][$t].'">'.$medio[$pagina][$t].'</option>';
+				}
+				$textHeaderFormContent .= '</select>
 											</li>
 											<li class="col-sm-12 col-md-12">
 												<label for="message">Enter Message:</label> <br>
