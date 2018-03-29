@@ -193,18 +193,6 @@
 		)
 	);
 
-	$galeriaArea['el-barrio'] = array(
-		'imagenes' => array (
-			array (
-				'imagen' => 'galeria_1.jpg',
-				'titulo' => ''
-			),
-			array (
-				'imagen' => 'galeria_2.jpg',
-				'titulo' => ''
-			)
-		)
-	);
 	
 	$oneImagesArea['el-barrio'] = array(
 		'imagen' => 'mapa.jpg',
@@ -261,14 +249,60 @@
 	$twoImagesMiddleTextArea['el-barrio']= array(
 		'imagenes' => array (
 			array (
-				'imagen' => 'jacaranda.jpg',
+				'imagen' => 'transporte.jpg',
 				'titulo' => ''
 			),
 			array (
-				'text' => 'En Buenos Aires no hay otro lugar como este. Smale a eso las zonas verdes, los innumerables enlaces de transporte, los famosos mercados de alimentos, que transforman a este barrio en un destino tan deseable, atractivo y conveniente. Todo esto a solo 5 minutos.'
+				'text' => 'En Buenos Aires no hay otro lugar como este. Sumale a eso las zonas verdes, los innumerables enlaces de transporte, los famosos mercados de alimentos, que transforman a este barrio en un destino tan deseable, atractivo y conveniente. Todo esto a solo 5 minutos.'
 			),
 			array (
-				'imagen' => 'deli_sushi.jpg',
+				'imagen' => 'dinner.jpg',
+				'titulo' => ''
+			)
+		)
+	);
+	
+	$galeriaArea['el-barrio'] = array(
+		'directorio' => 'galeria_barrio',
+		'imagenes' => array (
+			array (
+				'imagen' => 'ammo.jpg',
+				'titulo' => ''
+			),
+			array (
+				'imagen' => 'bicisenda.jpg',
+				'titulo' => ''
+			),
+			array (
+				'imagen' => 'cadillac.jpg',
+				'titulo' => ''
+			),
+			array (
+				'imagen' => 'franz.jpg',
+				'titulo' => ''
+			),
+			array (
+				'imagen' => 'metrobus.jpg',
+				'titulo' => ''
+			),
+			array (
+				'imagen' => 'ort.jpg',
+				'titulo' => ''
+			),
+			array (
+				'imagen' => 'praline.jpg',
+				'titulo' => ''
+			),
+			array (
+				'imagen' => 'subte.jpg',
+				'titulo' => ''
+			),
+			array (
+				'imagen' => 'tren.jpg',
+				'titulo' => ''
+			),
+			array (
+				'imagen' => 'tresB.jpg',
 				'titulo' => ''
 			)
 		)

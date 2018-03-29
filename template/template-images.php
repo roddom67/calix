@@ -63,7 +63,11 @@
  						for($a = 0; $a < $cant; $a++){
 
  		$galeriaContent .= '<li>
- 							<img src="images/'.$galeriaArea[$pagina]['imagenes'][$a]['imagen'].'" alt="'.$galeriaArea[$pagina]['imagenes'][$a]['titulo'].'">
+ 							<img src="images/';
+ 		if(isset($galeriaArea[$pagina]['directorio'])){
+ 			$galeriaContent .= $galeriaArea[$pagina]['directorio'].'/';
+ 		}
+ 		$galeriaContent .= $galeriaArea[$pagina]['imagenes'][$a]['imagen'].'" alt="'.$galeriaArea[$pagina]['imagenes'][$a]['titulo'].'">
  						</li>';
  						}
  		$galeriaContent .= '	</ul>
