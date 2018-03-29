@@ -1,6 +1,9 @@
 <?php
 
-	/* titulo Proyecto */
+/* 
+ * titulo Proyecto 
+ *
+ ***/
 	$proyecto = 'calix-nunez';
 	$proyectoNombre = 'calix-nunez';
 	
@@ -40,7 +43,11 @@
 		
 	$position['index'] = array('textGrayContent','textImageLeftContent','textImageRightContent','galeriaContent');
 			
-	/* El proyecto */
+/* 
+ * El proyecto
+ *
+ ***/
+ 
 	$headTitulo['el-proyecto'] = 'El Proyecto | Calix Núñez';
 	$headDesc['el-proyecto'] = 'Calix Núñez - El Proyecto. Departamentos en el barrio de Núñez. 54 911 4773 6619';
 	
@@ -85,7 +92,11 @@
 	);
 	$position['el-proyecto'] = array('textGrayContent','galeriaContent','caracteristicaContent');
 	
-	/* Los departamentos */
+/* 
+ * Los departamentos
+ *
+ ****/
+ 
 	$headTitulo['los-departamentos'] = 'Los Departamentos | Calix Núñez';
 	$headDesc['los-departamentos'] = 'Calix Núñez - Los Departamentos. Departamentos en el barrio de Núñez. 54 911 4773 6619';
 
@@ -148,7 +159,11 @@
 		
 	$position['los-departamentos'] = array('textGrayContent','threeImagesContent','galeriaContent','caracteristicaContent');
 	
-	/* EL Barrio */
+/* 
+ * EL Barrio 
+ *
+ ****/
+ 
 	$headTitulo['el-barrio'] = 'El Barrio | Calix Núñez';
 	$headDesc['el-barrio'] = 'Calix Núñez - El Barrio. Departamentos en el barrio de Núñez. 54 911 4773 6619';
 
@@ -158,16 +173,21 @@
 	$threeImagesArea['el-barrio']= array(
 		'imagenes' => array (
 			array (
-				'imagen' => 'plantas.jpg',
+				'imagen' => 'jacaranda.jpg',
 				'titulo' => '',
-				'video' => 'video'
+				'video' => '<video width="100%" poster="video/video.jpg" height="auto" controls>
+                            <source src="video/video.mp4" type="video/mp4">
+                            <source src="video/video.ogg" type="video/ogg">
+                            <source src="images/empresa/video.webm" type="video/webm">
+                            Your browser does not support the video tag.
+                        </video>'
 			),
 			array (
-				'imagen' => 'personas.jpg',
+				'imagen' => 'mural.jpg',
 				'titulo' => ''
 			),
 			array (
-				'imagen' => 'lampara.jpg',
+				'imagen' => 'deli_sushi.jpg',
 				'titulo' => ''
 			)
 		)
@@ -241,15 +261,14 @@
 	$twoImagesMiddleTextArea['el-barrio']= array(
 		'imagenes' => array (
 			array (
-				'imagen' => 'plantas.jpg',
-				'titulo' => '',
-				'video' => 'video'
+				'imagen' => 'jacaranda.jpg',
+				'titulo' => ''
 			),
 			array (
 				'text' => 'En Buenos Aires no hay otro lugar como este. Smale a eso las zonas verdes, los innumerables enlaces de transporte, los famosos mercados de alimentos, que transforman a este barrio en un destino tan deseable, atractivo y conveniente. Todo esto a solo 5 minutos.'
 			),
 			array (
-				'imagen' => 'lampara.jpg',
+				'imagen' => 'deli_sushi.jpg',
 				'titulo' => ''
 			)
 		)
@@ -258,7 +277,10 @@
 	$position['el-barrio'] = array('threeImagesContent','textGrayContent','oneImagesContent','textMapContent','twoImagesMiddleTextContent','galeriaContent');
 	
 	
-	/* Disponibilidad */
+/* 
+ * Disponibilidad 
+ *
+ ****/
 	
 	$headTitulo['disponibilidad'] = 'Disponibilidad | Calix Núñez';
 	$headDesc['disponibilidad'] = 'Calix Núñez - Disponibilidad. Departamentos en el barrio de Núñez. 54 911 4773 6619';
@@ -451,7 +473,10 @@
 	$position['disponibilidad'] = array('disponibilidadContent');
 	
 
-	/* Contacto */
+/*
+ * Contacto 
+ *
+ ****/
 	
 	$medio['contacto'] = array(
 		'Por cartel de Obra',

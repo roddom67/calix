@@ -81,7 +81,7 @@
   	}
   	if(isset($_GET['sent'])){
 		if(($_GET['sent']== 'ok')){
-  			$textHeaderFormContent .= '<div class="modal">
+  			$textHeaderFormContent .= '<div class="modal modalContact">
 				<div class="envio-ok boxArea">
 					<p>Su mensaje ha sido enviado exitosamente</p>
 					<p>Muchas gracias</p>
@@ -90,7 +90,7 @@
   			</div>';
 		}
 		if(($_GET['sent']== 'bad')){
-  			$textHeaderFormContent .= '<div class="modal">
+  			$textHeaderFormContent .= '<div class="modal modalContact">
 				<div class="envio-bad boxArea">
 					<p>No se pudo procesar su envío.</p>
 					<p>Inténtelo más tarde.</p>

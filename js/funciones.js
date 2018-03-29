@@ -121,10 +121,12 @@ $(function(){
 	
 	showVideos = {
 		init:function(){
+		
 			$('.showVideo').on('click',function(e){
 				e.preventDefault();
-				var openContent = $(this).attr('href');
-				$(openContent).dialog();
+				$('.modalVideo').dialog({
+					resizable: true
+				});
 			})
 			
 		}
@@ -171,7 +173,7 @@ $(function(){
 	
 	modal = {
 		init: function(){
-			$('.modal').dialog()
+			$('.modalContact').dialog()
 		}
 	}
 	modal.init();
