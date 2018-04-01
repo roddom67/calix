@@ -39,9 +39,49 @@
    				<article class="col-sm-12 col-md-6">
   						<h2>'.$textImageArea['right'][$pagina]['titulo'].'</h2>
   						<p>'.$textImageArea['right'][$pagina]['parrafo'].'</p>
-  						<a href="'.$textImageArea['right'][$pagina]['verMasLink'].'" title="Ver más sobre '.$textImageArea['right'][$pagina]['verMasTitulo'].'">Ver más sobre '.$textImageArea['right'][$pagina]['verMasTitulo'].' ></a>
+  						<a href="'.$textImageArea['right'][$pagina]['verMasLink'].'" title="Ver más sobre '.$textImageArea['right'][$pagina]['verMasTitulo'].'">'.$textImageArea['right'][$pagina]['verMasTitulo'].' ></a>
   					</article>
  					<article class="col-sm-12 col-md-6">
+  					</article>
+ 				</div>
+  			</div>
+ 		</section>
+		';
+	}
+?>
+<?php
+	if(isset($textDosTresImageArea['left'][$pagina])){
+		$textDosTresImageLeftContent = '
+		<section class="text2_3ImageArea imageBgRight bgGray boxDosBarrio">
+ 			<div class="container-fluid">
+ 				<div class="row">
+  					<article class="col-sm-12 col-md-4">
+  					</article>
+  					<article class="col-sm-12 col-md-8">
+  						<p>'.$textDosTresImageArea['left'][$pagina]['parrafo'].'</p>';
+  		if(isset($textDosTresImageArea['left'][$pagina]['verMasLink'])){
+  			$textDosTresImageLeftContent .= '<a href="'.$textDosTresImageArea['left'][$pagina]['verMasLink'].'" title="'.$textDosTresImageArea['left'][$pagina]['verMasTitulo'].'">'.$textDosTresImageArea['left'][$pagina]['verMasTitulo'].' ></a>';
+  		}
+  		$textDosTresImageLeftContent .= '</article>
+ 				</div>
+  			</div>
+ 		</section>
+		';
+	}
+?>
+<?php
+	if(isset($textDosTresImageArea['right'][$pagina])){
+		$textDosTresImageRightContent = '
+		<section class="text2_3ImageArea imageBgLeft bgGray boxUnBarrio">
+ 			<div class="container-fluid">
+ 				<div class="row">
+  					<article class="col-sm-12 col-md-8">
+  						<p>'.$textDosTresImageArea['right'][$pagina]['parrafo'].'</p>';
+  		if(isset($textDosTresImageArea['right'][$pagina]['verMasLink'])){
+  			$textDosTresImageRightContent .= '<a href="'.$textDosTresImageArea['right'][$pagina]['verMasLink'].'" title="'.$textDosTresImageArea['right'][$pagina]['verMasTitulo'].'">'.$textDosTresImageArea['left'][$pagina]['verMasTitulo'].' ></a>';
+  		}
+  		$textDosTresImageRightContent .= '</article>
+  					<article class="col-sm-12 col-md-4">
   					</article>
  				</div>
   			</div>
@@ -53,7 +93,9 @@
 	if(isset($caracteristicasArea[$pagina])){
 		$cant = sizeof($caracteristicasArea[$pagina]['caracteristicas']);
 		
-		$p = intval($cant / 3) + ($cant%3);
+		if($caracteristicasArea[$pagina]['sep']){
+			$p = intval($cant / 3) + ($cant%3);
+		}
 
 		$caracteristicaContent = '
 		<section class="textArea boxCaracteristicas">
@@ -62,19 +104,30 @@
   					<article class="col-sm-12">
   						<h2>'.$caracteristicasArea[$pagina]['titulo'].'</h2>
   						<ul class="row">';
+  		if(!$caracteristicasArea[$pagina]['sep']){
+  			$caracteristicaContent .= '<li class="col-sm-12 col-md-4">
+  									<ul>';
+  		}
 		for($a = 0; $a < $cant; $a++){
-			if(($a%$p)==0){
-		 		$caracteristicaContent .= '<li class="col-sm-12 col-md-4">
-  								<ul>';
+			if($caracteristicasArea[$pagina]['sep']){
+				if(($a%$p)==0){
+		 			$caracteristicaContent .= '<li class="col-sm-12 col-md-4">
+  									<ul>';
+ 				}
  			}
  								
- 			$caracteristicaContent .= '<li>- '.$caracteristicasArea[$pagina]['caracteristicas'][$a].'</li>';
-  			
-  			if(($a%$p)==($p-1)){
-  				$caracteristicaContent .= '</ul>
-  							</li>';
+ 			$caracteristicaContent .= '<li>_'.$caracteristicasArea[$pagina]['caracteristicas'][$a].'</li>';
+  			if($caracteristicasArea[$pagina]['sep']){
+  				if(($a%$p)==($p-1)){
+  					$caracteristicaContent .= '</ul>
+  								</li>';
+				}
 			}
 		}
+		if(!$caracteristicasArea[$pagina]['sep']){
+  			$caracteristicaContent .= '</ul>
+  									</li>';
+  		}
  		$caracteristicaContent .= '</ul>
   					</article>
  				</div>

@@ -11,7 +11,7 @@
  			$threeImagesContent .= '<li class="col-sm-12 col-md-4">';
  			
  			if(isset($threeImagesArea[$pagina]['imagenes'][$a]['video'])){
- 				$threeImagesContent .= '<a href="#video'.$a.'" title="'.$threeImagesArea[$pagina]['imagenes'][$a]['titulo'].'" class="showVideo"><span class="playVideo">Ver video</span>';	
+ 				$threeImagesContent .= '<a href="#video'.$a.'" title="'.$threeImagesArea[$pagina]['imagenes'][$a]['titulo'].'" class="showVideo"><span class="playVideo"></span>';	
  			}
  			
  			$threeImagesContent .= '<span class="imgArea">
@@ -81,20 +81,25 @@
 	if(isset($textMapArea[$pagina])){
 		$textMapContent = '
 		<section class="textMapArea bgGray">
- 			<div class="container-fluid">
+  			<div class="mapArea">
+  				<iframe src="https://www.google.com/maps/d/embed?mid='.$textMapArea[$pagina]['coordenadas'].'&hl=es" width="100%" height="100%"></iframe>
+  			</div>
+			<div class="container-fluid">
  				<div class="row">
-   				<article class="col-sm-12 col-md-6 textos">
+   				<article class="col-sm-12 textos">
   						<h2>'.$textMapArea[$pagina]['titulo'].'</h2>';
+  						
   		$cant = sizeof($textMapArea[$pagina]['listado']);
-  		$textMapContent .= '<ul class="accordion">';
+  		
+  		$textMapContent .= '<ul class="row">';
   		for($a = 0; $a < $cant; $a++){
-  			$textMapContent .= '<li>';
+  			$textMapContent .= '<li class="col-sm-12 col-md-3">';
   			$textMapContent .= '<h4>'.$textMapArea[$pagina]['listado'][$a]['titulo'].'</h4>';
   			
   			$lug = sizeof($textMapArea[$pagina]['listado'][$a]['lugares']);
   			$textMapContent .= '<div><ul>';
   			for($l = 0; $l < $lug; $l++){
-  				$textMapContent .= '<li>_'.$textMapArea[$pagina]['listado'][$a]['lugares'][$l].'</li>';
+  				$textMapContent .= '<li>'.$textMapArea[$pagina]['listado'][$a]['lugares'][$l].'</li>';
   			}
   			
   			$textMapContent .= '</ul></div></li>';
@@ -103,13 +108,7 @@
   						
   		$textMapContent .= '';				
   		$textMapContent .= '</article>
- 					<article class="col-sm-12 col-md-6">
- 						
-  					</article>
- 				</div>
-  			</div>
-  			<div class="mapArea">
-  				<iframe src="https://www.google.com/maps/d/embed?mid='.$textMapArea[$pagina]['coordenadas'].'&hl=es" width="100%" height="100%"></iframe>
+ 					</div>
   			</div>
  		</section>
 		';
@@ -144,6 +143,68 @@
 		}
 
  		$twoImagesMiddleTextContent .= '</ul>
+ 			</div>
+ 		</section>
+		';
+	}
+?>
+<?php
+	if(isset($threeImagesArea_1[$pagina])){
+		$threeImages1Content = '
+		<section class="threeImagesArea">
+ 			<div class="">
+ 				<ul class="row">';
+
+		$cant = sizeof($threeImagesArea_1[$pagina]['imagenes']);
+		for($a = 0; $a < $cant; $a++){
+
+ 			$threeImages1Content .= '<li class="col-sm-12 col-md-4">';
+ 			
+ 			if(isset($threeImagesArea_1[$pagina]['imagenes'][$a]['video'])){
+ 				$threeImages1Content .= '<a href="#video'.$a.'" title="'.$threeImagesArea_1[$pagina]['imagenes'][$a]['titulo'].'" class="showVideo"><span class="playVideo"></span>';	
+ 			}
+ 			
+ 			$threeImages1Content .= '<span class="imgArea">
+ 							<img src="images/'.$threeImagesArea_1[$pagina]['imagenes'][$a]['imagen'].'" alt="'.$threeImagesArea_1[$pagina]['imagenes'][$a]['titulo'].'">
+ 						</span>';
+ 			if(isset($threeImagesArea_1[$pagina]['imagenes'][$a]['video'])){
+ 				$threeImages1Content .= '</a>';	
+ 			}
+ 			$threeImages1Content .= '</li>';
+		}
+
+ 		$threeImages1Content .= '</ul>
+ 			</div>
+ 		</section>
+		';
+	}
+?>
+<?php
+	if(isset($threeImagesArea_2[$pagina])){
+		$threeImages2Content = '
+		<section class="threeImagesArea">
+ 			<div class="">
+ 				<ul class="row">';
+
+		$cant = sizeof($threeImagesArea_2[$pagina]['imagenes']);
+		for($a = 0; $a < $cant; $a++){
+
+ 			$threeImages2Content .= '<li class="col-sm-12 col-md-4">';
+ 			
+ 			if(isset($threeImagesArea_2[$pagina]['imagenes'][$a]['video'])){
+ 				$threeImages2Content .= '<a href="#video'.$a.'" title="'.$threeImagesArea_2[$pagina]['imagenes'][$a]['titulo'].'" class="showVideo"><span class="playVideo"></span>';	
+ 			}
+ 			
+ 			$threeImages2Content .= '<span class="imgArea">
+ 							<img src="images/'.$threeImagesArea_2[$pagina]['imagenes'][$a]['imagen'].'" alt="'.$threeImagesArea_2[$pagina]['imagenes'][$a]['titulo'].'">
+ 						</span>';
+ 			if(isset($threeImagesArea_2[$pagina]['imagenes'][$a]['video'])){
+ 				$threeImages2Content .= '</a>';	
+ 			}
+ 			$threeImages2Content .= '</li>';
+		}
+
+ 		$threeImages2Content .= '</ul>
  			</div>
  		</section>
 		';

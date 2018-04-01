@@ -12,17 +12,17 @@
 	$headTitulo['index'] = 'Tu vida a 5 minutos de todo | Calix Núñez';
 	$headDesc['index'] = 'Calix Núñez - Tu vida a 5 minutos de todo. Departamentos en el barrio de Núñez. 54 911 4773 6619';
 	
-	$titulo['index'] = 'Tu vida a 5 minutos de todo.';
-	$textGray['index'] = '<p>Cuando pensamos Calix 3 de Febrero, pensamos un proyecto en el que quisieramos vivir, un lugar donde disfrutar cada momento de tu día.</p>';
+	$titulo['index'] = 'Tu vida<br>a 5 minutos<br>de todo.';
+	$textGray['index'] = '<p>Cuando pensamos Calix 3 de Febrero,<br>pensamos un proyecto en el que quisieramos vivir,<br>un lugar donde disfrutar cada momento de tu día.</p>';
 	$textImageArea['left']['index'] = array(
 		'titulo' => 'El Proyecto',
-		'parrafo' => 'Diseño moderno, espacios flexibles, ventanales de piso a techo, mucha luz natural.',
+		'parrafo' => 'Diseño moderno, espacios<br>flexibles, ventanales de piso<br>a techo, mucha luz natural.',
 		'verMasLink' => 'el-proyecto.php',
 		'verMasTitulo' => 'Ver más del proyecto'			
 	);
 	$textImageArea['right']['index'] = array(
 		'titulo' => 'Núñez',
-		'parrafo' => 'Un barrio en plena transformación',
+		'parrafo' => 'Un barrio en plena<br>transformación',
 		'verMasLink' => 'el-barrio.php',
 		'verMasTitulo' => 'Conocer más del barrio'			
 	);
@@ -41,7 +41,7 @@
 		)
 	);
 		
-	$position['index'] = array('textGrayContent','textImageLeftContent','textImageRightContent','galeriaContent');
+	$position['index'] = array('textGrayContent','textImageLeftContent','textImageRightContent');
 			
 /* 
  * El proyecto
@@ -51,8 +51,8 @@
 	$headTitulo['el-proyecto'] = 'El Proyecto | Calix Núñez';
 	$headDesc['el-proyecto'] = 'Calix Núñez - El Proyecto. Departamentos en el barrio de Núñez. 54 911 4773 6619';
 	
-	$titulo['el-proyecto'] = 'Diseñado para capturar<br>lux y aire';
-	$textGray['el-proyecto'] = '<p>Calix está diseñado para la máxima habitabilidad, flexibilidad y seguridad. Ya sea que elijas vivir solo, en familia o con amigos, en Calix 3F vas a encontrar espacios privados, espacio para socializar y todas las comodidades que estás buscando.</p>';
+	$titulo['el-proyecto'] = 'Diseñado<br>para capturar<br>la lux y el aire';
+	$textGray['el-proyecto'] = '<p>Calix está diseñado pensando en tu comodidad y disfrute.<br>Ya sea que elijas vivir solo, en familia o con amigos, en Calix 3F vas a<br>encontrar espacios privados, espacios para socializar y todas las<br>comodidades que estás buscando.</p>';
 	$galeriaArea['el-proyecto'] = array(
 		'imagenes' => array (
 			array (
@@ -72,23 +72,15 @@
 	$caracteristicasArea['el-proyecto'] = array(
 		'titulo' => 'Características generales',
 		'caracteristicas' => array(
-			'20 metros de frente',
-			'Vista abierta al Frente y Contrafrente',
-			'Edificio de 7 plantas',
-			'Acceso de doble altura',
+			'Edificio de 4 plantas',
+			'Terreno ancho',
+			'Cómodas cocheras',
 			'Ventanas de piso a techo',
-			'Todos los ambientes externos',
-			'Cocheras y espacio para motos y bicicletas',
-			'Salón de usos múltiples',
-			'Solarium con duchones de refresco',
-			'Bauleras',
-			'Laundry',
-			'Cocheras y espacio para motos y bicicletas',
-			'Salón de usos múltiples',
-			'Solarium con duchones de refresco',
-			'Bauleras',
-			'Laundry'
-		)
+			'Terminaciones de calidad ',
+			'Agua caliente central',
+			'Aire acondicionado (equipos no provistos)'
+		),
+		'sep' => false
 	);
 	$position['el-proyecto'] = array('textGrayContent','galeriaContent','caracteristicaContent');
 	
@@ -100,13 +92,13 @@
 	$headTitulo['los-departamentos'] = 'Los Departamentos | Calix Núñez';
 	$headDesc['los-departamentos'] = 'Calix Núñez - Los Departamentos. Departamentos en el barrio de Núñez. 54 911 4773 6619';
 
-	$titulo['los-departamentos'] = 'La suma de sus detalles';
-	$textGray['los-departamentos'] = '<p>Diseñamos departamentos de 1 a 2 dormitorios pensando cada rincón, cada terminación. Ideales para crear un <em>“efecto paréntesis”</em> de lo cotidiano y construir una ambiente personal donde quieras vivir, disfrutar y relajarte.</p>';
+	$titulo['los-departamentos'] = 'La suma<br>de sus detalles';
+	$textGray['los-departamentos'] = '<p>Diseñamos departamentos de 1 a 2 dormitorios pensando cada rincón,<r>cada terminación. Ideales para crees un “efecto paréntesis”de lo<br>cotidiano y construyas un mundo personal donde quieras vivir,<br>disfrutar y relajarte</p>';
 	
 	$threeImagesArea['los-departamentos']= array(
 		'imagenes' => array (
 			array (
-				'imagen' => 'plantas.jpg',
+				'imagen' => 'palmas.jpg',
 				'titulo' => ''
 			),
 			array (
@@ -114,7 +106,7 @@
 				'titulo' => ''
 			),
 			array (
-				'imagen' => 'lampara.jpg',
+				'imagen' => 'sillon.jpg',
 				'titulo' => ''
 			)
 		)
@@ -154,7 +146,8 @@
 			'Solarium con duchones de refresco',
 			'Bauleras',
 			'Laundry'
-		)
+		),
+		'sep' => true
 	);
 		
 	$position['los-departamentos'] = array('textGrayContent','threeImagesContent','galeriaContent','caracteristicaContent');
@@ -167,13 +160,13 @@
 	$headTitulo['el-barrio'] = 'El Barrio | Calix Núñez';
 	$headDesc['el-barrio'] = 'Calix Núñez - El Barrio. Departamentos en el barrio de Núñez. 54 911 4773 6619';
 
-	$titulo['el-barrio'] = 'Tu vida a 5 minutos de todo lo que te gusta';
+	$titulo['el-barrio'] = 'Tu vida<br>a 5 minutos de todo<br>lo que te gusta';
 	$textGray['el-barrio'] = '<p>Nuñez es un barrio en transformación, está re inventandose. Es un nuevo polo gastronómico con restaurantes y bares, zonas comerciales y de entretenimiento. Cuenta con un sólido centro de educación primario, secundaria y universitaria. En Buenos Aires no hay otro lugar como este. Sumale las zonas verdes, los extensos enlaces de transporte, los famosos mercados de alimentos, transforman este barrio en un destino tan atractivo y conveniente. Todo esto a solo 5 minutos.</p>';
 	
 	$threeImagesArea['el-barrio']= array(
 		'imagenes' => array (
 			array (
-				'imagen' => 'jacaranda.jpg',
+				'imagen' => 'praline.jpg',
 				'titulo' => '',
 				'video' => '<video width="100%" poster="video/video.jpg" height="auto" controls>
                             <source src="video/video.mp4" type="video/mp4">
@@ -183,132 +176,132 @@
                         </video>'
 			),
 			array (
-				'imagen' => 'mural.jpg',
-				'titulo' => ''
+				'imagen' => 'nunez-buenos-aires.jpg',
+				'titulo' => 'Núñez Buenos Aires'
 			),
 			array (
-				'imagen' => 'deli_sushi.jpg',
+				'imagen' => 'chico-bar.jpg',
 				'titulo' => ''
 			)
 		)
 	);
-
-	
-	$oneImagesArea['el-barrio'] = array(
-		'imagen' => 'mapa.jpg',
-		'titulo' => ''
+	$textDosTresImageArea['right']['el-barrio'] = array(
+		'parrafo' => '<span>Un Barrio diferente</span>Núñez es un barrio en transformación, está re inventándose. Es un nuevo polo comercial, gastronómico y educativo.  Cuenta con restaurantes,  bares y zonas comerciales, y con diferentes establecimientos de educación primarios, secundarios y universitarios del más alto nivel.'			
 	);
-		
+
+	$textDosTresImageArea['left']['el-barrio'] = array(
+		'parrafo' => 'En Buenos Aires no hay otro lugar como este. Sumale a eso las zonas verdes, los innumerables enlaces de transporte, los famosos mercados de alimentos, que transforman a este barrio en un destino tan deseable, atractivo y conveniente.<span>Todo esto a 5 minutos.</span>'
+	);
+	
 	$textMapArea['el-barrio'] = array(
 		'titulo' => 'Cerca de todo lo que te gusta',
 		'listado' => array(
 			array(
 				'titulo' => 'Restaurantes y bares',
 				'lugares' => array(
-					'Francis Plats',
-					'Chef Leon',
-					'Taco box',
-					'POE',
-					'Solomia Parrilla',
-					'El Pollo Gomez',
-					'Luzmala Bar',
-					'La Escondida Parrilla',
-					'Mc Donald´s',
-					'Los Arribeños'
+					'1_Francis Platz',
+					'2_ Chef Leon',
+					'3_Taco box',
+					'4_POE',
+					'5_Solomia Parrilla',
+					'6_Tres',
+					'7_Praline',
+					'8_La Escondida Parrilla',
+					'9_AMMO',
+					'10_Botanica'
 				)
 			),
 			array(
 				'titulo' => 'Interés general',
 				'lugares' => array(
-					'Supermercado Jumbo',
-					'Ferretería Luciano',
-					'Patio Los Alces'
+					'11_Centro Cultural Julio Cortázar',
+					'12_Plaza Aberti',
+					'13_Farmacity',
+					'14_Carrefour',
+					'15_Megatlon',
+					'16_Futbol Urbano',
+					'17_Comisaria 35'
 				)
 			),
 			array(
 				'titulo' => 'Educación',
 				'lugares' => array(
-					'Inst. Ind. Luis A. Puerto',
-					'UB Universidad de Belgrano',
-					'Colegio Las Adoratrices'
+					'18_Universidad Di Tella',
+					'19_Escuela Aula XXI',
+					'20_Escuela Ort Escuela Normal',
+					'21_UHS United High School',
+					'22_Belgrano Uno',
+					'23_Jacarandá',
+					'24_General San Martín',
+					'25_Instituto José Ingenieros',
+					'26_Wolfsohn',
+					'27_UAI',
+					'28_ICEBA '
 				)
 			),
 			array(
 				'titulo' => 'Salud',
 				'lugares' => array(
-					'Fundación Fleni',
-					'CBA Inst. Cardiovascular BA',
-					'Stambulian Servicio Médico'
+					'29_Fundación Fleni',
+					'30_CBA Inst. Cardiovascular de BA',
+					'31_Stamboulian Servicio Medico'
 				)
 			)
 		),
-		'parrafo' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.',
+		'parrafo' => '',
 		'coordenadas' => '1lSuBloUUNKWySzEPyXK5lIMJaM6ixBXS'			
 	);
 	
 	$twoImagesMiddleTextArea['el-barrio']= array(
 		'imagenes' => array (
 			array (
+				'imagen' => 'tres-cafe.jpg',
+				'titulo' => ''
+			),
+			array (
+				'imagen' => 'mural.jpg',
+				'titulo' => ''
+			),
+			array (
+				'imagen' => 'big-party.jpg',
+				'titulo' => ''
+			)
+		)
+	);
+	$threeImagesArea_1['el-barrio']= array(
+		'imagenes' => array (
+			array (
+				'imagen' => 'cruce.jpg',
+				'titulo' => '',
+			),
+			array (
 				'imagen' => 'transporte.jpg',
 				'titulo' => ''
 			),
 			array (
-				'text' => 'En Buenos Aires no hay otro lugar como este. Sumale a eso las zonas verdes, los innumerables enlaces de transporte, los famosos mercados de alimentos, que transforman a este barrio en un destino tan deseable, atractivo y conveniente. Todo esto a solo 5 minutos.'
-			),
-			array (
-				'imagen' => 'dinner.jpg',
+				'imagen' => 'todo-a.jpg',
 				'titulo' => ''
 			)
 		)
 	);
-	
-	$galeriaArea['el-barrio'] = array(
-		'directorio' => 'galeria_barrio',
+	$threeImagesArea_2['el-barrio']= array(
 		'imagenes' => array (
 			array (
-				'imagen' => 'ammo.jpg',
-				'titulo' => ''
-			),
-			array (
-				'imagen' => 'bicisenda.jpg',
-				'titulo' => ''
-			),
-			array (
-				'imagen' => 'cadillac.jpg',
-				'titulo' => ''
-			),
-			array (
-				'imagen' => 'franz.jpg',
-				'titulo' => ''
-			),
-			array (
-				'imagen' => 'metrobus.jpg',
-				'titulo' => ''
-			),
-			array (
-				'imagen' => 'ort.jpg',
-				'titulo' => ''
-			),
-			array (
-				'imagen' => 'praline.jpg',
-				'titulo' => ''
-			),
-			array (
 				'imagen' => 'subte.jpg',
+				'titulo' => '',
+			),
+			array (
+				'imagen' => 'frutas.jpg',
 				'titulo' => ''
 			),
 			array (
-				'imagen' => 'tren.jpg',
-				'titulo' => ''
-			),
-			array (
-				'imagen' => 'tresB.jpg',
+				'imagen' => 'cerveza.jpg',
 				'titulo' => ''
 			)
 		)
 	);
 	
-	$position['el-barrio'] = array('threeImagesContent','textGrayContent','oneImagesContent','textMapContent','twoImagesMiddleTextContent','galeriaContent');
+	$position['el-barrio'] = array('threeImagesContent','textDosTresImageRightContent','textMapContent','twoImagesMiddleTextContent','textDosTresImageLeftContent','threeImages1Content','threeImages2Content');
 	
 	
 /* 

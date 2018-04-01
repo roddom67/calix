@@ -48,7 +48,7 @@
 			'logo' => 'hfa.png',
 			'alt' => 'HF-A Hernán Ferrero - Arquitectos',
 			'texto' => '<h3>ARQ. HERNAN FERRERO<span>CONSTRUCCIÓN Y PLANIFICACIÓN DE OBRAS</span></h3><p>Arquitectecto de la <strong>Universidad de Buenos Aires</strong>. Tiene 25 años de experiencia en tareas de planificación, gestión, administración, construcción y dirección de las obras. He realizado construcciones por más de <strong>25.000 m<sup>2</sup></strong>.</p>'
-		),
+		)/*,
 		array(
 			'titulo' => 'Construcción',
 			'logo' => 'techba.png',
@@ -60,7 +60,7 @@
 			'logo' => 'Antoni.png',
 			'alt' => 'Antoni Branding Shop',
 			'texto' => '<h3>ARQ. HERNAN FERRERO<span>CONSTRUCCIÓN Y PLANIFICACIÓN DE OBRAS</span></h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>'
-		)
+		)*/
 	);
 	
 	$position['el-equipo'] = array('elequipoContent');

@@ -8,9 +8,7 @@
 }
 
 /* Header */
-.navbar-brand{
-	
-}
+
 
 .navbar-brand span{
 	background:url(../images/logo-nav-nunez.png) no-repeat top left;
@@ -68,8 +66,20 @@
 .el-barrio .headerImage{
 	background-image: url(../images/imagen_el_barrio.jpg);
 }
+.boxUnBarrio:after{
+	background-image: url(../images/universidad-di-tella.jpg);
+}
+
+.boxDosBarrio:after{
+	background-image: url(../images/plantas.jpg);
+}
 
 /* Background White */
+.textArea h2,
+.textImageArea article a,
+.index .textImageArea.imageBgRight h2,
+.textMapArea h2,
+.text2_3ImageArea p span,
 .threeImagesArea .playVideo:before,
 .navGris .header h1,
 .linksArea a,
@@ -103,6 +113,10 @@
 	background: rgba(0,0,0,.25);
 }
 
+.index .textImageArea.bgGray:before{
+	background-color: var(--white);
+}
+.textImageArea h2
 
 
 

@@ -125,7 +125,7 @@
 											<li class="col-sm-12 col-md-6 linksArea">
 												<ul class="row">
 													<li>
-														<p><a href="plantas/'.$disponibilidad[$pagina][$a]['deptos'][$d][2].'" title="Bajar Planta" target="_blank">Bajar PDF</a></p>
+														<p><a href="plantas/'.$disponibilidad[$pagina][$a]['deptos'][$d][2].'" title="Bajar Planta" target="_blank">> Bajar PDF</a></p>
 													</li>
 													<!--li>
 														<p><a href="#" title="Enviar Planta por email">Enviar</a></p>
