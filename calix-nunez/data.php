@@ -53,6 +53,22 @@
 	
 	$titulo['el-proyecto'] = 'Diseñado<br>para capturar <br>la lux y el aire';
 	$textGray['el-proyecto'] = '<p>Calix está diseñado pensando en tu comodidad y disfrute. <br>Ya sea que elijas vivir solo, en familia o con amigos, en Calix 3F vas a <br>encontrar espacios privados, espacios para socializar y todas las <br>comodidades que estás buscando.</p>';
+	$threeImagesArea['el-proyecto']= array(
+		'imagenes' => array (
+			array (
+				'imagen' => 'el-proyecto-3f.jpg',
+				'titulo' => ''
+			),
+			array (
+				'imagen' => 'el-proyecto-planta1.jpg',
+				'titulo' => ''
+			),
+			array (
+				'imagen' => 'el-proyecto-planta2.jpg',
+				'titulo' => ''
+			)
+		)
+	);
 	$galeriaArea['el-proyecto'] = array(
 		'imagenes' => array (
 			array (
@@ -87,7 +103,7 @@
 		'titulo' => ''
 	);
 	
-	$position['el-proyecto'] = array('textGrayContent','galeriaContent','imagenMobileContent','caracteristicaContent');
+	$position['el-proyecto'] = array('textGrayContent','threeImagesContent','galeriaContent','imagenMobileContent','caracteristicaContent');
 	
 /* 
  * Los departamentos
