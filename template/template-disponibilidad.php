@@ -56,7 +56,7 @@
 			<section class="disponibilidadArea">
  				<div class="container-fluid">
  					<div class="row">
-  						<article class="col-sm-12 col-md-4 plantaArea">
+  						<article class="col-12 col-md-4 plantaArea">
   							<ul class="pisos">';
 
   		$carpetasR = array_reverse($carpetas);
@@ -81,7 +81,7 @@
   		
   		$disponibilidadContent .= '</ul>
   						</article>
-  						<article class="col-sm-12 col-md-8 plantas">';
+  						<article class="col-12 col-md-8 plantas">';
   		
   		$h = 0;				
   		for($a=0;$a < $cant; $a++){
@@ -108,7 +108,7 @@
 				$disponibilidadContent .= '</h2>
 									<div>';
 				$disponibilidadContent .= '<ul class="row">
-											<li class="col-sm-12 col-md-6 superficieArea">';
+											<li class="col-8 col-md-6 superficieArea">';
 				if( isset($disponibilidad[$pagina][$a]['deptos'][$d][3]) && isset($disponibilidad[$pagina][$a]['deptos'][$d][4]) && isset($disponibilidad[$pagina][$a]['deptos'][$d][5]) && isset($disponibilidad[$pagina][$a]['deptos'][$d][6])){
 					$disponibilidadContent .= '<ul>
 													<li>'.$disponibilidad[$pagina][$a]['deptos'][$d][3].'</li>
@@ -118,11 +118,11 @@
 					}
 				
 					$disponibilidadContent .= '</li>
-													<li>'.$disponibilidad[$pagina][$a]['deptos'][$d][6].'</li>
+													<li><strong>'.$disponibilidad[$pagina][$a]['deptos'][$d][6].'</strong></li>
 												</ul>';
 				}
 				$disponibilidadContent .= '</li>
-											<li class="col-sm-12 col-md-6 linksArea">
+											<li class="col-4 col-md-6 linksArea">
 												<ul class="row">
 													<li>
 														<p><a href="plantas/'.$disponibilidad[$pagina][$a]['deptos'][$d][2].'" title="Bajar Planta" target="_blank">> Bajar PDF</a></p>

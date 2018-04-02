@@ -8,7 +8,7 @@
 		$cant = sizeof($threeImagesArea[$pagina]['imagenes']);
 		for($a = 0; $a < $cant; $a++){
 
- 			$threeImagesContent .= '<li class="col-sm-12 col-md-4">';
+ 			$threeImagesContent .= '<li class="col-12 col-md-4">';
  			
  			if(isset($threeImagesArea[$pagina]['imagenes'][$a]['video'])){
  				$threeImagesContent .= '<a href="#video'.$a.'" title="'.$threeImagesArea[$pagina]['imagenes'][$a]['titulo'].'" class="showVideo"><span class="playVideo"></span>';	
@@ -35,7 +35,7 @@
 		<section class="oneImagesArea">
  			<div class="">
  				<ul class="row">';
-		$oneImagesContent .= '<li class="col-sm-12">';
+		$oneImagesContent .= '<li class="col-12">';
  			
 		$oneImagesContent .= '<span class="imgArea">
 						<img src="images/'.$oneImagesArea[$pagina]['imagen'].'" alt="'.$oneImagesArea[$pagina]['titulo'].'">
@@ -43,6 +43,25 @@
 		$oneImagesContent .= '</li>';
 
  		$oneImagesContent .= '</ul>
+ 			</div>
+ 		</section>
+		';
+	}
+?>
+<?php
+	if(isset($imagenMobile[$pagina])){
+		$imagenMobileContent = '
+		<section class="imagenMobileArea">
+ 			<div class="">
+ 				<ul class="row">';
+		$imagenMobileContent .= '<li class="col-12">';
+ 			
+		$imagenMobileContent .= '<span class="imgArea">
+						<img src="images/'.$imagenMobile[$pagina]['imagen'].'" alt="'.$imagenMobile[$pagina]['titulo'].'">
+					</span>';
+		$imagenMobileContent .= '</li>';
+
+ 		$imagenMobileContent .= '</ul>
  			</div>
  		</section>
 		';
@@ -86,14 +105,14 @@
   			</div>
 			<div class="container-fluid">
  				<div class="row">
-   				<article class="col-sm-12 textos">
+   				<article class="col-12 textos">
   						<h2>'.$textMapArea[$pagina]['titulo'].'</h2>';
   						
   		$cant = sizeof($textMapArea[$pagina]['listado']);
   		
-  		$textMapContent .= '<ul class="row">';
+  		$textMapContent .= '<ul class="row accordion">';
   		for($a = 0; $a < $cant; $a++){
-  			$textMapContent .= '<li class="col-sm-12 col-md-3">';
+  			$textMapContent .= '<li class="col-12 col-md-3">';
   			$textMapContent .= '<h4>'.$textMapArea[$pagina]['listado'][$a]['titulo'].'</h4>';
   			
   			$lug = sizeof($textMapArea[$pagina]['listado'][$a]['lugares']);
@@ -124,7 +143,7 @@
 		$cant = sizeof($twoImagesMiddleTextArea[$pagina]['imagenes']);
 		for($a = 0; $a < $cant; $a++){
 
- 			$twoImagesMiddleTextContent .= '<li class="col-sm-12 col-md-4">';
+ 			$twoImagesMiddleTextContent .= '<li class="col-12 col-md-4">';
  			if(isset($twoImagesMiddleTextArea[$pagina]['imagenes'][$a]['text'])){
  				$twoImagesMiddleTextContent .= '<p>'.$twoImagesMiddleTextArea[$pagina]['imagenes'][$a]['text'].'</p>';
  			}else{
@@ -158,7 +177,7 @@
 		$cant = sizeof($threeImagesArea_1[$pagina]['imagenes']);
 		for($a = 0; $a < $cant; $a++){
 
- 			$threeImages1Content .= '<li class="col-sm-12 col-md-4">';
+ 			$threeImages1Content .= '<li class="col-12 col-md-4">';
  			
  			if(isset($threeImagesArea_1[$pagina]['imagenes'][$a]['video'])){
  				$threeImages1Content .= '<a href="#video'.$a.'" title="'.$threeImagesArea_1[$pagina]['imagenes'][$a]['titulo'].'" class="showVideo"><span class="playVideo"></span>';	
@@ -189,7 +208,7 @@
 		$cant = sizeof($threeImagesArea_2[$pagina]['imagenes']);
 		for($a = 0; $a < $cant; $a++){
 
- 			$threeImages2Content .= '<li class="col-sm-12 col-md-4">';
+ 			$threeImages2Content .= '<li class="col-12 col-md-4">';
  			
  			if(isset($threeImagesArea_2[$pagina]['imagenes'][$a]['video'])){
  				$threeImages2Content .= '<a href="#video'.$a.'" title="'.$threeImagesArea_2[$pagina]['imagenes'][$a]['titulo'].'" class="showVideo"><span class="playVideo"></span>';	

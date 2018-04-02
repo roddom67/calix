@@ -169,7 +169,13 @@ $(function(){
 			}
 		}
 	}
-	acordion.init();
+	if($('body').hasClass('el-barrio')){
+		if($(window).width() < 767 ){
+			acordion.init();
+		}
+	}else{
+		acordion.init();
+	}
 	
 	modal = {
 		init: function(){

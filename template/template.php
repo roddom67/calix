@@ -20,9 +20,9 @@
 		<section class="textImageArea imageBgLeft bgColor boxElProyecto">
  			<div class="container-fluid">
  				<div class="row">
-  					<article class="col-sm-12 col-md-6">
+  					<article class="col-12 col-md-6">
   					</article>
-  					<article class="col-sm-12 col-md-6">
+  					<article class="col-12 col-md-6">
   						<h2>'.$textImageArea['left'][$pagina]['titulo'].'</h2>
   						<p>'.$textImageArea['left'][$pagina]['parrafo'].'</p>
   						<a href="'.$textImageArea['left'][$pagina]['verMasLink'].'" title="Ver más sobre '.$textImageArea['left'][$pagina]['verMasTitulo'].'">Ver más sobre '.$textImageArea['left'][$pagina]['verMasTitulo'].' ></a>
@@ -39,12 +39,12 @@
 		<section class="textImageArea imageBgRight bgGray boxElBarrio">
  			<div class="container-fluid">
  				<div class="row">
-   				<article class="col-sm-12 col-md-6">
+   				<article class="col-12 col-md-6">
   						<h2>'.$textImageArea['right'][$pagina]['titulo'].'</h2>
   						<p>'.$textImageArea['right'][$pagina]['parrafo'].'</p>
   						<a href="'.$textImageArea['right'][$pagina]['verMasLink'].'" title="Ver más sobre '.$textImageArea['right'][$pagina]['verMasTitulo'].'">Ver más sobre '.$textImageArea['right'][$pagina]['verMasTitulo'].' ></a>
   					</article>
- 					<article class="col-sm-12 col-md-6">
+ 					<article class="col-12 col-md-6">
   					</article>
  				</div>
   			</div>
@@ -62,7 +62,7 @@
 		$cant = sizeof($threeImagesArea[$pagina]['imagenes']);
 		for($a = 0; $a < $cant; $a++){
 
- 			$threeImagesContent .= '<li class="col-sm-12 col-md-4">';
+ 			$threeImagesContent .= '<li class="col-12 col-md-4">';
  			
  			if(isset($threeImagesArea[$pagina]['imagenes'][$a]['video'])){
  				$threeImagesContent .= '<a href="#video'.$a.'" title="'.$threeImagesArea[$pagina]['imagenes'][$a]['titulo'].'" class="showVideo">';	
@@ -89,7 +89,7 @@
 		<section class="oneImagesArea">
  			<div class="">
  				<ul class="row">';
-		$oneImagesContent .= '<li class="col-sm-12">';
+		$oneImagesContent .= '<li class="col-12">';
  			
 		$oneImagesContent .= '<span class="imgArea">
 						<img src="images/'.$oneImagesArea[$pagina]['imagen'].'" alt="'.$oneImagesArea[$pagina]['titulo'].'">
@@ -131,13 +131,13 @@
 		<section class="textArea boxCaracteristicas">
  			<div class="container-fluid">
  				<div class="row">
-  					<article class="col-sm-12">
+  					<article class="col-12">
   						<h2>'.$caracteristicasArea[$pagina]['titulo'].'</h2>
   						<ul class="row">';
 		$cant = sizeof($caracteristicasArea[$pagina]['caracteristicas']);
 		for($a = 0; $a < $cant; $a++){
 			if(($a%3)==0){
-		 		$caracteristicaContent .= '<li class="col-sm-12 col-md-4">
+		 		$caracteristicaContent .= '<li class="col-12 col-md-4">
   								<ul>';
  			}
  								
@@ -164,7 +164,7 @@
 		<section class="textMapArea bgGray">
  			<div class="container-fluid">
  				<div class="row">
-   				<article class="col-sm-12 col-md-6 textos">
+   				<article class="col-12 col-md-6 textos">
   						<h2>'.$textMapArea[$pagina]['titulo'].'</h2>';
   		$cant = sizeof($textMapArea[$pagina]['listado']);
   		$textMapContent .= '<ul class="accordion">';
@@ -184,7 +184,7 @@
   						
   		$textMapContent .= '';				
   		$textMapContent .= '</article>
- 					<article class="col-sm-12 col-md-6">
+ 					<article class="col-12 col-md-6">
  						
   					</article>
  				</div>
@@ -206,7 +206,7 @@
 		$cant = sizeof($elequipo[$pagina]);
 		for($a = 0; $a < $cant; $a++){
 
-			$elequipoContent .= '<li class="col-sm-12 col-md-4">
+			$elequipoContent .= '<li class="col-12 col-md-4">
 											<h2>'.$elequipo[$pagina][$a]['titulo'].'</h2>
 											<span class="imgArea">
 												<img src="../images/equipo/'.$elequipo[$pagina][$a]['logo'].'" alt="">
@@ -245,7 +245,7 @@
       		<form method="post" name="contactoForm" action="form-to-email.php">
       			<fieldset>
 						<ul class="row">
-							<li class="col-sm-12 col-md-4">
+							<li class="col-12 col-md-4">
 								<ul>
 									<li>
 										<label for="name">Nombre</label>
@@ -283,7 +283,7 @@
 									</li>
 								</ul>
 							</li>
-							<li class="col-sm-12 col-md-4">
+							<li class="col-12 col-md-4">
 								<ul>
 									<li>
 										<label for="medios">¿Cómo se enteró de Calix?</label>
@@ -298,7 +298,7 @@
 									</li>
 								</ul>
 							</li>
-							<li class="col-sm-12 col-md-8 buttonArea">
+							<li class="col-12 col-md-8 buttonArea">
 								<input type="submit" name="submit" value="Enviar">
 							</li>
 						</ul>

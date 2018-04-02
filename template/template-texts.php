@@ -17,9 +17,9 @@
 		<section class="textImageArea imageBgLeft bgColor boxElProyecto">
  			<div class="container-fluid">
  				<div class="row">
-  					<article class="col-sm-12 col-md-6">
+  					<article class="col-12 col-md-6">
   					</article>
-  					<article class="col-sm-12 col-md-6">
+  					<article class="col-12 col-md-6">
   						<h2>'.$textImageArea['left'][$pagina]['titulo'].'</h2>
   						<p>'.$textImageArea['left'][$pagina]['parrafo'].'</p>
   						<a href="'.$textImageArea['left'][$pagina]['verMasLink'].'" title="'.$textImageArea['left'][$pagina]['verMasTitulo'].'">'.$textImageArea['left'][$pagina]['verMasTitulo'].' ></a>
@@ -36,12 +36,12 @@
 		<section class="textImageArea imageBgRight bgGray boxElBarrio">
  			<div class="container-fluid">
  				<div class="row">
-   				<article class="col-sm-12 col-md-6">
+   				<article class="col-12 col-md-6">
   						<h2>'.$textImageArea['right'][$pagina]['titulo'].'</h2>
   						<p>'.$textImageArea['right'][$pagina]['parrafo'].'</p>
   						<a href="'.$textImageArea['right'][$pagina]['verMasLink'].'" title="Ver más sobre '.$textImageArea['right'][$pagina]['verMasTitulo'].'">'.$textImageArea['right'][$pagina]['verMasTitulo'].' ></a>
   					</article>
- 					<article class="col-sm-12 col-md-6">
+ 					<article class="col-12 col-md-6">
   					</article>
  				</div>
   			</div>
@@ -55,9 +55,9 @@
 		<section class="text2_3ImageArea imageBgRight bgGray boxDosBarrio">
  			<div class="container-fluid">
  				<div class="row">
-  					<article class="col-sm-12 col-md-4">
+  					<article class="col-12 col-md-4">
   					</article>
-  					<article class="col-sm-12 col-md-8">
+  					<article class="col-12 col-md-8">
   						<p>'.$textDosTresImageArea['left'][$pagina]['parrafo'].'</p>';
   		if(isset($textDosTresImageArea['left'][$pagina]['verMasLink'])){
   			$textDosTresImageLeftContent .= '<a href="'.$textDosTresImageArea['left'][$pagina]['verMasLink'].'" title="'.$textDosTresImageArea['left'][$pagina]['verMasTitulo'].'">'.$textDosTresImageArea['left'][$pagina]['verMasTitulo'].' ></a>';
@@ -75,13 +75,13 @@
 		<section class="text2_3ImageArea imageBgLeft bgGray boxUnBarrio">
  			<div class="container-fluid">
  				<div class="row">
-  					<article class="col-sm-12 col-md-8">
+  					<article class="col-12 col-md-8">
   						<p>'.$textDosTresImageArea['right'][$pagina]['parrafo'].'</p>';
   		if(isset($textDosTresImageArea['right'][$pagina]['verMasLink'])){
   			$textDosTresImageRightContent .= '<a href="'.$textDosTresImageArea['right'][$pagina]['verMasLink'].'" title="'.$textDosTresImageArea['right'][$pagina]['verMasTitulo'].'">'.$textDosTresImageArea['left'][$pagina]['verMasTitulo'].' ></a>';
   		}
   		$textDosTresImageRightContent .= '</article>
-  					<article class="col-sm-12 col-md-4">
+  					<article class="col-12 col-md-4">
   					</article>
  				</div>
   			</div>
@@ -101,17 +101,17 @@
 		<section class="textArea boxCaracteristicas">
  			<div class="container-fluid">
  				<div class="row">
-  					<article class="col-sm-12">
+  					<article class="col-12">
   						<h2>'.$caracteristicasArea[$pagina]['titulo'].'</h2>
   						<ul class="row">';
   		if(!$caracteristicasArea[$pagina]['sep']){
-  			$caracteristicaContent .= '<li class="col-sm-12 col-md-4">
+  			$caracteristicaContent .= '<li class="col-12 col-md-4">
   									<ul>';
   		}
 		for($a = 0; $a < $cant; $a++){
 			if($caracteristicasArea[$pagina]['sep']){
 				if(($a%$p)==0){
-		 			$caracteristicaContent .= '<li class="col-sm-12 col-md-4">
+		 			$caracteristicaContent .= '<li class="col-12 col-md-4">
   									<ul>';
  				}
  			}
@@ -147,7 +147,7 @@
 		$cant = sizeof($elequipo[$pagina]);
 		for($a = 0; $a < $cant; $a++){
 
-			$elequipoContent .= '<li class="col-sm-12 col-md-4">
+			$elequipoContent .= '<li class="col-12 col-md-4">
 											<h2>'.$elequipo[$pagina][$a]['titulo'].'</h2>
 											<span class="imgArea">
 												<img src="../images/equipo/'.$elequipo[$pagina][$a]['logo'].'" alt="">

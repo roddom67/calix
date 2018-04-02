@@ -5,7 +5,7 @@
 	<div class="container-fluid">
 		<div class="footerTop">
   			<ul class="row addressFooter">
-  				<li class="col-xs-12 col-md-3 col-lg-2">
+  				<li class="col-6 col-sm-4 col-md-3 col-xl-2">
   					<a href="<?php echo $calixNunez['link']; ?>" 
   						title="<?php echo $calixNunez['titulo']; ?>" 
   						class="logosFooter logoCNunez">
@@ -13,7 +13,7 @@
   					</a>
   					<p><?php echo $calixNunez['direccion']; ?></p>
   				</li>
-  				<li class="col-xs-12 col-md-3 col-lg-2">
+  				<li class="col-6 col-sm-4 col-md-3 col-xl-2">
   					<a href="<?php echo $calixBarrancas['link']; ?>" 
   						title="<?php echo $calixBarrancas['titulo']; ?>" 
   						class="logosFooter logoCBarrancas">
@@ -21,7 +21,7 @@
   					</a>
   					<p><?php echo $calixBarrancas['direccion']; ?></p>
   				</li>
-  				<li class="col-xs-12 col-md-3 col-lg-2">
+  				<li class="col-6 col-sm-4 col-md-3 col-xl-2">
   					<a href="<?php echo $calixPalermo['link']; ?>" 
   						title="<?php echo $calixPalermo['titulo']; ?>" 
   						class="logosFooter logoCPalermo">
@@ -32,13 +32,13 @@
   			</ul>
 		</div>
 		<div class="footerBottom">
-			<ul class="legalesArea">
-				<li class="cols">
+			<ul class="legalesArea row">
+				<!-- <li class="cols">
 					<a href="" title="Créditos" class="">Créditos</a>
 				</li>
 				<li class="cols">
 					<a href="" title="Legal" class="">Legal</a>
-				</li>
+				</li> -->
 				<li class="cols">
 					<a href="" title="Bajar Brochure" class="">Bajar Brochure</a>
 				</li>

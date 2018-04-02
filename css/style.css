@@ -305,7 +305,7 @@ footer p{
 }
 footer .legalesArea{
 	display: flex;
-	margin: 0 5px;
+	margin: 0 -5px;
 }
 footer .legalesArea li{
 	padding:0 5px;
@@ -476,6 +476,7 @@ section p{
 }
 .boxCaracteristicas li li{
 	font-size: 1.5rem;
+	line-height: 2.4rem;
 	font-weight: 300;
 }
 
@@ -676,7 +677,7 @@ section p{
 	background-position: top left;
 }
 
-.textos .accordion h4{
+/*.textos .accordion h4{
 	font-size: 1.6rem;
 	font-weight: 300;
 	cursor: pointer;
@@ -702,7 +703,7 @@ section p{
 	font-size: 1.3rem;
 	line-height: 2.4rem;
 	font-weight: 300;
-}
+}*/
 .elequipoArea li{
 	padding-bottom: 6.0rem;
 }
@@ -846,10 +847,6 @@ section p{
 	font-size:1.3rem;
 	line-height: 2.4rem;
 }
-.superficieArea li:last-child{732
-
-	font-weight: 600;
-}
 
 .ui-dialog{
 	width: 50% !important;
@@ -959,6 +956,9 @@ section p{
 	body{
 		font-size: 80%;
 	}
+	p br{
+		display:none;
+	}
 	#navbarSupportedContent{
 		width: 100%;
 		right: -100%;
@@ -966,16 +966,31 @@ section p{
 	footer .addressFooter li{
 		padding-bottom: 6.0rem;
 	}
+	footer .addressFooter{
+		padding: 0;
+	}
 	.index .headerImage h1{
-		padding: 1rem 1rem 2rem;
-		background: rgba(255,255,255,.75);
+		padding: 0;
 		position:absolute;
-		top:20vh;
-		left:0;
+		top:50%;
+		left:50%;
+		color: var(--white) !important;
+		text-shadow: 0 1px 3px rgba(0,0,0,.5);
+		transform:translate(-50%,-50%);
+	}
+	.index .headerImage {
+    	background-image: url(../images/mobile/imagen_home.jpg);
+	}
+	.el-proyecto .headerImage {
+    	background-image: url(../images/mobile/imagen_el_proyecto.jpg);
 	}
 	.textGray article{
 		padding: 0;
 	}
+	.text2_3ImageArea{
+		padding-bottom:100%;
+	}
+	.text2_3ImageArea,
 	.textImageArea{
 		overflow: hidden;
 		height: auto;
@@ -983,24 +998,58 @@ section p{
 	.textImageArea article{
 		padding-bottom: 80px;
 	}
+	.text2_3ImageArea article{
+		padding: 3rem;
+	}
+	
+	.internal .headerImage h1{
+		width:100%;;
+	}
+	.textMapArea .mapArea{
+		width: 100%;
+		height: 80vh;
+	}
 	.textMapArea.bgGray:before,
-	.textMapArea .mapArea,
+	.text2_3ImageArea:after,
+	.text2_3ImageArea:before,
 	.textImageArea:after, 
 	.textImageArea:before{
 		width: 100%;
 		height: 50%;
 	}
+	.text2_3ImageArea.imageBgRight:after,
+	.text2_3ImageArea.imageBgLeft:after,
 	.textMapArea .mapArea,
-	.textImageArea.imageBgRight:after,
+	.textImageArea.imageBgRight:before,
 	.textImageArea.imageBgLeft:before{
 		bottom: 0;
 		top: inherit;
 		left: 0;
 	}
+
+	.text2_3ImageArea.imageBgRight:before,
+	.text2_3ImageArea.imageBgLeft:before,
 	.textMapArea.bgGray:before,
-	.textImageArea.imageBgRight:before,
+	.textImageArea.imageBgRight:after,
 	.textImageArea.imageBgLeft:after{
 		top: 0;
+		left: 0;
+	}
+	.text2_3ImageArea.imageBgRight:before,
+	.text2_3ImageArea.imageBgLeft:before{
+		height: 100%;
+	}
+	.text2_3ImageArea.imageBgRight:after{
+		width:100%;
+	}
+	.text2_3ImageArea p{
+		position: relative;
+		top: inherit;
+		transform: translate(0, 0);
+	}
+	
+	.textImageArea.imageBgRight article{
+		top:309px;
 	}
 	
 	.galeriaArea{
@@ -1028,11 +1077,36 @@ section p{
 	.textMapArea{
 		height: auto;
 	}
+	.textMapArea article.textos{
+		height: auto !important;
+	}
 	.textMapArea h2{
 		padding-bottom: 2.5em;
 	}
 	.linksArea ul{
 		float: left;
+	}
+	.textImageArea p{
+		padding-right: 20%;
+	}
+	.boxCaracteristicas article{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.el-proyecto .galeriaArea{
+		display: none;
+	}
+	.imagenMobileArea{
+		padding: 3rem;
+	}
+	.header h1{
+		margin-bottom:3.5rem;
+	}
+	.pisos{
+		margin:0 auto;
+	}
+	.plantaArea{
+		padding-bottom:3.5rem;
 	}
 
 }
@@ -1059,6 +1133,9 @@ section p{
 	}
 	.threeImagesArea .imgArea img{
 		transform:translate(0,0);
+	}
+	.imagenMobileArea{
+		display:none;
 	}
 }
 

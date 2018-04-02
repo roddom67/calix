@@ -13,16 +13,16 @@
 	$headDesc['index'] = 'Calix Núñez - Tu vida a 5 minutos de todo. Departamentos en el barrio de Núñez. 54 911 4773 6619';
 	
 	$titulo['index'] = 'Tu vida<br>a 5 minutos<br>de todo.';
-	$textGray['index'] = '<p>Cuando pensamos Calix 3 de Febrero,<br>pensamos un proyecto en el que quisieramos vivir,<br>un lugar donde disfrutar cada momento de tu día.</p>';
+	$textGray['index'] = '<p>Cuando pensamos Calix 3 de Febrero, <br>pensamos un proyecto en el que quisieramos vivir, <br>un lugar donde disfrutar cada momento de tu día.</p>';
 	$textImageArea['left']['index'] = array(
 		'titulo' => 'El Proyecto',
-		'parrafo' => 'Diseño moderno, espacios<br>flexibles, ventanales de piso<br>a techo, mucha luz natural.',
+		'parrafo' => 'Diseño moderno, espacios <br>flexibles, ventanales de piso <br>a techo, mucha luz natural.',
 		'verMasLink' => 'el-proyecto.php',
 		'verMasTitulo' => 'Ver más del proyecto'			
 	);
 	$textImageArea['right']['index'] = array(
 		'titulo' => 'Núñez',
-		'parrafo' => 'Un barrio en plena<br>transformación',
+		'parrafo' => 'Un barrio en plena <br>transformación',
 		'verMasLink' => 'el-barrio.php',
 		'verMasTitulo' => 'Conocer más del barrio'			
 	);
@@ -51,8 +51,8 @@
 	$headTitulo['el-proyecto'] = 'El Proyecto | Calix Núñez';
 	$headDesc['el-proyecto'] = 'Calix Núñez - El Proyecto. Departamentos en el barrio de Núñez. 54 911 4773 6619';
 	
-	$titulo['el-proyecto'] = 'Diseñado<br>para capturar<br>la lux y el aire';
-	$textGray['el-proyecto'] = '<p>Calix está diseñado pensando en tu comodidad y disfrute.<br>Ya sea que elijas vivir solo, en familia o con amigos, en Calix 3F vas a<br>encontrar espacios privados, espacios para socializar y todas las<br>comodidades que estás buscando.</p>';
+	$titulo['el-proyecto'] = 'Diseñado<br>para capturar <br>la lux y el aire';
+	$textGray['el-proyecto'] = '<p>Calix está diseñado pensando en tu comodidad y disfrute. <br>Ya sea que elijas vivir solo, en familia o con amigos, en Calix 3F vas a <br>encontrar espacios privados, espacios para socializar y todas las <br>comodidades que estás buscando.</p>';
 	$galeriaArea['el-proyecto'] = array(
 		'imagenes' => array (
 			array (
@@ -82,7 +82,12 @@
 		),
 		'sep' => false
 	);
-	$position['el-proyecto'] = array('textGrayContent','galeriaContent','caracteristicaContent');
+	$imagenMobile['el-proyecto'] = array(
+		'imagen' => 'mobile/el_proyecto_img.jpg',
+		'titulo' => ''
+	);
+	
+	$position['el-proyecto'] = array('textGrayContent','galeriaContent','imagenMobileContent','caracteristicaContent');
 	
 /* 
  * Los departamentos
@@ -93,7 +98,7 @@
 	$headDesc['los-departamentos'] = 'Calix Núñez - Los Departamentos. Departamentos en el barrio de Núñez. 54 911 4773 6619';
 
 	$titulo['los-departamentos'] = 'La suma<br>de sus detalles';
-	$textGray['los-departamentos'] = '<p>Diseñamos departamentos de 1 a 2 dormitorios pensando cada rincón,<r>cada terminación. Ideales para crees un “efecto paréntesis”de lo<br>cotidiano y construyas un mundo personal donde quieras vivir,<br>disfrutar y relajarte</p>';
+	$textGray['los-departamentos'] = '<p>Diseñamos departamentos de 1 a 2 dormitorios pensando cada rincón, <br>cada terminación. Ideales para crees un “efecto paréntesis”de lo <br>cotidiano y construyas un mundo personal donde quieras vivir, <br>disfrutar y relajarte</p>';
 	
 	$threeImagesArea['los-departamentos']= array(
 		'imagenes' => array (

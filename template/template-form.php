@@ -14,25 +14,25 @@
  						<form method="post" action="send_contacto.php" name="commentForm" id="commentForm">
       					<fieldset>
 								<ul class="row">
-									<li class="col-sm-12 col-md-8">
+									<li class="col col-md-8">
  										<ul class="row">
-											<li class="col-sm-12 col-md-6">
+											<li class="col-12 col-md-6">
 												<label for="name">Nombre</label>
 												<input type="text" name="name" minlength="4" required>
 											</li>
-											<li class="col-sm-12 col-md-6">
+											<li class="col-12 col-md-6">
 												<label for="surname">Apellido</label>
 												<input type="text" name="surname" required>
 											</li>
-											<li class="col-sm-12 col-md-6">
+											<li class="col-12 col-md-6">
 												<label for="email">Email</label>
 												<input type="text" name="email" required>
 											</li>
-											<li class="col-sm-12 col-md-6">
+											<li class="col-12 col-md-6">
 												<label for="phone">Teléfono</label>
 												<input type="text" name="phone" required>
 											</li>
-											<li class="col-sm-12 col-md-6">
+											<li class="col-12 col-md-6">
 												<label for="depto">Tipo de departamento</label>
 												<select type="text" name="depto" required>
 													<option value="">Seleccione un departamento</option>';
@@ -43,7 +43,7 @@
 				}
 				$textHeaderFormContent .= '</select>
 											</li>
-											<!-- li class="col-sm-12 col-md-6">
+											<!-- li class="col-12 col-md-6">
 												<label for="price">Rango de precio</label>
 												<select type="text" name="price" required>
 													<option value="">Seleccione un rango</option>
@@ -51,7 +51,7 @@
 													<option value="2">mayor a us$200.000</option>
 												</select>
 											</li -->
-											<li class="col-sm-12 col-md-6">
+											<li class="col-12 col-md-6">
 												<label for="medios">¿Cómo se enteró de Calix?</label>
 												<select type="text" name="medios" required>
 													<option value="">Seleccione un medio</option>';
@@ -61,13 +61,13 @@
 				}
 				$textHeaderFormContent .= '</select>
 											</li>
-											<li class="col-sm-12 col-md-12">
+											<li class="col-12 col-md-12">
 												<label for="message">Enter Message:</label> <br>
 												<textarea name="message" required></textarea>
 											</li>
 										</ul>
 									</li>
-									<li class="col-sm-12 col-md-8 buttonArea">
+									<li class="col-12 col-md-8 buttonArea">
 										<input type="submit" name="submit" value="Enviar">
 									</li>
 								</ul>
