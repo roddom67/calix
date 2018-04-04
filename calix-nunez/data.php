@@ -151,24 +151,15 @@
 	$caracteristicasArea['los-departamentos'] = array(
 		'titulo' => 'Características generales',
 		'caracteristicas' => array(
-			'20 metros de frente',
-			'Vista abierta al Frente y Contrafrente',
-			'Edificio de 7 plantas',
-			'Acceso de doble altura',
+			'Edificio de 4 plantas',
+			'Terreno ancho',
+			'Cómodas cocheras',
 			'Ventanas de piso a techo',
-			'Todos los ambientes externos',
-			'Cocheras y espacio para motos y bicicletas',
-			'Salón de usos múltiples',
-			'Solarium con duchones de refresco',
-			'Bauleras',
-			'Laundry',
-			'Cocheras y espacio para motos y bicicletas',
-			'Salón de usos múltiples',
-			'Solarium con duchones de refresco',
-			'Bauleras',
-			'Laundry'
+			'Terminaciones de calidad ',
+			'Agua caliente central',
+			'Aire acondicionado (equipos no provistos)'
 		),
-		'sep' => true
+		'sep' => false
 	);
 		
 	$position['los-departamentos'] = array('textGrayContent','threeImagesContent','galeriaContent','caracteristicaContent');

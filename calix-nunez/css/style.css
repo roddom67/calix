@@ -151,10 +151,22 @@
 	}
 	
 }
-
+@media (max-width: 767px) {
+	.index .headerImage {
+    	background-image: url(../images/mobile/imagen_home.jpg);
+	}
+	.el-proyecto .headerImage {
+    	background-image: url(../images/mobile/imagen_el_proyecto.jpg);
+	}
+	.el-barrio .headerImage{
+		background-image: url(../images/mobile/imagen_el_barrio.jpg);
+	}
+	.los-departamentos .headerImage{
+		background-image: url(../images/mobile/imagen_el_departamento.jpg);
+	}
+}
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-	
 }
 
 /* Large devices (desktops, 992px and up)*/

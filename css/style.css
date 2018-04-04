@@ -978,12 +978,7 @@ section p{
 		text-shadow: 0 1px 3px rgba(0,0,0,.5);
 		transform:translate(-50%,-50%);
 	}
-	.index .headerImage {
-    	background-image: url(../images/mobile/imagen_home.jpg);
-	}
-	.el-proyecto .headerImage {
-    	background-image: url(../images/mobile/imagen_el_proyecto.jpg);
-	}
+	
 	.textGray article{
 		padding: 0;
 	}
