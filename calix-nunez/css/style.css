@@ -2,9 +2,6 @@
 
 :root{
 	--main-color: #2452f4;
-	
-	--white: #fff;
-	--bg-gray: #dcdee0;
 }
 
 /* Header */
@@ -93,7 +90,7 @@
 	width:250px;
 	height: 230px;
 	background: url(../images/planos/frente.png) no-repeat top center;
-	padding:18px 25px 0;
+	padding:13px 50px 0;
 }
 .pisos li{
 	position: relative;
@@ -103,11 +100,11 @@
 	text-indent:-1000em; 
 	display: block;
 }
-.pisos a.piso0{height: 39px;}
-.pisos a.piso1{height: 44px;}
-.pisos a.piso2{height: 43px;}
-.pisos a.piso3{height: 42px;}
-.pisos a.piso4{height: 44px;}
+.pisos a.piso0{height: 28px;}
+.pisos a.piso1{height: 33px;}
+.pisos a.piso2{height: 33px;}
+.pisos a.piso3{height: 33px;}
+.pisos a.piso4{height: 33px;}
 
 .pisos .activo{
 	background: rgba(0,0,0,.25);

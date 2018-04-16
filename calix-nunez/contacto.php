@@ -1,7 +1,6 @@
 <?php
-
 	include("data.php");
-	include("../global-data.php");	
+	include("../global-data.php");
 	
 	$pagina = 'contacto';
 	$activoC = true;
