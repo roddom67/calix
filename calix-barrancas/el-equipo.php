@@ -1,6 +1,7 @@
 <?php
-	include("../global-data.php");
+
 	include("data.php");
+	include("../global-data.php");	
 	
 	$pagina = 'el-equipo';
 	$activoEE = true;

@@ -25,7 +25,7 @@
 		
 	/* Paginas */
 	/* El Equipo */
-	$headTitulo['el-equipo'] = 'El Equipo | Calix Núñez';
+	$headTitulo['el-equipo'] = 'El Equipo | '.$proyectoNombre;
 	$headDesc['el-equipo'] = 'Calix Núñez - El Equipo. Departamentos en el barrio de Núñez. 54 911 4773 6619';
 	
 	$tituloG['el-equipo'] = 'El Equipo';
@@ -67,7 +67,7 @@
 	
 	
 	/* Contacto */
-	$headTitulo['contacto'] = 'Contacto | Calix Núñez';
+	$headTitulo['contacto'] = 'Contacto | '.$proyectoNombre;
 	$headDesc['contacto'] = 'Calix Núñez - Contacto. Departamentos en el barrio de Núñez. 54 911 4773 6619';
 	
 	$tituloG['contacto'] = 'Contacto';

@@ -4,13 +4,13 @@
  * titulo Proyecto 
  *
  ***/
-	$proyecto = 'calix-nunez';
-	$proyectoNombre = 'calix-nunez';
+	$proyecto = 'calix-barrancas';
+	$proyectoNombre = 'Calix Barrancas';
 	
 	/* Paginas */
 	/* Home */
-	$headTitulo['index'] = 'Tu vida a 5 minutos de todo | Calix Núñez';
-	$headDesc['index'] = 'Calix Núñez - Tu vida a 5 minutos de todo. Departamentos en el barrio de Núñez. 54 911 4773 6619';
+	$headTitulo['index'] = 'Tu vida a 5 minutos de todo | Calix Barrancas';
+	$headDesc['index'] = 'Calix Barrancas - Tu vida a 5 minutos de todo. Departamentos en el barrio de Barrancas. 54 911 4773 6619';
 	
 	$titulo['index'] = 'Tu vida<br>a 5 minutos<br>de todo.';
 	$textGray['index'] = '<p>Cuando pensamos Calix 3 de Febrero, <br>pensamos un proyecto en el que quisieramos vivir, <br>un lugar donde disfrutar cada momento de tu día.</p>';
@@ -21,7 +21,7 @@
 		'verMasTitulo' => 'Ver más del proyecto'			
 	);
 	$textImageArea['right']['index'] = array(
-		'titulo' => 'Núñez',
+		'titulo' => 'Barrancas',
 		'parrafo' => 'Un barrio en plena <br>transformación',
 		'verMasLink' => 'el-barrio.php',
 		'verMasTitulo' => 'Conocer más del barrio'			
@@ -48,8 +48,8 @@
  *
  ***/
  
-	$headTitulo['el-proyecto'] = 'El Proyecto | Calix Núñez';
-	$headDesc['el-proyecto'] = 'Calix Núñez - El Proyecto. Departamentos en el barrio de Núñez. 54 911 4773 6619';
+	$headTitulo['el-proyecto'] = 'El Proyecto | Calix Barrancas';
+	$headDesc['el-proyecto'] = 'Calix Barrancas - El Proyecto. Departamentos en el barrio de Barrancas. 54 911 4773 6619';
 	
 	$titulo['el-proyecto'] = 'Diseñado<br>para capturar <br>la luz y el aire';
 	$textGray['el-proyecto'] = '<p>Calix está diseñado pensando en tu comodidad y disfrute. <br>Ya sea que elijas vivir solo, en familia o con amigos, en Calix 3F vas a <br>encontrar espacios privados, espacios para socializar y todas las <br>comodidades que estás buscando.</p>';
@@ -110,8 +110,8 @@
  *
  ****/
  
-	$headTitulo['los-departamentos'] = 'Los Departamentos | Calix Núñez';
-	$headDesc['los-departamentos'] = 'Calix Núñez - Los Departamentos. Departamentos en el barrio de Núñez. 54 911 4773 6619';
+	$headTitulo['los-departamentos'] = 'Los Departamentos | Calix Barrancas';
+	$headDesc['los-departamentos'] = 'Calix Barrancas - Los Departamentos. Departamentos en el barrio de Barrancas. 54 911 4773 6619';
 
 	$titulo['los-departamentos'] = 'La suma<br>de sus detalles';
 	$textGray['los-departamentos'] = '<p>Diseñamos departamentos de 1 a 2 dormitorios pensando cada rincón, <br>cada terminación. Ideales para crees un “efecto paréntesis”de lo <br>cotidiano y construyas un mundo personal donde quieras vivir, <br>disfrutar y relajarte</p>';
@@ -169,8 +169,8 @@
  *
  ****/
  
-	$headTitulo['el-barrio'] = 'El Barrio | Calix Núñez';
-	$headDesc['el-barrio'] = 'Calix Núñez - El Barrio. Departamentos en el barrio de Núñez. 54 911 4773 6619';
+	$headTitulo['el-barrio'] = 'El Barrio | Calix Barrancas';
+	$headDesc['el-barrio'] = 'Calix Barrancas - El Barrio. Departamentos en el barrio de Barrancas. 54 911 4773 6619';
 
 	$titulo['el-barrio'] = 'Tu vida<br>a 5 minutos de todo<br>lo que te gusta';
 	$textGray['el-barrio'] = '<p>Nuñez es un barrio en transformación, está re inventandose. Es un nuevo polo gastronómico con restaurantes y bares, zonas comerciales y de entretenimiento. Cuenta con un sólido centro de educación primario, secundaria y universitaria. En Buenos Aires no hay otro lugar como este. Sumale las zonas verdes, los extensos enlaces de transporte, los famosos mercados de alimentos, transforman este barrio en un destino tan atractivo y conveniente. Todo esto a solo 5 minutos.</p>';
@@ -189,7 +189,7 @@
 			),
 			array (
 				'imagen' => 'nunez-buenos-aires.jpg',
-				'titulo' => 'Núñez Buenos Aires'
+				'titulo' => 'Barrancas Buenos Aires'
 			),
 			array (
 				'imagen' => 'chico-bar.jpg',
@@ -198,7 +198,7 @@
 		)
 	);
 	$textDosTresImageArea['right']['el-barrio'] = array(
-		'parrafo' => '<span>Un Barrio diferente</span>Núñez es un barrio en transformación, está re inventándose. Es un nuevo polo comercial, gastronómico y educativo.  Cuenta con restaurantes,  bares y zonas comerciales, y con diferentes establecimientos de educación primarios, secundarios y universitarios del más alto nivel.'			
+		'parrafo' => '<span>Un Barrio diferente</span>Barrancas es un barrio en transformación, está re inventándose. Es un nuevo polo comercial, gastronómico y educativo.  Cuenta con restaurantes,  bares y zonas comerciales, y con diferentes establecimientos de educación primarios, secundarios y universitarios del más alto nivel.'			
 	);
 
 	$textDosTresImageArea['left']['el-barrio'] = array(
@@ -242,7 +242,7 @@
 					'19_Escuela Aula XXI',
 					'20_Escuela Ort Escuela Normal',
 					'21_UHS United High School',
-					'22_Belgrano Uno',
+					'22_Barrancas Uno',
 					'23_Jacarandá',
 					'24_General San Martín',
 					'25_Instituto José Ingenieros',
@@ -321,8 +321,8 @@
  *
  ****/
 	
-	$headTitulo['disponibilidad'] = 'Disponibilidad | Calix Núñez';
-	$headDesc['disponibilidad'] = 'Calix Núñez - Disponibilidad. Departamentos en el barrio de Núñez. 54 911 4773 6619';
+	$headTitulo['disponibilidad'] = 'Disponibilidad | Calix Barrancas';
+	$headDesc['disponibilidad'] = 'Calix Barrancas - Disponibilidad. Departamentos en el barrio de Barrancas. 54 911 4773 6619';
 
 	$tituloG['disponibilidad'] = 'Disponibilidad';
 	$textGray['disponibilidad'] = '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>';
