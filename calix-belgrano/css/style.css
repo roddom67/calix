@@ -1,0 +1,180 @@
+/* Calix Nuñez */
+
+:root{
+	--main-color: #2452f4;
+	
+	--white: #fff;
+	--bg-gray: #dcdee0;
+}
+
+/* Header */
+
+
+.navbar-brand span{
+	background:url(../images/logo-nav-nunez.png) no-repeat top left;
+	width: 100px;
+	height:50px;
+}
+.logo span,
+.navGris .navbar-brand span{
+	background:url(../images/logo-nav-nunez.png) no-repeat bottom left;
+	width: 100px;
+	height:50px;
+}
+#navbarSupportedContent{
+	background: var(--main-color);
+}
+#navbarSupportedContent .navbar-nav li a{
+	color: var(--white);
+}
+
+/* Home */
+
+.index .headerImage{
+	background-image: url(../images/imagen_home.jpg);
+}
+
+.textImageArea.bgColor:before{
+	background-color: var(--main-color);
+}
+
+.boxElProyecto:after{
+	background-image: url(../images/imagen_proyecto.jpg);
+}
+
+.boxElBarrio:after{
+	background-image: url(../images/imagen_barrio.jpg);
+}
+
+/* El Proyecto */
+
+.el-proyecto .headerImage{
+	background-image: url(../images/imagen_el_proyecto.jpg);
+}
+.twoImagesMiddleTextArea li:nth-child(2){
+	background:var(--main-color);
+}
+
+/* Los Departamentos */
+
+.los-departamentos .headerImage{
+	background-image: url(../images/imagen_el_departamento.jpg);
+}
+
+/* El Barrio */
+
+.el-barrio .headerImage{
+	background-image: url(../images/imagen_el_barrio.jpg);
+}
+.boxUnBarrio:after{
+	background-image: url(../images/universidad-di-tella.jpg);
+}
+
+.boxDosBarrio:after{
+	background-image: url(../images/plantas.jpg);
+}
+
+/* Background White */
+.textArea h2,
+.textImageArea article a,
+.index .textImageArea.imageBgRight h2,
+.textMapArea h2,
+.text2_3ImageArea p span,
+.threeImagesArea .playVideo:before,
+.navGris .header h1,
+.linksArea a,
+.disponibilidadArea h2 strong,
+.index .headerImage h1{
+	color: var(--main-color)
+}
+
+/* Disponibilidad Pisos */
+.pisos{
+	width:250px;
+	height: 230px;
+	background: url(../images/planos/frente.png) no-repeat top center;
+	padding:18px 25px 0;
+}
+.pisos li{
+	position: relative;
+	display: block;
+}
+.pisos a{
+	text-indent:-1000em; 
+	display: block;
+}
+.pisos a.piso0{height: 39px;}
+.pisos a.piso1{height: 44px;}
+.pisos a.piso2{height: 43px;}
+.pisos a.piso3{height: 42px;}
+.pisos a.piso4{height: 44px;}
+
+.pisos .activo{
+	background: rgba(0,0,0,.25);
+}
+
+.index .textImageArea.bgGray:before{
+	background-color: var(--white);
+}
+.textImageArea h2
+
+
+
+
+
+
+/*--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1200px*/
+
+@media (max-width: 575px) {
+
+	.home article ul{
+		padding-bottom: calc( 33.3333vh - 170px);
+	}
+	.home article ul li{
+		padding-top: 20px;
+		padding-bottom: 20px;
+		overflow:hidden;
+	}
+	
+	
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+	.home article ul{
+		padding-bottom: calc( 33.3333vh - 170px);
+	}
+	.home article ul li{
+		padding-top: 20px;
+		padding-bottom: 20px;
+		overflow:hidden;
+	}
+	
+}
+@media (max-width: 767px) {
+	.index .headerImage {
+    	background-image: url(../images/mobile/imagen_home.jpg);
+	}
+	.el-proyecto .headerImage {
+    	background-image: url(../images/mobile/imagen_el_proyecto.jpg);
+	}
+	.el-barrio .headerImage{
+		background-image: url(../images/mobile/imagen_el_barrio.jpg);
+	}
+	.los-departamentos .headerImage{
+		background-image: url(../images/mobile/imagen_el_departamento.jpg);
+	}
+}
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
+}
