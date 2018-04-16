@@ -17,7 +17,7 @@
  				</div>
   				<ul class="row menuCalix">
   					<li class="col-xs-12 col-md-4">
-  						<a href="" title="Calix Barrancas" class="calixBarrancas">
+  						<a href="calix-belgrano/" title="Calix Barrancas" class="calixBarrancas">
   							<span>Calix Barrancas</span>
   							<small>Blanco Encalada 2936</small>
   						</a>
