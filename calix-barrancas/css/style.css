@@ -1,24 +1,21 @@
-/* Calix Nuñez */
+/* Calix Barrancas */
 
 :root{
 	--main-color: #0fb11b;
-	
 	--white: #fff;
 	--bg-gray: #dcdee0;
 }
 
 /* Header */
-
-
 .navbar-brand span{
-	background:url(../images/logo-nav-nunez.png) no-repeat top left;
-	width: 100px;
+	background:url(../images/logo-nav-barrancas.png) no-repeat top left;
+	width: 134px;
 	height:50px;
 }
 .logo span,
 .navGris .navbar-brand span{
-	background:url(../images/logo-nav-nunez.png) no-repeat bottom left;
-	width: 100px;
+	background:url(../images/logo-nav-barrancas.png) no-repeat bottom left;
+	width: 134px;
 	height:50px;
 }
 #navbarSupportedContent{
@@ -56,7 +53,6 @@
 }
 
 /* Los Departamentos */
-
 .los-departamentos .headerImage{
 	background-image: url(../images/imagen_el_departamento.jpg);
 }
@@ -69,7 +65,6 @@
 .boxUnBarrio:after{
 	background-image: url(../images/universidad-di-tella.jpg);
 }
-
 .boxDosBarrio:after{
 	background-image: url(../images/plantas.jpg);
 }
@@ -83,17 +78,16 @@
 .threeImagesArea .playVideo:before,
 .navGris .header h1,
 .linksArea a,
-.disponibilidadArea h2 strong,
-.index .headerImage h1{
+.disponibilidadArea h2 strong{
 	color: var(--main-color)
 }
 
 /* Disponibilidad Pisos */
 .pisos{
-	width:250px;
-	height: 230px;
+	width:189px;
+	height: 183px;
 	background: url(../images/planos/frente.png) no-repeat top center;
-	padding:18px 25px 0;
+	padding:0px 18px 0;
 }
 .pisos li{
 	position: relative;
@@ -103,11 +97,15 @@
 	text-indent:-1000em; 
 	display: block;
 }
-.pisos a.piso0{height: 39px;}
-.pisos a.piso1{height: 44px;}
-.pisos a.piso2{height: 43px;}
-.pisos a.piso3{height: 42px;}
-.pisos a.piso4{height: 44px;}
+.pisos a.piso0{height: 29px;}
+.pisos a.piso1{height: 21px;}
+.pisos a.piso2{height: 22px;}
+.pisos a.piso3{height: 22px;}
+.pisos a.piso4{height: 22px;}
+.pisos a.piso5{height: 22px;}
+.pisos a.piso6{height: 22px;}
+.pisos a.piso7{height: 23px;}
+
 
 .pisos .activo{
 	background: rgba(0,0,0,.25);
@@ -116,17 +114,8 @@
 .index .textImageArea.bgGray:before{
 	background-color: var(--white);
 }
-.textImageArea h2
-
-
-
-
-
-
-/*--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1200px*/
 
 @media (max-width: 575px) {
-
 	.home article ul{
 		padding-bottom: calc( 33.3333vh - 170px);
 	}
@@ -135,11 +124,10 @@
 		padding-bottom: 20px;
 		overflow:hidden;
 	}
-	
-	
 }
 
 /* Small devices (landscape phones, 576px and up)*/
+
 @media (min-width: 576px) {
 	.home article ul{
 		padding-bottom: calc( 33.3333vh - 170px);
@@ -149,7 +137,6 @@
 		padding-bottom: 20px;
 		overflow:hidden;
 	}
-	
 }
 @media (max-width: 767px) {
 	.index .headerImage {
@@ -165,16 +152,15 @@
 		background-image: url(../images/mobile/imagen_el_departamento.jpg);
 	}
 }
+
 /* Medium devices (tablets, 768px and up)*/
+
 @media (min-width: 768px) {
 }
-
 /* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
-	
-}
 
+@media (min-width: 992px) {
+}
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-	
 }

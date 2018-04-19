@@ -42,7 +42,7 @@ main{
 :root{
 	--white: #fff;
 	--light-gray: #dcdee0;
-	--dark-gray: #52575F;
+	--dark-gray: #666;
 }
 
 .overflow{
@@ -50,9 +50,9 @@ main{
 }
 
 h1{
-	font-size: 4.3em;
+	font-size: 5.3em;
 	line-height: 5.5rem;
-	font-weight: 300;
+	font-weight: 100;
 	color:  var(--white);
 }
 
@@ -149,7 +149,7 @@ h1{
 #navbarSupportedContent{
 	position: fixed;
 	z-index: 8888;
-	width: 40%;
+	width: 25%;
 	height: 100vh;
 	background: var(--white);
 	top: 0;
@@ -162,13 +162,14 @@ h1{
 	transform: translate3d(-50%,-50%,0);
 }
 #navbarSupportedContent .navbar-nav li{
-	text-align: center;
-	font-size: 3.2em;
-	
+	text-align: left;
+	font-size: 2.1rem;
+	font-weight: 100;
+	padding:0 40px;
 }
 #navbarSupportedContent .navbar-nav li a{
 	display: inline-block;
-	font-weight: 300;
+	font-weight: 100;
 	border-bottom:1px solid transparent;
 }
 #navbarSupportedContent .navbar-nav li a:hover{
@@ -361,16 +362,18 @@ footer .legalesArea li small{
 	top: 50%;
 	left: 50%;
 	transform: translate3d(-50%,-50%,0);
-	text-shadow: 0 1px 3px rgba(0,0,0,.5);
+	text-shadow: 0 0 3px rgba(0,0,0,.5);
 }
 .index .headerImage h1{
-	padding: 10vh 20px 0 60%;
+	padding: 10vh 0 0;
+	margin: 0 auto;
 	text-align: center;
+	text-shadow: 0 0 3px rgba(0,0,0,.5);
 }
 .header h1{
 	padding:9.0rem 0 1.5rem;
-	font-size:4.3em;
-	font-weight: 300;
+	font-size:4.3rem;
+	font-weight: 100;
 	margin-bottom:5.5rem;
 	border-bottom:1px solid var(--dark-gray)
 }
@@ -380,7 +383,7 @@ footer .legalesArea li small{
 section p{
 	font-size: 2.3em;
 	line-height: 3.7rem;
-	font-weight: 300;
+	font-weight: 200;
 }
 .textGray{
 	padding: 14.0em 0;
@@ -708,32 +711,30 @@ section p{
 	padding-bottom: 6.0rem;
 }
 .elequipoArea h2{
-	font-size:1.6rem;
-	font-weight:300;
-	padding-bottom: 2.0rem;
+	font-size:1.5rem;
+	text-transform: uppercase;
+	font-weight:500;
+	padding-bottom: 6.0rem;
 }
 .elequipoArea h3{
-	font-size:1.7rem;
-	font-weight:600;
-	padding-bottom: 1.0rem;
-}
-.elequipoArea p + h3{
-	padding-top: 2.0rem
+	font-size:1.5rem;
+	font-weight:500;
+	padding-bottom: 3.5rem;
 }
 .elequipoArea h3 span{
-	font-size:1.3rem;
-	font-weight:400;
-	padding-bottom: 2.0rem;
+	font-size:1.5rem;
+	font-weight:300;
+	padding-top: 1.0rem;
+
 	display: block;
-	font-style:italic;	
 }
 .elequipoArea .imgArea img{
 	width:auto;
 }
 .elequipoArea p{
-	font-size:1.6rem;
+	font-size:1.5rem;
 	font-weight:300;
-	line-height: 2.0rem;
+	line-height: 2.4rem;
 	padding-bottom: 3.0rem;
 }
 
@@ -799,8 +800,8 @@ section p{
 	display: none !important;
 }
 .disponibilidadArea h2{
-	font-size: 1.8em;
-	font-weight:600;
+	font-size: 1.8rem;
+	font-weight:500;
 	margin:0;
 	padding: 3.0rem 0;
 	border-top:1px solid var(--dark-gray);
@@ -811,10 +812,11 @@ section p{
 .disponibilidadArea .imgArea{
 	padding-bottom: 3.0rem;
 	display:block;
+	
 }
 .disponibilidadArea h2 span{
 	display:block;
-	font-weight:300;
+	font-weight:200;
 	padding-bottom: 3.0rem;
 }
 .disponibilidadArea h2 strong{
@@ -958,6 +960,9 @@ section p{
 	}
 	p br{
 		display:none;
+	}
+	#navbarSupportedContent .navbar-nav li{
+		padding:0 20px;
 	}
 	#navbarSupportedContent{
 		width: 100%;
@@ -1132,14 +1137,21 @@ section p{
 	.imagenMobileArea{
 		display:none;
 	}
+	#navbarSupportedContent{
+		width:40%;
+	}
 }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-	
+	#navbarSupportedContent{
+		width:30%;
+	}
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-	
+	#navbarSupportedContent{
+		width:25%;
+	}
 }

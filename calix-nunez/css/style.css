@@ -80,8 +80,7 @@
 .threeImagesArea .playVideo:before,
 .navGris .header h1,
 .linksArea a,
-.disponibilidadArea h2 strong,
-.index .headerImage h1{
+.disponibilidadArea h2 strong{
 	color: var(--main-color)
 }
 
@@ -113,12 +112,6 @@
 .index .textImageArea.bgGray:before{
 	background-color: var(--white);
 }
-.textImageArea h2
-
-
-
-
-
 
 /*--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1200px*/
 
