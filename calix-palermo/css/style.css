@@ -1,21 +1,29 @@
 /* Calix Nuñez */
 
 :root{
-	--main-color: #2452f4;
+	--main-color: #f4cf13;
 }
 
 /* Header */
-
+/* Eliminar al armar el proyecto */
+#navbarSupportedContent .navbar-nav li{
+	display:none;
+}
+#navbarSupportedContent .navbar-nav li:nth-child(1),
+#navbarSupportedContent .navbar-nav li:nth-child(8){
+	display:block;
+}
+/* Hasta acá Eliminar al armar el proyecto */
 
 .navbar-brand span{
-	background:url(../images/logo-nav-nunez.png) no-repeat top left;
-	width: 100px;
+	background:url(../images/logo-nav-palermo.png) no-repeat top left;
+	width: 112px;
 	height:50px;
 }
 .logo span,
 .navGris .navbar-brand span{
-	background:url(../images/logo-nav-nunez.png) no-repeat bottom left;
-	width: 100px;
+	background:url(../images/logo-nav-palermo.png) no-repeat bottom left;
+	width: 112px;
 	height:50px;
 }
 #navbarSupportedContent{
