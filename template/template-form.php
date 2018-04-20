@@ -68,6 +68,7 @@
 										</ul>
 									</li>
 									<li class="col-12 col-md-8 buttonArea">
+										<input type="hidden" name="proyecto" value="'.$proyectoNombre.'">
 										<input type="submit" name="submit" value="Enviar">
 									</li>
 								</ul>

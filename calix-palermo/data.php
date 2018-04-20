@@ -5,7 +5,7 @@
  *
  ***/
 	$proyecto = 'calix-palermo';
-	$proyectoNombre = 'calix-palermo';
+	$proyectoNombre = 'Calix Palermo';
 	
 	/* Paginas */
 	/* Home */
