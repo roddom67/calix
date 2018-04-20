@@ -19,7 +19,7 @@
   					<li class="col-xs-12 col-md-4">
   						<a href="calix-barrancas/" title="Calix Barrancas" class="calixBarrancas">
   							<span>Calix Barrancas</span>
-  							<small>Blanco Encalada 2936</small>
+  							<small>Blanco Encalada 1865</small>
   						</a>
   					</li>
   					<li class="col-xs-12 col-md-4">

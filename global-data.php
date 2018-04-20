@@ -11,7 +11,7 @@
 	$calixBarrancas = array(
 		'titulo' => 'Calix Barrancas',
 		'link' => '../calix-barrancas/',
-		'direccion' => 'Blanco Encalada,<br>
+		'direccion' => 'Blanco Encalada 1865,<br>
   						Caba, Argentina C1428A<br>
   						T 549 11 4773 6619'
 	);
