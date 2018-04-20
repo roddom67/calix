@@ -98,10 +98,8 @@
 
   			$dept = sizeof($planos[$a]);
   			for($d = 0; $d<$dept;$d++){
-
-
-				if(isset($disponibilidad[$pagina][$a]['deptos'])&&isset($disponibilidad[$pagina][$a]['deptos'])){
-					$disponibilidadContent .= '<h2>'.$disponibilidad[$pagina][$a]['deptos'][$d][0];
+				if(isset($disponibilidad[$pagina][$a]['deptos'][$d][0]) && isset($disponibilidad[$pagina][$a]['deptos'][$d][1])){
+				$disponibilidadContent .= '<h2>'. $disponibilidad[$pagina][$a]['deptos'][$d][0];
 					$disponibilidadContent .= '<span>'.$disponibilidad[$pagina][$a]['deptos'][$d][1].'</span>';
 					$disponibilidadContent .= '<strong>Planta</strong>';
 				}
@@ -121,8 +119,11 @@
 													<li><strong>'.$disponibilidad[$pagina][$a]['deptos'][$d][6].'</strong></li>
 												</ul>';
 				}
-				$disponibilidadContent .= '</li>
-											<li class="col-4 col-md-6 linksArea">
+				
+				$disponibilidadContent .= '</li>';
+				
+				if(isset($disponibilidad[$pagina][$a]['deptos'][$d][2])){ 	
+					$disponibilidadContent .= '<li class="col-4 col-md-6 linksArea">
 												<ul class="row">
 													<li>
 														<p><a href="plantas/'.$disponibilidad[$pagina][$a]['deptos'][$d][2].'" title="Bajar Planta" target="_blank">> Bajar PDF</a></p>
@@ -131,8 +132,9 @@
 														<p><a href="#" title="Enviar Planta por email">Enviar</a></p>
 													</li-->
 												</ul>
-											</li>
-										</ul>';
+											</li>';
+				}
+				$disponibilidadContent .= '</ul>';
 				$disponibilidadContent .= '<span class="imgArea">
 											<img src="images/planos/'.$carpetas[$a].'/'.$planos[$a][$d].'" alt="Depto '.$disponibilidad[$pagina][$a]['piso'].'0'.($d+1).'">
 										</span>
