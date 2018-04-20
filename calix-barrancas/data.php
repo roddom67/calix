@@ -20,15 +20,15 @@
 
 	/* Home */
 
-	$headTitulo['index'] = 'Tu vida a 5 minutos de todo | Calix Barrancas';
+	$headTitulo['index'] = 'Vivir a mano, vivir cómodo, vivir bien. | Calix Barrancas';
 
 	$headDesc['index'] = 'Calix Barrancas - Tu vida a 5 minutos de todo. Departamentos en el barrio de Barrancas. 54 911 4773 6619';
 
 	
 
-	$titulo['index'] = 'Tu vida<br>a 5 minutos<br>de todo.';
+	$titulo['index'] = 'Vivir a mano,<br>vivir cómodo,<br>vivir bien.';
 
-	$textGray['index'] = '<p>Cuando pensamos Calix 3 de Febrero, <br>pensamos un proyecto en el que quisieramos vivir, <br>un lugar donde disfrutar cada momento de tu día.</p>';
+	$textGray['index'] = '<p>Cuando pensamos Calix Barrancas, <br>pensamos un proyecto en el que quisieras vivir, <br>un lugar donde disfrutar cada momento de tu día.</p>';
 
 	$textImageArea['left']['index'] = array(
 
