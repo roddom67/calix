@@ -937,11 +937,6 @@ section p{
 	.home article ul{
 		padding-bottom: calc( 33.3333vh - 170px);
 	}
-	.home article ul li{
-		padding-top: 20px;
-		padding-bottom: 20px;
-		overflow:hidden;
-	}
 	
 }
 
@@ -955,6 +950,17 @@ section p{
 	}
 	p br{
 		display:none;
+	}
+	.home article div{
+		padding-bottom: 80px;
+	}
+	.home article ul li{
+		padding-top: 20px;
+		padding-bottom: 30px;
+		overflow:hidden;
+	}
+	.home .menuCalix a small{
+		bottom: 5px;
 	}
 	#navbarSupportedContent .navbar-nav li{
 		padding:0 20px;
