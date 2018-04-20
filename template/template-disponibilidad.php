@@ -85,9 +85,7 @@
   		
   		$h = 0;				
   		for($a=0;$a < $cant; $a++){
-  		
-  				
-			if(isset($disponibilidad[$pagina][$a]['show']) && $disponibilidad[$pagina][$a]['show']){
+ 			if(isset($disponibilidad[$pagina][$a]['show']) && $disponibilidad[$pagina][$a]['show']){
 				$hidden = '';	
 			}else{
 				$hidden = ' hidden';	
@@ -96,7 +94,8 @@
 			$disponibilidadContent .= '<div class="accordion'.$hidden.'" id="planta_'.$a.'">';
 			$h++;
 
-  			$dept = sizeof($planos[$a]);
+  			$dept = sizeof($disponibilidad[$pagina][$a]['deptos']);
+  			
   			for($d = 0; $d<$dept;$d++){
 				if(isset($disponibilidad[$pagina][$a]['deptos'][$d][0]) && isset($disponibilidad[$pagina][$a]['deptos'][$d][1])){
 				$disponibilidadContent .= '<h2>'. $disponibilidad[$pagina][$a]['deptos'][$d][0];
@@ -135,10 +134,13 @@
 											</li>';
 				}
 				$disponibilidadContent .= '</ul>';
-				$disponibilidadContent .= '<span class="imgArea">
-											<img src="images/planos/'.$carpetas[$a].'/'.$planos[$a][$d].'" alt="Depto '.$disponibilidad[$pagina][$a]['piso'].'0'.($d+1).'">
-										</span>
-									</div>';
+				if(isset($planos[$a][$d])){
+					$disponibilidadContent .= '<span class="imgArea">
+												<img src="images/planos/'.$carpetas[$a].'/'.$planos[$a][$d].'" alt="Depto '.$disponibilidad[$pagina][$a]['piso'].'0'.($d+1).'">
+											</span>'
+											;
+				}						
+				$disponibilidadContent .= '</div>';
   			}
   			$disponibilidadContent .= '</div><!-- accordion -->';
   		}
