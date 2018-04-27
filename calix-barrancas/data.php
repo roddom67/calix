@@ -150,21 +150,6 @@
 
 				'titulo' => ''
 
-			),
-
-			array (
-
-				'imagen' => 'galeria_1.jpg',
-
-				'titulo' => ''
-
-			),
-
-			array (
-
-				'imagen' => 'galeria_2.jpg',
-
-				'titulo' => ''
 
 			)
 
@@ -178,20 +163,35 @@
 
 		'caracteristicas' => array(
 
-			'Edificio de 4 plantas',
+			'20 metros de frente',
 
-			'Terreno ancho',
+			'Vista abierta al Frente y Contrafrente',
 
-			'Cómodas cocheras',
+			'Edificio de 7 plantas',
+
+			'Acceso de doble altura',
 
 			'Ventanas de piso a techo',
 
-			'Terminaciones de calidad ',
+			'Todos los ambientes externos',
 
-			'Agua caliente central',
+			'Unidades de 2 y 3 ambientes',
+				
+			'Cocheras y espacio para motos y bicicletas',
 
-			'Aire acondicionado (equipos no provistos)'
+			'Terminaciones de calidad',
 
+			'Excelente iluminación',
+
+			'Salón de usos múltiples',
+
+			'Solarium con duchones de refresco',
+			
+			'Bauleras',
+
+			'Laundry',
+			
+			'Bajas expensas'
 		),
 
 		'sep' => false
@@ -228,7 +228,7 @@
 
 
 
-	$titulo['los-departamentos'] = 'La suma<br>de sus detalles';
+	$titulo['los-departamentos'] = 'Vivir Cómodo<br>Vivir Bien.';
 
 	$textGray['los-departamentos'] = '<p>Diseñamos departamentos de 1 a 2 dormitorios pensando cada rincón, <br>cada terminación. Ideales para crees un “efecto paréntesis”de lo <br>cotidiano y construyas un mundo personal donde quieras vivir, <br>disfrutar y relajarte</p>';
 
@@ -270,13 +270,6 @@
 
 		'imagenes' => array (
 
-			array (
-
-				'imagen' => 'galeria_0.jpg',
-
-				'titulo' => ''
-
-			),
 
 			array (
 
@@ -304,19 +297,36 @@
 
 		'caracteristicas' => array(
 
-			'Edificio de 4 plantas',
+			'20 metros de frente',
 
-			'Terreno ancho',
+			'Vista abierta al Frente y Contrafrente',
 
-			'Cómodas cocheras',
+			'Edificio de 7 plantas',
+
+			'Acceso de doble altura',
 
 			'Ventanas de piso a techo',
 
-			'Terminaciones de calidad ',
+			'Todos los ambientes externos',
 
-			'Agua caliente central',
+			'Unidades de 2 y 3 ambientes',
+				
+			'Cocheras y espacio para motos y bicicletas',
 
-			'Aire acondicionado (equipos no provistos)'
+			'Terminaciones de calidad',
+
+			'Excelente iluminación',
+
+			'Salón de usos múltiples',
+
+			'Solarium con duchones de refresco',
+			
+			'Bauleras',
+
+			'Laundry',
+			
+			'Bajas expensas'
+
 
 		),
 
@@ -346,7 +356,7 @@
 
 
 
-	$titulo['el-barrio'] = 'Tu vida<br>a 5 minutos de todo<br>lo que te gusta';
+	$titulo['el-barrio'] = 'Vivir a mano,<br>cerca de todo.';
 
 	$textGray['el-barrio'] = '<p>Nuñez es un barrio en transformación, está re inventandose. Es un nuevo polo gastronómico con restaurantes y bares, zonas comerciales y de entretenimiento. Cuenta con un sólido centro de educación primario, secundaria y universitaria. En Buenos Aires no hay otro lugar como este. Sumale las zonas verdes, los extensos enlaces de transporte, los famosos mercados de alimentos, transforman este barrio en un destino tan atractivo y conveniente. Todo esto a solo 5 minutos.</p>';
 

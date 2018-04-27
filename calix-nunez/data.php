@@ -28,7 +28,7 @@
 
 	$titulo['index'] = 'Tu vida<br>a 5 minutos<br>de todo.';
 
-	$textGray['index'] = '<p>Cuando pensamos Calix 3 de Febrero, <br>pensamos un proyecto en el que quisieramos vivir, <br>un lugar donde disfrutar cada momento de tu día.</p>';
+	$textGray['index'] = '<p>Cuando pensamos Calix 3 de Febrero, <br>pensamos un proyecto en el que quisieras vivir, <br>un lugar donde disfrutar cada momento de tu día.</p>';
 
 	$textImageArea['left']['index'] = array(
 
@@ -154,15 +154,7 @@
 
 			array (
 
-				'imagen' => 'galeria_1.jpg',
-
-				'titulo' => ''
-
-			),
-
-			array (
-
-				'imagen' => 'galeria_2.jpg',
+				'imagen' => 'galeria_proyecto_terraza.jpg',
 
 				'titulo' => ''
 
@@ -178,19 +170,21 @@
 
 		'caracteristicas' => array(
 
-			'Edificio de 4 plantas',
-
-			'Terreno ancho',
+			'Excelente Accesibilidad hacia / desde el centro y el norte de la ciudad',
 
 			'Cómodas cocheras',
 
-			'Ventanas de piso a techo',
+			'Seguridad integrada',
 
-			'Terminaciones de calidad ',
+			'Bajas expensas',
 
-			'Agua caliente central',
+			'Diseño funcional',
 
-			'Aire acondicionado (equipos no provistos)'
+			'Terminaciones de calidad',
+
+			'Carpinterías de piso a techo',
+			
+			'Ascensores de Acero Inoxidable'
 
 		),
 
@@ -230,7 +224,7 @@
 
 	$titulo['los-departamentos'] = 'La suma<br>de sus detalles';
 
-	$textGray['los-departamentos'] = '<p>Diseñamos departamentos de 1 a 2 dormitorios pensando cada rincón, <br>cada terminación. Ideales para crees un “efecto paréntesis”de lo <br>cotidiano y construyas un mundo personal donde quieras vivir, <br>disfrutar y relajarte</p>';
+	$textGray['los-departamentos'] = '<p>Diseñamos departamentos de 1 a 2 dormitorios pensando cada rincón, <br>cada terminación. Ideales para que crees un “efecto paréntesis” de lo <br>cotidiano y construyas un mundo personal donde quieras vivir, <br>disfrutar y relajarte</p>';
 
 	
 
@@ -272,7 +266,7 @@
 
 			array (
 
-				'imagen' => 'galeria_0.jpg',
+				'imagen' => 'galeria_depto_living.jpg',
 
 				'titulo' => ''
 
@@ -280,7 +274,7 @@
 
 			array (
 
-				'imagen' => 'galeria_1.jpg',
+				'imagen' => 'galeria_depto_cocina.jpg',
 
 				'titulo' => ''
 
@@ -288,7 +282,7 @@
 
 			array (
 
-				'imagen' => 'galeria_2.jpg',
+				'imagen' => 'galeria_depto_habitacion.jpg',
 
 				'titulo' => ''
 
@@ -304,19 +298,21 @@
 
 		'caracteristicas' => array(
 
-			'Edificio de 4 plantas',
-
-			'Terreno ancho',
+			'Excelente Accesibilidad hacia / desde el centro y el norte de la ciudad',
 
 			'Cómodas cocheras',
 
-			'Ventanas de piso a techo',
+			'Seguridad integrada',
 
-			'Terminaciones de calidad ',
+			'Bajas expensas',
 
-			'Agua caliente central',
+			'Diseño funcional',
 
-			'Aire acondicionado (equipos no provistos)'
+			'Terminaciones de calidad',
+
+			'Carpinterías de piso a techo',
+			
+			'Ascensores de Acero Inoxidable'
 
 		),
 
@@ -636,7 +632,7 @@
 
 /* 
 
- * Disponibilidad 
+ * Las Plantas 
 
  *
 
@@ -644,13 +640,13 @@
 
 	
 
-	$headTitulo['disponibilidad'] = 'Disponibilidad | Calix Núñez';
+	$headTitulo['disponibilidad'] = 'Las Unidades | Calix Núñez';
 
 	$headDesc['disponibilidad'] = 'Calix Núñez - Disponibilidad. Departamentos en el barrio de Núñez. 54 911 4773 6619';
 
 
 
-	$tituloG['disponibilidad'] = 'Disponibilidad';
+	$tituloG['disponibilidad'] = 'Las Plantas';
 
 	$textGray['disponibilidad'] = '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>';
 

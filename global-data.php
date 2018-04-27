@@ -40,13 +40,13 @@
 			'logo' => 'boyadjian.png',
 			'alt' => 'Diego Boyadjian Arquitectos',
 			'texto' => '<h3>ARQ. DIEGO BOYADJIAN<span>Arquitecto UBA</span></h3><p>Ha realizado proyectos residenciales, institucionales y corporativos. Entre ellos el <strong>1° premio</strong> en el <strong>Concurso para el Corredor Turístico puerto Madero - La Boca</strong>. Es profesor de diseño arquitectónico avanzado en la <strong>FADU</strong> de la <strong>UBA</strong>.</p>'
-		),
+		)/*,
 		array(
 			'titulo' => 'Gerenciamiento y Construcción',
 			'logo' => 'hfa.png',
 			'alt' => 'HF-A Hernán Ferrero - Arquitectos',
 			'texto' => '<h3>ARQ. HERNAN FERRERO<span>CONSTRUCCIÓN Y PLANIFICACIÓN DE OBRAS</span></h3><p>Arquitectecto de la <strong>Universidad de Buenos Aires</strong>. Tiene 25 años de experiencia en tareas de planificación, gestión, administración, construcción y dirección de las obras. He realizado construcciones por más de <strong>25.000 m<sup>2</sup></strong>.</p>'
-		)/*,
+		),
 
 		array(
 
@@ -83,9 +83,9 @@
 
 	$tituloG['contacto'] = 'Contacto';
 	$textHeaderForm['contacto'] = array(
-		'parrafo' => 'Gracias por su interés en '.$proyectoNombre.'. Regístrese a continuación o póngase en contacto con el equipo de ventas directamente para programar una cita',
-		'titulo' => 'Equipo de Venta',
-		'telefono' => '718 488 0265',
+		'parrafo' => 'Gracias por su interés en '.$proyectoNombre.'. Regístrese a continuación o póngase en contacto con nuestro equipo directamente para programar una cita',
+		'titulo' => 'Equipo de Atención',
+		'telefono' => '11 4788 2412',
 		'email' => 'info@zoning.com.ar'
 	);
 	
