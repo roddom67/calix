@@ -11,7 +11,7 @@
  			$threeImagesContent .= '<li class="col-12 col-md-4">';
  			
  			if(isset($threeImagesArea[$pagina]['imagenes'][$a]['video'])){
- 				$threeImagesContent .= '<a href="#video'.$a.'" title="'.$threeImagesArea[$pagina]['imagenes'][$a]['titulo'].'" class="showVideo"><span class="playVideo"></span>';	
+ 				$threeImagesContent .= '<a href="#video'.$a.'" title="'.$threeImagesArea[$pagina]['imagenes'][$a]['titulo'].'" class="showVideo"><span class="playVideo"></span>';
  			}
  			
  			$threeImagesContent .= '<span class="imgArea">

@@ -102,7 +102,7 @@
  			<div class="container-fluid">
  				<div class="row">
   					<article class="col-12">
-  						<h2>'.$caracteristicasArea[$pagina]['titulo'].'</h2>
+  						<h1>'.$caracteristicasArea[$pagina]['titulo'].'</h1>
   						<ul class="row">';
   		if(!$caracteristicasArea[$pagina]['sep']){
   			$caracteristicaContent .= '<li class="col-12 col-md-4">

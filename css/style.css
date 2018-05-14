@@ -55,7 +55,9 @@ h1{
 	font-weight: 100;
 	color:  var(--white);
 }
-
+article h1{
+	margin-bottom: 1.5rem;
+}
 
 /* Home */
 .home{
@@ -856,7 +858,8 @@ section p{
 }
 .el-barrio .ui-dialog,
 .modal.modalVideo{
-	min-height: 390px !important;
+	height: 100% !important;
+	width: 100% !important;
 }
 .ui-dialog:before{
 	content:'';
@@ -882,6 +885,16 @@ section p{
 	height: 100%;
 }
 
+.el-barrio .modal .boxArea{
+	padding: 0;
+}
+.el-barrio .modal .boxArea video{
+	position: relative;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%)
+	
+}
 .ui-dialog-titlebar{
 	width: 100%;
 	left:50%;

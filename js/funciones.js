@@ -35,13 +35,13 @@ $(function(){
 								.css('display','none')
 								.parent()
 								.removeClass('colapseOn');
-							$('html').removeClass('overflow');
+							/*$('html').removeClass('overflow');*/
 						});
 
 				}else{
 
 					$(this).addClass('toggled');
-					$('html').addClass('overflow');
+					/*$('html').addClass('overflow');*/
 					divColapse
 						.stop()
 						.css('display','block')
@@ -124,11 +124,16 @@ $(function(){
 		
 			$('.showVideo').on('click',function(e){
 				e.preventDefault();
+				$('html').addClass('overflow');
 				$('.modalVideo').dialog({
-					resizable: true
+					resizable: true,
+					close: function(){
+						$('.modalVideo video')[0].pause();
+				$('html').removeClass('overflow');
+					}
 				});
 			})
-			
+		
 		}
 	}
 	

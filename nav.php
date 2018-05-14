@@ -9,6 +9,9 @@
       <li class="nav-item <?php if(isset($activoH)){ echo 'active'; } ?>">
         <a class="nav-link" href="../<?php echo $proyecto; ?>/" title="<?php echo $proyectoNombre; ?>">Home</a>
       </li>
+      <li class="nav-item <?php if(isset($activoEB)){ echo 'active'; } ?>">
+        <a class="nav-link " href="el-barrio.php">El Barrio</a>
+      </li>
       <li class="nav-item <?php if(isset($activoEP)){ echo 'active'; } ?>">
         <a class="nav-link" href="el-proyecto.php" title="El Proyecto">El Proyecto</a>
       </li>
@@ -17,9 +20,6 @@
       </li>
       <li class="nav-item <?php if(isset($activoD)){ echo 'active'; } ?>">
         <a class="nav-link " href="disponibilidad.php">Las Plantas</a>
-      </li>
-      <li class="nav-item <?php if(isset($activoEB)){ echo 'active'; } ?>">
-        <a class="nav-link " href="el-barrio.php">El Barrio</a>
       </li>
       
       <li class="nav-item <?php if(isset($activoC)){ echo 'active'; } ?>">
