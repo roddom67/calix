@@ -367,6 +367,7 @@ footer .legalesArea li small{
 	text-shadow: 0 0 3px rgba(0,0,0,.5);
 }
 
+
 .header h1{
 	padding:9.0rem 0 1.5rem;
 	font-size:4.3rem;
@@ -954,7 +955,17 @@ section p{
 }
 
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {
+@media (min-width: 768px) {
+	.index .headerImage h1,
+	.internal .headerImage h1{
+		animation: title 2s 1 .5s ease forwards;
+		top: 60%;
+		opacity: 0;
+	}
+	@keyframes title{
+		0%    {top:60%; opacity:0;}
+		100%  {top:50%;opacity:1;}
+	}
 }
 /* Small devices (landscape phones, 767px and down)*/
 @media (max-width: 767px) {
