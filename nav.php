@@ -15,9 +15,9 @@
       <li class="nav-item <?php if(isset($activoEP)){ echo 'active'; } ?>">
         <a class="nav-link" href="el-proyecto.php" title="El Proyecto">El Proyecto</a>
       </li>
-      <li class="nav-item <?php if(isset($activoLD)){ echo 'active'; } ?>">
+      <!--li class="nav-item <?php //if(isset($activoLD)){ echo 'active'; } ?>">
         <a class="nav-link" href="los-departamentos.php">Los Departamentos</a>
-      </li>
+      </li-->
       <li class="nav-item <?php if(isset($activoD)){ echo 'active'; } ?>">
         <a class="nav-link " href="disponibilidad.php">Las Plantas</a>
       </li>

@@ -158,112 +158,8 @@
 
 				'titulo' => ''
 
-			)
-
-		)
-
-	);
-
-	$caracteristicasArea['el-proyecto'] = array(
-
-		'titulo' => 'Características generales',
-
-		'caracteristicas' => array(
-
-			'Excelente Accesibilidad hacia / desde el centro y el norte de la ciudad',
-
-			'Cómodas cocheras',
-
-			'Seguridad integrada',
-
-			'Bajas expensas',
-
-			'Diseño funcional',
-
-			'Terminaciones de calidad',
-
-			'Carpinterías de piso a techo',
+			),
 			
-			'Ascensores de Acero Inoxidable'
-
-		),
-
-		'sep' => false
-
-	);
-
-	$imagenMobile['el-proyecto'] = array(
-
-		'imagen' => 'mobile/el_proyecto_img.jpg',
-
-		'titulo' => ''
-
-	);
-
-	
-
-	$position['el-proyecto'] = array('textGrayContent','threeImagesContent','galeriaContent','imagenMobileContent','caracteristicaContent');
-
-	
-
-/* 
-
- * Los departamentos
-
- *
-
- ****/
-
- 
-
-	$headTitulo['los-departamentos'] = 'Los Departamentos | Calix Núñez';
-
-	$headDesc['los-departamentos'] = 'Calix Núñez - Los Departamentos. Departamentos en el barrio de Núñez. 54 911 4773 6619';
-
-
-
-	$titulo['los-departamentos'] = 'La suma<br>de sus detalles';
-
-	$textGray['los-departamentos'] = '<p>Diseñamos departamentos de 1 a 2 dormitorios pensando cada rincón, <br>cada terminación. Ideales para que crees un “efecto paréntesis” de lo <br>cotidiano y construyas un mundo personal donde quieras vivir, <br>disfrutar y relajarte</p>';
-
-	
-
-	$threeImagesArea['los-departamentos']= array(
-
-		'imagenes' => array (
-
-			array (
-
-				'imagen' => 'palmas.jpg',
-
-				'titulo' => ''
-
-			),
-
-			array (
-
-				'imagen' => 'personas.jpg',
-
-				'titulo' => ''
-
-			),
-
-			array (
-
-				'imagen' => 'sillon.jpg',
-
-				'titulo' => ''
-
-			)
-
-		)
-
-	);
-
-	$galeriaArea['los-departamentos'] = array(
-
-		'imagenes' => array (
-
 			array (
 
 				'imagen' => 'galeria_depto_living.jpg',
@@ -292,13 +188,14 @@
 
 	);
 
-	$caracteristicasArea['los-departamentos'] = array(
+	$caracteristicasArea['el-proyecto'] = array(
 
 		'titulo' => 'Características generales',
+		
+		'texto' => '<p>Diseñamos departamentos de 1 a 2 dormitorios pensando cada rincón, cada terminación. Ideales para que crees un “efecto paréntesis” de lo cotidiano y construyas un mundo personal donde quieras vivir, disfrutar y relajarte</p>',
 
 		'caracteristicas' => array(
 
-			'Excelente Accesibilidad hacia / desde el centro y el norte de la ciudad',
 
 			'Cómodas cocheras',
 
@@ -312,7 +209,8 @@
 
 			'Carpinterías de piso a techo',
 			
-			'Ascensores de Acero Inoxidable'
+			'Ascensores de Acero Inoxidable',
+			'Excelente Accesibilidad hacia / desde el centro y el norte de la ciudad'
 
 		),
 
@@ -320,11 +218,19 @@
 
 	);
 
-		
+	$imagenMobile['el-proyecto'] = array(
 
-	$position['los-departamentos'] = array('textGrayContent','threeImagesContent','galeriaContent','caracteristicaContent');
+		'imagen' => 'mobile/el_proyecto_img.jpg',
+
+		'titulo' => ''
+
+	);
 
 	
+
+	$position['el-proyecto'] = array('textGrayContent','threeImagesContent','caracteristicaContent','galeriaContent','imagenMobileContent');
+
+
 
 /* 
 

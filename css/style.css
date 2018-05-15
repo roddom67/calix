@@ -458,6 +458,11 @@ section p{
 	font-weight: 300;
 	padding-bottom:3.5rem;
 }
+.textArea h3{
+	font-size:2.2rem;
+	font-weight: 300;
+	padding-bottom:1.5rem;
+}
 .textArea h4{
 	font-size:1.4rem;
 	font-weight: 300;
@@ -472,13 +477,18 @@ section p{
 }
 
 .boxCaracteristicas article{
-	border-top:1px solid  var(--dark-gray);
-	padding:30px 20px 100px;
+	padding:10.0rem 20px 0;
 }
-.boxCaracteristicas li li{
+.boxCaracteristicas ul{
+	margin-left: 20px;
+}
+.boxCaracteristicas li{
 	font-size: 1.5rem;
 	line-height: 2.4rem;
-	font-weight: 300;
+	font-weight: 300;	
+	display: inline-block;
+	width: 50%;
+	text-indent:-10px;
 }
 
 /* 3 Images Area */

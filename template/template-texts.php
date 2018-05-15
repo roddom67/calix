@@ -11,6 +11,7 @@
 		';
 	}
 ?>
+
 <?php
 	if(isset($textImageArea['left'][$pagina])){
 		$textImageLeftContent = '
@@ -91,49 +92,42 @@
 ?>
 <?php
 	if(isset($caracteristicasArea[$pagina])){
-		$cant = sizeof($caracteristicasArea[$pagina]['caracteristicas']);
 		
-		if($caracteristicasArea[$pagina]['sep']){
-			$p = intval($cant / 3) + ($cant%3);
-		}
-
 		$caracteristicaContent = '
 		<section class="textArea boxCaracteristicas">
  			<div class="container-fluid">
  				<div class="row">
-  					<article class="col-12">
-  						<h1>'.$caracteristicasArea[$pagina]['titulo'].'</h1>
+ 					<article class="col-12 col-md-6">
+ 						'.$caracteristicasArea[$pagina]['texto'].'
+ 					</article>';
+
+  			$caracteristicaContent .= '<article class="col-12 col-md-6">
+  						<h3>'.$caracteristicasArea[$pagina]['titulo'].'</h3>
   						<ul class="row">';
-  		if(!$caracteristicasArea[$pagina]['sep']){
-  			$caracteristicaContent .= '<li class="col-12 col-md-4">
-  									<ul>';
-  		}
+		$cant = sizeof($caracteristicasArea[$pagina]['caracteristicas']);
 		for($a = 0; $a < $cant; $a++){
-			if($caracteristicasArea[$pagina]['sep']){
-				if(($a%$p)==0){
-		 			$caracteristicaContent .= '<li class="col-12 col-md-4">
-  									<ul>';
- 				}
- 			}
- 								
- 			$caracteristicaContent .= '<li>_'.$caracteristicasArea[$pagina]['caracteristicas'][$a].'</li>';
-  			if($caracteristicasArea[$pagina]['sep']){
-  				if(($a%$p)==($p-1)){
-  					$caracteristicaContent .= '</ul>
-  								</li>';
-				}
-			}
+			$caracteristicaContent .= '<li>_'.$caracteristicasArea[$pagina]['caracteristicas'][$a].'</li>';
 		}
-		if(!$caracteristicasArea[$pagina]['sep']){
-  			$caracteristicaContent .= '</ul>
-  									</li>';
-  		}
  		$caracteristicaContent .= '</ul>
   					</article>
  				</div>
  				
   			</div>
  		</section>	
+		';
+	}
+?>
+
+<?php
+	if(isset($textGray2[$pagina])){
+		$textGray2Content = '
+		<section class="textGray">
+ 			<div class="container-fluid">
+  				<article>
+  					'.$textGray2[$pagina].'
+  				</article>
+  			</div>
+ 		</section>
 		';
 	}
 ?>

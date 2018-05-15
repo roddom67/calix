@@ -151,15 +151,34 @@
 				'titulo' => ''
 
 
+			),
+			array (
+
+				'imagen' => 'galeria_1.jpg',
+
+				'titulo' => ''
+
+			),
+
+			array (
+
+				'imagen' => 'galeria_2.jpg',
+
+				'titulo' => ''
+
 			)
 
 		)
 
 	);
+	
+	
 
 	$caracteristicasArea['el-proyecto'] = array(
 
 		'titulo' => 'Características generales',
+		
+		'texto' => '<p>Diseñamos departamentos de 1 a 2 dormitorios pensando cada rincón, cada terminación. Ideales para crees un “efecto paréntesis” de lo cotidiano y construyas un mundo personal donde quieras vivir, disfrutar y relajarte</p>',
 
 		'caracteristicas' => array(
 
@@ -206,139 +225,9 @@
 
 	);
 
-	
+	$position['el-proyecto'] = array('textGrayContent','threeImagesContent','caracteristicaContent','galeriaContent','imagenMobileContent');
 
-	$position['el-proyecto'] = array('textGrayContent','threeImagesContent','galeriaContent','imagenMobileContent','caracteristicaContent');
 
-	
-
-/* 
-
- * Los departamentos
-
- *
-
- ****/
-
- 
-
-	$headTitulo['los-departamentos'] = 'Los Departamentos | Calix Barrancas';
-
-	$headDesc['los-departamentos'] = 'Calix Barrancas - Los Departamentos. Departamentos en el barrio de Barrancas. 54 911 4773 6619';
-
-
-
-	$titulo['los-departamentos'] = 'Vivir Cómodo<br>Vivir Bien.';
-
-	$textGray['los-departamentos'] = '<p>Diseñamos departamentos de 1 a 2 dormitorios pensando cada rincón, <br>cada terminación. Ideales para crees un “efecto paréntesis”de lo <br>cotidiano y construyas un mundo personal donde quieras vivir, <br>disfrutar y relajarte</p>';
-
-	
-
-	$threeImagesArea['los-departamentos']= array(
-
-		'imagenes' => array (
-
-			array (
-
-				'imagen' => 'palmas.jpg',
-
-				'titulo' => ''
-
-			),
-
-			array (
-
-				'imagen' => 'personas.jpg',
-
-				'titulo' => ''
-
-			),
-
-			array (
-
-				'imagen' => 'sillon.jpg',
-
-				'titulo' => ''
-
-			)
-
-		)
-
-	);
-
-	$galeriaArea['los-departamentos'] = array(
-
-		'imagenes' => array (
-
-
-			array (
-
-				'imagen' => 'galeria_1.jpg',
-
-				'titulo' => ''
-
-			),
-
-			array (
-
-				'imagen' => 'galeria_2.jpg',
-
-				'titulo' => ''
-
-			)
-
-		)
-
-	);
-
-	$caracteristicasArea['los-departamentos'] = array(
-
-		'titulo' => 'Características generales',
-
-		'caracteristicas' => array(
-
-			'20 metros de frente',
-
-			'Vista abierta al Frente y Contrafrente',
-
-			'Edificio de 7 plantas',
-
-			'Acceso de doble altura',
-
-			'Ventanas de piso a techo',
-
-			'Todos los ambientes externos',
-
-			'Unidades de 2 y 3 ambientes',
-				
-			'Cocheras y espacio para motos y bicicletas',
-
-			'Terminaciones de calidad',
-
-			'Excelente iluminación',
-
-			'Salón de usos múltiples',
-
-			'Solarium con duchones de refresco',
-			
-			'Bauleras',
-
-			'Laundry',
-			
-			'Bajas expensas'
-
-
-		),
-
-		'sep' => false
-
-	);
-
-		
-
-	$position['los-departamentos'] = array('textGrayContent','threeImagesContent','galeriaContent','caracteristicaContent');
-
-	
 
 /* 
 
