@@ -986,7 +986,7 @@ section p{
 		display:none;
 	}
 	.home article div{
-		padding-bottom: 80px;
+		padding-bottom: 50px;
 	}
 	.home article ul li{
 		padding-top: 20px;
@@ -1128,6 +1128,9 @@ section p{
 		padding-left: 0;
 		padding-right: 0;
 	}
+	.boxCaracteristicas li{
+		width: 100%;
+	}
 	.el-proyecto .galeriaArea{
 		display: none;
 	}
@@ -1143,6 +1146,7 @@ section p{
 	.plantaArea{
 		padding-bottom:3.5rem;
 	}
+	
 
 }
 /* Medium devices (tablets, 768px and up)*/
