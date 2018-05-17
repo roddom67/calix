@@ -141,39 +141,27 @@
 	);
 
 	$galeriaArea['el-proyecto'] = array(
-
 		'imagenes' => array (
-
 			array (
-
 				'imagen' => 'galeria_0.jpg',
-
 				'titulo' => ''
-
 
 			),
 			array (
-
 				'imagen' => 'galeria_1.jpg',
-
 				'titulo' => ''
-
 			),
-
 			array (
-
 				'imagen' => 'galeria_2.jpg',
-
 				'titulo' => ''
-
+			),
+			array (
+				'360' => 'https://roundme.com/embed/143840/363611',
+				'titulo' => ''
 			)
-
 		)
-
 	);
 	
-	
-
 	$caracteristicasArea['el-proyecto'] = array(
 
 		'titulo' => 'Características generales',

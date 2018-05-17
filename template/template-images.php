@@ -78,17 +78,25 @@
  		}
  		$galeriaContent .= '<ul class="sliderArea">';
 
- 						$cant = sizeof($galeriaArea[$pagina]['imagenes']);
- 						for($a = 0; $a < $cant; $a++){
-
- 		$galeriaContent .= '<li>
- 							<img src="images/';
- 		if(isset($galeriaArea[$pagina]['directorio'])){
- 			$galeriaContent .= $galeriaArea[$pagina]['directorio'].'/';
- 		}
- 		$galeriaContent .= $galeriaArea[$pagina]['imagenes'][$a]['imagen'].'" alt="'.$galeriaArea[$pagina]['imagenes'][$a]['titulo'].'">
+		$cant = sizeof($galeriaArea[$pagina]['imagenes']);
+		for($a = 0; $a < $cant; $a++){
+			if(isset($galeriaArea[$pagina]['imagenes'][$a]['360'])){
+ 				$galeriaContent .= '<li><div class="embed-container">
+ 							 <iframe width="960" height="540" src="';
+				$galeriaContent .= $galeriaArea[$pagina]['imagenes'][$a]['360'].'" alt="'.$galeriaArea[$pagina]['imagenes'][$a]['titulo'].'" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
  						</li>';
- 						}
+ 			}
+
+			if(isset($galeriaArea[$pagina]['imagenes'][$a]['imagen'])){
+ 				$galeriaContent .= '<li>
+ 							<img src="images/';
+ 				if(isset($galeriaArea[$pagina]['directorio'])){
+ 					$galeriaContent .= $galeriaArea[$pagina]['directorio'].'/';
+ 				}
+				$galeriaContent .= $galeriaArea[$pagina]['imagenes'][$a]['imagen'].'" alt="'.$galeriaArea[$pagina]['imagenes'][$a]['titulo'].'">
+ 						</li>';
+ 			}
+		}
  		$galeriaContent .= '	</ul>
  				</article>
  			</div>
