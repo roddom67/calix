@@ -14,6 +14,10 @@
  				$threeImagesContent .= '<a href="#video'.$a.'" title="'.$threeImagesArea[$pagina]['imagenes'][$a]['titulo'].'" class="showVideo"><span class="playVideo"></span>';
  			}
  			
+ 			if(isset($threeImagesArea[$pagina]['imagenes'][$a]['youtube'])){
+ 				$threeImagesContent .= '<a href="#video'.$a.'" title="'.$threeImagesArea[$pagina]['imagenes'][$a]['titulo'].'" class="showVideo"><span class="playVideo"></span>';
+ 			}
+ 			
  			$threeImagesContent .= '<span class="imgArea">
  							<img src="images/'.$threeImagesArea[$pagina]['imagenes'][$a]['imagen'].'" alt="'.$threeImagesArea[$pagina]['imagenes'][$a]['titulo'].'">
  						</span>';

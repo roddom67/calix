@@ -128,8 +128,9 @@ $(function(){
 				$('.modalVideo').dialog({
 					resizable: true,
 					close: function(){
+						$('html').removeClass('overflow');
 						$('.modalVideo video')[0].pause();
-				$('html').removeClass('overflow');
+						
 					}
 				});
 			})

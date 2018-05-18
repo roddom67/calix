@@ -9,6 +9,13 @@
 				</div>
   			</div>';
 			}
+			if(isset($threeImagesArea[$pagina]['imagenes'][$a]['youtube'])){
+				echo '<div class="modal modalVideo youtubeVideo">
+				<div class="envio-bad boxArea">
+					<div class="embed-container">'.$threeImagesArea[$pagina]['imagenes'][$a]['youtube'].'</div>
+				</div>
+  			</div>';
+			}
 		}
 		
 	}

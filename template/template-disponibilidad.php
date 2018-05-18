@@ -14,13 +14,14 @@
   		for($c=$cant; $c >= 0 ;$c--){
   			$piso = isset($disponibilidad[$pagina][$c]['titulo']);
   			$planos = isset($disponibilidad[$pagina][$c]['planos']);
+  			$show = '';
   			if(isset($disponibilidad[$pagina][$c]['show']) && $disponibilidad[$pagina][$c]['show']){ 
   				$show = $disponibilidad[$pagina][$c]['show'];
   			}
   			if($planos){
   				$disponibilidadContent .= '<li>
   					<a href="#planta_'.$c.'" title="'.$piso.'"';
-  				if(isset($show)){
+  				if( $show != ''){
   					$disponibilidadContent .= ' class="activo piso'.$c.'"';
   				}else{
   					$disponibilidadContent .= ' class="piso'.$c.'"';
@@ -39,13 +40,13 @@
   		$h = 0;				
   		for($a=0;$a < $cant; $a++){
   		
-  			if(isset($disponibilidad[$pagina][$c]['show']) && $disponibilidad[$pagina][$c]['show']){ 
-  				$show = $disponibilidad[$pagina][$c]['show'];
+  			$show = '';
+  			$hidden = ' hidden';	
+  			if(isset($disponibilidad[$pagina][$a]['show'])){ 
+  				$show = $disponibilidad[$pagina][$a]['show'];
   			}
- 			if(isset($show)){
-				$hidden = '';	
-			}else{
-				$hidden = ' hidden';	
+ 			if($show!=''){
+				$hidden = '';
 			}
 			
 			$disponibilidadContent .= '<div class="accordion'.$hidden.'" id="planta_'.$a.'">';
@@ -53,14 +54,35 @@
 
   			$dept = sizeof($disponibilidad[$pagina][$a]['deptos']);
   			
+  			if(isset($disponibilidad[$pagina][$a]['planos'])){
+  				$planos = $disponibilidad[$pagina][$a]['planos'];
+  			}
+  			
   			for($d = 0; $d<$dept;$d++){
-  				$titulo 			= $disponibilidad[$pagina][$a]['deptos'][$d][0];
-  				$descripcion 	= $disponibilidad[$pagina][$a]['deptos'][$d][1];
-  				$pdf 				= $disponibilidad[$pagina][$a]['deptos'][$d][2];
-  				if(isset($disponibilidad[$pagina][$a]['deptos'][$d][3])){ $superficie		= $disponibilidad[$pagina][$a]['deptos'][$d][3]; }
-  				if(isset($disponibilidad[$pagina][$a]['deptos'][$d][4])){ $terraza			= $disponibilidad[$pagina][$a]['deptos'][$d][4]; }
-  				if(isset($disponibilidad[$pagina][$a]['deptos'][$d][5])){$patio			= $disponibilidad[$pagina][$a]['deptos'][$d][5]; }
-  				if(isset($disponibilidad[$pagina][$a]['deptos'][$d][6])){$superficieT	= $disponibilidad[$pagina][$a]['deptos'][$d][6]; }
+  				if(isset($disponibilidad[$pagina][$a]['deptos'][$d][0])){
+  					$titulo 			= $disponibilidad[$pagina][$a]['deptos'][$d][0];
+  				}
+  				if(isset($disponibilidad[$pagina][$a]['deptos'][$d][1])){
+  					$descripcion 	= $disponibilidad[$pagina][$a]['deptos'][$d][1];
+  				}
+  				if(isset($disponibilidad[$pagina][$a]['deptos'][$d][2])){ 
+  					$pdf	= $disponibilidad[$pagina][$a]['deptos'][$d][2];
+  				}
+  				if(isset($disponibilidad[$pagina][$a]['deptos'][$d][3])){ 
+  					$superficie = $disponibilidad[$pagina][$a]['deptos'][$d][3]; 
+  				}
+  				if(isset($disponibilidad[$pagina][$a]['deptos'][$d][4])){ 
+  					$terraza = $disponibilidad[$pagina][$a]['deptos'][$d][4]; 
+  				}
+  				if(isset($disponibilidad[$pagina][$a]['deptos'][$d][5])){
+  					$patio = $disponibilidad[$pagina][$a]['deptos'][$d][5]; 
+  				}
+  				if(isset($disponibilidad[$pagina][$a]['deptos'][$d][6])){
+  					$superficieT = $disponibilidad[$pagina][$a]['deptos'][$d][6]; 
+  				}
+  				if($planos){
+  					$plano = 'images/planos/planta_'.$a.'/'.$a.'0'.($d+1).'.png';
+  				}
   				
 				if(isset($titulo) && isset($descripcion)){
 					$disponibilidadContent .= '<h2>'. $titulo;
@@ -99,9 +121,10 @@
 											</li>';
 				}
 				$disponibilidadContent .= '</ul>';
-				if(isset($planos[$a][$d])){
+				
+				if($planos){
 					$disponibilidadContent .= '<span class="imgArea">
-												<img src="images/planos/'.$carpetas[$a].'/'.$planos[$a][$d].'" alt="Depto '.$disponibilidad[$pagina][$a]['piso'].'0'.($d+1).'">
+												<img src="'.$plano.'" alt="Depto '.$disponibilidad[$pagina][$a]['piso'].'0'.($d+1).'">
 											</span>'
 											;
 				}						
