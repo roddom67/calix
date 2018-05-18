@@ -1,12 +1,9 @@
 <?php
-
 	include("data.php");
-	
 	$pagina = 'disponibilidad';
 	$activoD = true;
 	$navGris = true;
 	include("head.php");
-
 ?>
 <body class="<?php echo $proyecto.' '.$pagina; if($pagina != 'index'){ echo ' internal' ;} if(isset($navGris)){ echo ' navGris' ;} ?>">
 	<main>
@@ -37,6 +34,7 @@
   									<a href="#planta_0" title="Planta Baja / Cocheras" class="piso0"><span>Planta Baja / Cocheras</span></a>
   								</li>
   							</ul>
+  							<h4>Seleccione el piso</h4>
   						</article>
   						<article class="col-12 col-md-8 plantas">
   							<div class="accordion ui-accordion ui-widget ui-helper-reset hidden" id="planta_0" role="tablist">

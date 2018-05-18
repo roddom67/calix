@@ -549,7 +549,11 @@
 				'titulo' => 'Planta Baja / Cocheras',
 				'planos' => true,
 				'deptos' => array(
-					array('Planta Baja / Cocheras','12 + 1 Cocheras','Cocheras.pdf')
+					array(
+						'Planta Baja / Cocheras',
+						'12 + 1 Cocheras',
+						'Cocheras.pdf'
+					)
 				)
 			),
 			array(
@@ -557,7 +561,11 @@
 				'titulo' => 'Primer Piso / Cocheras',
 				'planos' => true,
 				'deptos' => array(
-					array('Primer piso / Cocheras','10 + 1 Cocheras','Cocheras.pdf')
+					array(
+						'Primer piso / Cocheras',
+						'10 + 1 Cocheras',
+						'Cocheras.pdf'
+					)
 				)
 			),
 			array(

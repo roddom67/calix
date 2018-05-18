@@ -74,6 +74,7 @@
 }
 
 /* Background White */
+.plantaArea h4,
 .textArea h2,
 .textArea h3,
 .textImageArea article a,
@@ -98,10 +99,7 @@
 	position: relative;
 	display: block;
 }
-.pisos a{
-	text-indent:-1000em; 
-	display: block;
-}
+
 .pisos a.piso0{height: 29px;}
 .pisos a.piso1{height: 21px;}
 .pisos a.piso2{height: 22px;}
@@ -111,10 +109,6 @@
 .pisos a.piso6{height: 22px;}
 .pisos a.piso7{height: 23px;}
 
-
-.pisos .activo{
-	background: rgba(0,0,0,.25);
-}
 
 .index .textImageArea.bgGray:before{
 	background-color: var(--white);

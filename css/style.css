@@ -840,6 +840,33 @@ section p{
 .plantas{
 	margin-top:-3.0rem;
 }
+.plantaArea {
+	text-align: center;
+}
+.plantaArea .pisos{
+	margin:0 auto;
+}
+.plantaArea h4{
+	font-size:12px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-top:20px;
+}
+.pisos a{
+	text-indent:-1000em; 
+	display: block;
+}
+.pisos a.activo:hover,
+.pisos .activo{
+	background: rgba(0,0,0,.25);
+	cursor:auto;
+	opacity: 1;
+}
+.pisos a:hover{
+	background: var(--main-color);
+	opacity: .25;
+}
+
 
 .linksArea ul{
 	float:right;
