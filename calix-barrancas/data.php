@@ -1,151 +1,79 @@
 <?php
 
-
-
 /* 
-
  * titulo Proyecto 
-
  *
-
  ***/
-
 	$proyecto = 'calix-barrancas';
-
 	$proyectoNombre = 'Calix Barrancas';
-
 	
-
 	/* Paginas */
-
 	/* Home */
-
 	$headTitulo['index'] = 'Vivir a mano, vivir cómodo, vivir bien. | Calix Barrancas';
-
 	$headDesc['index'] = 'Calix Barrancas - Tu vida a 5 minutos de todo. Departamentos en el barrio de Barrancas. 54 911 4773 6619';
-
 	
-
 	$titulo['index'] = 'Vivir a mano,<br>vivir cómodo,<br>vivir bien.';
-
 	$textGray['index'] = '<p>Cuando pensamos Calix Barrancas, <br>pensamos un proyecto en el que quisieras vivir, <br>un lugar donde disfrutar cada momento de tu día.</p>';
-
 	$textImageArea['left']['index'] = array(
-
 		'titulo' => 'El Proyecto',
-
 		'parrafo' => 'Diseño moderno, espacios <br>flexibles, ventanales de piso <br>a techo, mucha luz natural.',
-
 		'verMasLink' => 'el-proyecto.php',
-
 		'verMasTitulo' => 'Ver más del proyecto'			
-
 	);
-
 	$textImageArea['right']['index'] = array(
-
 		'titulo' => 'Barrancas',
-
 		'parrafo' => 'Un barrio en plena <br>transformación',
-
 		'verMasLink' => 'el-barrio.php',
-
 		'verMasTitulo' => 'Conocer más del barrio'			
-
 	);
-
 	
-
 	$galeriaArea['index'] = array(
-
 		'titulo' => 'Calix',
-
 		'imagenes' => array (
-
 			array (
-
 				'imagen' => 'galeria_0.jpg',
-
 				'titulo' => ''
-
 			),
-
 			array (
-
 				'imagen' => 'galeria_1.jpg',
-
 				'titulo' => ''
-
 			)
-
 		)
-
 	);
-
 		
-
 	$position['index'] = array('textGrayContent','textImageLeftContent','textImageRightContent');
 
-			
-
 /* 
-
  * El proyecto
-
  *
-
  ***/
-
  
-
 	$headTitulo['el-proyecto'] = 'El Proyecto | Calix Barrancas';
-
 	$headDesc['el-proyecto'] = 'Calix Barrancas - El Proyecto. Departamentos en el barrio de Barrancas. 54 911 4773 6619';
 
-	
-
 	$titulo['el-proyecto'] = 'Diseñado<br>para capturar <br>la luz y el aire';
-
 	$textGray['el-proyecto'] = '<p>Calix está diseñado pensando en tu comodidad y disfrute. <br>Ya sea que elijas vivir solo, en familia o con amigos, en Calix 3F vas a <br>encontrar espacios privados, espacios para socializar y todas las <br>comodidades que estás buscando.</p>';
-
 	$threeImagesArea['el-proyecto']= array(
-
 		'imagenes' => array (
-
 			array (
-
 				'imagen' => 'el-proyecto-3f.jpg',
-
 				'titulo' => ''
-
 			),
-
 			array (
-
 				'imagen' => 'el-proyecto-planta1.jpg',
-
 				'titulo' => ''
-
 			),
-
 			array (
-
 				'imagen' => 'el-proyecto-planta2.jpg',
-
 				'titulo' => ''
-
 			)
-
 		)
-
 	);
-
 	$galeriaArea['el-proyecto'] = array(
 		'imagenes' => array (
 			array (
 				'imagen' => 'galeria_0.jpg',
 				'titulo' => ''
-
 			),
 			array (
 				'imagen' => 'galeria_1.jpg',
@@ -161,388 +89,201 @@
 			)
 		)
 	);
-	
-	$caracteristicasArea['el-proyecto'] = array(
 
+	$caracteristicasArea['el-proyecto'] = array(
 		'titulo' => 'Características generales',
 		
 		'texto' => '<p>Diseñamos departamentos de 1 a 2 dormitorios pensando cada rincón, cada terminación. Ideales para crees un “efecto paréntesis” de lo cotidiano y construyas un mundo personal donde quieras vivir, disfrutar y relajarte</p>',
-
 		'caracteristicas' => array(
-
 			'20 metros de frente',
-
 			'Vista abierta al Frente y Contrafrente',
-
 			'Edificio de 7 plantas',
-
 			'Acceso de doble altura',
-
 			'Ventanas de piso a techo',
-
 			'Todos los ambientes externos',
-
 			'Unidades de 2 y 3 ambientes',
 				
 			'Cocheras y espacio para motos y bicicletas',
-
 			'Terminaciones de calidad',
-
 			'Excelente iluminación',
-
 			'Salón de usos múltiples',
-
 			'Solarium con duchones de refresco',
 			
 			'Bauleras',
-
 			'Laundry',
 			
 			'Bajas expensas'
 		),
-
 		'sep' => false
-
 	);
-
 	$imagenMobile['el-proyecto'] = array(
-
 		'imagen' => 'mobile/el_proyecto_img.jpg',
-
 		'titulo' => ''
-
 	);
-
 	$position['el-proyecto'] = array('textGrayContent','threeImagesContent','caracteristicaContent','galeriaContent','imagenMobileContent');
 
-
-
 /* 
-
  * EL Barrio 
-
  *
-
  ****/
-
  
-
 	$headTitulo['el-barrio'] = 'El Barrio | Calix Barrancas';
-
 	$headDesc['el-barrio'] = 'Calix Barrancas - El Barrio. Departamentos en el barrio de Barrancas. 54 911 4773 6619';
 
-
-
 	$titulo['el-barrio'] = 'Vivir a mano,<br>cerca de todo.';
-
 	$textGray['el-barrio'] = '<p>Nuñez es un barrio en transformación, está re inventandose. Es un nuevo polo gastronómico con restaurantes y bares, zonas comerciales y de entretenimiento. Cuenta con un sólido centro de educación primario, secundaria y universitaria. En Buenos Aires no hay otro lugar como este. Sumale las zonas verdes, los extensos enlaces de transporte, los famosos mercados de alimentos, transforman este barrio en un destino tan atractivo y conveniente. Todo esto a solo 5 minutos.</p>';
-
 	
-
 	$threeImagesArea['el-barrio']= array(
-
 		'imagenes' => array (
-
 			array (
-
 				'imagen' => 'praline.jpg',
-
 				'titulo' => '',
-
 				'video' => '<video width="100%" poster="video/video.jpg" height="auto" controls>
-
                             <source src="video/video.mp4" type="video/mp4">
-
                             <source src="video/video.ogg" type="video/ogg">
-
                             <source src="images/empresa/video.webm" type="video/webm">
-
                             Your browser does not support the video tag.
-
                         </video>'
-
 			),
-
 			array (
-
 				'imagen' => 'nunez-buenos-aires.jpg',
-
 				'titulo' => 'Barrancas Buenos Aires'
-
 			),
-
 			array (
-
 				'imagen' => 'chico-bar.jpg',
-
 				'titulo' => ''
-
 			)
-
 		)
-
 	);
-
 	$textDosTresImageArea['right']['el-barrio'] = array(
-
 		'parrafo' => '<span>Un Barrio diferente</span>Barrancas es un barrio en transformación, está re inventándose. Es un nuevo polo comercial, gastronómico y educativo.  Cuenta con restaurantes,  bares y zonas comerciales, y con diferentes establecimientos de educación primarios, secundarios y universitarios del más alto nivel.'			
-
 	);
-
-
 
 	$textDosTresImageArea['left']['el-barrio'] = array(
-
 		'parrafo' => 'En Buenos Aires no hay otro lugar como este. Sumale a eso las zonas verdes, los innumerables enlaces de transporte, los famosos mercados de alimentos, que transforman a este barrio en un destino tan deseable, atractivo y conveniente.<span>Todo esto a 5 minutos.</span>'
-
 	);
-
 	
-
 	$textMapArea['el-barrio'] = array(
-
 		'titulo' => 'Cerca de todo lo que te gusta',
-
 		'listado' => array(
-
 			array(
-
 				'titulo' => 'Restaurantes y bares',
-
 				'lugares' => array(
-
 					'1_Francis Platz',
-
 					'2_ Chef Leon',
-
 					'3_Taco box',
-
 					'4_POE',
-
 					'5_Solomia Parrilla',
-
 					'6_Tres',
-
 					'7_Praline',
-
 					'8_La Escondida Parrilla',
-
 					'9_AMMO',
-
 					'10_Botanica'
-
 				)
-
 			),
-
 			array(
-
 				'titulo' => 'Interés general',
-
 				'lugares' => array(
-
 					'11_Centro Cultural Julio Cortázar',
-
 					'12_Plaza Aberti',
-
 					'13_Farmacity',
-
 					'14_Carrefour',
-
 					'15_Megatlon',
-
 					'16_Futbol Urbano',
-
 					'17_Comisaria 35'
-
 				)
-
 			),
-
 			array(
-
 				'titulo' => 'Educación',
-
 				'lugares' => array(
-
 					'18_Universidad Di Tella',
-
 					'19_Escuela Aula XXI',
-
 					'20_Escuela Ort Escuela Normal',
-
 					'21_UHS United High School',
-
 					'22_Barrancas Uno',
-
 					'23_Jacarandá',
-
 					'24_General San Martín',
-
 					'25_Instituto José Ingenieros',
-
 					'26_Wolfsohn',
-
 					'27_UAI',
-
 					'28_ICEBA '
-
 				)
-
 			),
-
 			array(
-
 				'titulo' => 'Salud',
-
 				'lugares' => array(
-
 					'29_Fundación Fleni',
-
 					'30_CBA Inst. Cardiovascular de BA',
-
 					'31_Stamboulian Servicio Medico'
-
 				)
-
 			)
-
 		),
-
 		'parrafo' => '',
-
 		'coordenadas' => '1d5yi85fPdq-vDJUia6l0iYELK1QW1dRn'	
-
 	);
-
 	
-
 	$twoImagesMiddleTextArea['el-barrio']= array(
-
 		'imagenes' => array (
-
 			array (
-
 				'imagen' => 'tres-cafe.jpg',
-
 				'titulo' => ''
-
 			),
-
 			array (
-
 				'imagen' => 'mural.jpg',
-
 				'titulo' => ''
-
 			),
-
 			array (
-
 				'imagen' => 'big-party.jpg',
-
 				'titulo' => ''
-
 			)
-
 		)
-
 	);
-
 	$threeImagesArea_1['el-barrio']= array(
-
 		'imagenes' => array (
-
 			array (
-
 				'imagen' => 'cruce.jpg',
-
 				'titulo' => '',
-
 			),
-
 			array (
-
 				'imagen' => 'transporte.jpg',
-
 				'titulo' => ''
-
 			),
-
 			array (
-
 				'imagen' => 'todo-a.jpg',
-
 				'titulo' => ''
-
 			)
-
 		)
-
 	);
-
 	$threeImagesArea_2['el-barrio']= array(
-
 		'imagenes' => array (
-
 			array (
-
 				'imagen' => 'subte.jpg',
-
 				'titulo' => '',
-
 			),
-
 			array (
-
 				'imagen' => 'frutas.jpg',
-
 				'titulo' => ''
-
 			),
-
 			array (
-
 				'imagen' => 'cerveza.jpg',
-
 				'titulo' => ''
-
 			)
-
 		)
-
 	);
-
 	
-
 	$position['el-barrio'] = array('threeImagesContent','textDosTresImageRightContent','textMapContent','twoImagesMiddleTextContent','textDosTresImageLeftContent','threeImages1Content','threeImages2Content');
 
-	
-
-	
-
 /* 
-
  * Disponibilidad 
-
  *
-
  ****/
-
 	
-
 	$headTitulo['disponibilidad'] = 'Disponibilidad | Calix Barrancas';
-
 	$headDesc['disponibilidad'] = 'Calix Barrancas - Disponibilidad. Departamentos en el barrio de Barrancas. 54 911 4773 6619';
 
-
-
 	$tituloG['disponibilidad'] = 'Disponibilidad';
-
 	$textGray['disponibilidad'] = '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>';
-
 	
-
 	$disponibilidad['disponibilidad'] = array(
 			array(
 				'piso' => 0,
@@ -828,49 +569,25 @@
 			)
 		);
 	
-
 	$position['disponibilidad'] = array('disponibilidadContent');
 
-	
-
-
-
 /*
-
  * Contacto 
-
  *
-
  ****/
-
 	
-
 	$medio['contacto'] = array(
-
 		'Por cartel de Obra',
-
 		'Busqueda en Google',
-
 		'Referido',
-
 		'Por agente inmobiliario',
-
 	);
-
 	
-
 	$tipoDepto['contacto'] = array(
-
 		'1 dormitorio',
-
 		'2 dormitorios',
-
 		'1 dormitorio con terraza',
-
 		'2 dormitorios con terraza'
-
 	)
-
 	
-
 ?>
