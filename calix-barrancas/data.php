@@ -10,19 +10,19 @@
 	/* Paginas */
 	/* Home */
 	$headTitulo['index'] = 'Vivir a mano, vivir cómodo, vivir bien. | Calix Barrancas';
-	$headDesc['index'] = 'Calix Barrancas - Tu vida a 5 minutos de todo. Departamentos en el barrio de Barrancas. 54 911 4773 6619';
+	$headDesc['index'] = 'Calix Barrancas - Vivir a mano, vivir cómodo, vivir bien. Departamentos en el barrio de Barrancas. 54 911 4773 6619';
 	
 	$titulo['index'] = 'Vivir a mano,<br>vivir cómodo,<br>vivir bien.';
-	$textGray['index'] = '<p>Cuando pensamos Calix Barrancas, <br>pensamos un proyecto en el que quisieras vivir, <br>un lugar donde disfrutar cada momento de tu día.</p>';
+	$textGray['index'] = '<p>Lo diseñamos pensando en darte la clase de espacio que necesitás. <br>Calix Barrancas te acerca a todo lo que te importa, <br>para hacerte la vida más fácil, más cómoda.</p>';
 	$textImageArea['left']['index'] = array(
 		'titulo' => 'El Proyecto',
-		'parrafo' => 'Diseño moderno, espacios <br>flexibles, ventanales de piso <br>a techo, mucha luz natural.',
+		'parrafo' => 'Ambientes luminosos y versátiles <br>en un edificio de impecable estética <br>y moderna arquitectura',
 		'verMasLink' => 'el-proyecto.php',
 		'verMasTitulo' => 'Ver más del proyecto'			
 	);
 	$textImageArea['right']['index'] = array(
 		'titulo' => 'Barrancas',
-		'parrafo' => 'Un barrio en plena <br>transformación',
+		'parrafo' => 'Clásico y moderno. <br>Descubrí los beneficios de un barrio <br>conectado tanto con la naturaleza <br>como con la vida de ciudad',
 		'verMasLink' => 'el-barrio.php',
 		'verMasTitulo' => 'Conocer más del barrio'			
 	);
@@ -52,7 +52,7 @@
 	$headDesc['el-proyecto'] = 'Calix Barrancas - El Proyecto. Departamentos en el barrio de Barrancas. 54 911 4773 6619';
 
 	$titulo['el-proyecto'] = 'Diseñado<br>para capturar <br>la luz y el aire';
-	$textGray['el-proyecto'] = '<p>Calix está diseñado pensando en tu comodidad y disfrute. <br>Ya sea que elijas vivir solo, en familia o con amigos, en Calix 3F vas a <br>encontrar espacios privados, espacios para socializar y todas las <br>comodidades que estás buscando.</p>';
+	$textGray['el-proyecto'] = '<p>En Calix Barrancas ningún detalle fue librado al azar, <br>los espacios comunes y privados fueron cuidadosamente planeados.</p>';
 	$threeImagesArea['el-proyecto']= array(
 		'imagenes' => array (
 			array (
@@ -93,7 +93,7 @@
 	$caracteristicasArea['el-proyecto'] = array(
 		'titulo' => 'Características generales',
 		
-		'texto' => '<p>Diseñamos departamentos de 1 a 2 dormitorios pensando cada rincón, cada terminación. Ideales para crees un “efecto paréntesis” de lo cotidiano y construyas un mundo personal donde quieras vivir, disfrutar y relajarte</p>',
+		'texto' => '<p>Su moderno diseño optimiza las cualidades naturales de su entorno, ofreciendo cómodos y agradables espacios de 1 y 2 dormitorios para disfrutar de un mejor estilo de vida.</p>',
 		'caracteristicas' => array(
 			'20 metros de frente',
 			'Vista abierta al Frente y Contrafrente',
@@ -102,7 +102,6 @@
 			'Ventanas de piso a techo',
 			'Todos los ambientes externos',
 			'Unidades de 2 y 3 ambientes',
-				
 			'Cocheras y espacio para motos y bicicletas',
 			'Terminaciones de calidad',
 			'Excelente iluminación',
@@ -156,11 +155,11 @@
 		)
 	);
 	$textDosTresImageArea['right']['el-barrio'] = array(
-		'parrafo' => '<span>Un Barrio diferente</span>Barrancas es un barrio en transformación, está re inventándose. Es un nuevo polo comercial, gastronómico y educativo.  Cuenta con restaurantes,  bares y zonas comerciales, y con diferentes establecimientos de educación primarios, secundarios y universitarios del más alto nivel.'			
+		'parrafo' => '<span>El barrio que lo tiene todo</span>Barrancas, además de ser una zona residencial, es un distrito reconocido por su amplia variedad de ofertas gastronómicas, espacios verdes y paseos comerciales. También, reconocidas instituciones educativas, médicas y financieras se encuentran en la zona.'
 	);
 
 	$textDosTresImageArea['left']['el-barrio'] = array(
-		'parrafo' => 'En Buenos Aires no hay otro lugar como este. Sumale a eso las zonas verdes, los innumerables enlaces de transporte, los famosos mercados de alimentos, que transforman a este barrio en un destino tan deseable, atractivo y conveniente.<span>Todo esto a 5 minutos.</span>'
+		'parrafo' => '<span>Proximidad insuperable</span>La ubicación del proyecto es inmejorable. Calix Barrancas tiene una conveniente cercanía a las vías más rápidas de acceso, tanto al centro de la ciudad como a la Zona Norte. Además, está a sólo unos pasos de múltiples medios de transporte.'
 	);
 	
 	$textMapArea['el-barrio'] = array(
@@ -169,44 +168,43 @@
 			array(
 				'titulo' => 'Restaurantes y bares',
 				'lugares' => array(
-					'1_Francis Platz',
-					'2_ Chef Leon',
-					'3_Taco box',
-					'4_POE',
-					'5_Solomia Parrilla',
-					'6_Tres',
-					'7_Praline',
-					'8_La Escondida Parrilla',
-					'9_AMMO',
-					'10_Botanica'
+					'1_Dashi Barrio Chino',
+					'2_Buddah BA',
+					'3_Muu Lechería',
+					'4_Luccianos Heladería',
+					'5_MAD',
+					'6_Cherry Sushi',
+					'7_Muni',
+					'8_Las Carnitas',
+					'9_Pobre Luis',
+					'10_La Parolaccia',
+					'11_El Quinto',
+					'12_Tea Connection',
+					'13_MOOI'
 				)
 			),
 			array(
 				'titulo' => 'Interés general',
 				'lugares' => array(
-					'11_Centro Cultural Julio Cortázar',
-					'12_Plaza Aberti',
-					'13_Farmacity',
-					'14_Carrefour',
-					'15_Megatlon',
-					'16_Futbol Urbano',
-					'17_Comisaria 35'
+					'14_Plaza Aberti',								'15_Plaza Barrancas',
+					'16_Plaza Manuel Belgrano',
+					'17_Farmacity',
+					'18_Barrio Chino',
+					'19_Multiplex Belgrano',
+					'20_Showcase Nuñez / Carrefour',
+					'21_Megatlon Belgrano'
 				)
 			),
 			array(
 				'titulo' => 'Educación',
 				'lugares' => array(
-					'18_Universidad Di Tella',
-					'19_Escuela Aula XXI',
-					'20_Escuela Ort Escuela Normal',
-					'21_UHS United High School',
-					'22_Barrancas Uno',
-					'23_Jacarandá',
-					'24_General San Martín',
-					'25_Instituto José Ingenieros',
-					'26_Wolfsohn',
-					'27_UAI',
-					'28_ICEBA '
+					'22_Universidad Di Tella',
+					'23_Escuela Ort Escuela Normal',
+					'24_UHS United High School',
+					'25_Instituto Santa Ana y San Joaquín',
+					'26_Belgrano Uno',
+					'27_Jacarandá',
+					'28_UAI'
 				)
 			),
 			array(
@@ -214,7 +212,9 @@
 				'lugares' => array(
 					'29_Fundación Fleni',
 					'30_CBA Inst. Cardiovascular de BA',
-					'31_Stamboulian Servicio Medico'
+					'31_Stamboulian Servicio Medico',
+					'31_Cemic Belgrano',
+					'31_Centro Médico Luis Pasteur'
 				)
 			)
 		),

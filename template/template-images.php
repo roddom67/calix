@@ -21,7 +21,7 @@
  			$threeImagesContent .= '<span class="imgArea">
  							<img src="images/'.$threeImagesArea[$pagina]['imagenes'][$a]['imagen'].'" alt="'.$threeImagesArea[$pagina]['imagenes'][$a]['titulo'].'">
  						</span>';
- 			if(isset($threeImagesArea[$pagina]['imagenes'][$a]['video'])){
+ 			if( isset($threeImagesArea[$pagina]['imagenes'][$a]['video']) || isset($threeImagesArea[$pagina]['imagenes'][$a]['youtube']) ){
  				$threeImagesContent .= '</a>';	
  			}
  			$threeImagesContent .= '</li>';

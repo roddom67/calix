@@ -1064,7 +1064,7 @@ section p{
 		padding: 0;
 	}
 	.text2_3ImageArea{
-		padding-bottom:100%;
+		padding-bottom: calc( 100% + 80px ) ;
 	}
 	.text2_3ImageArea,
 	.textImageArea{
@@ -1076,6 +1076,9 @@ section p{
 	}
 	.text2_3ImageArea article{
 		padding: 3rem;
+	}
+	.boxDosBarrio article.col-md-4{
+		display:none;
 	}
 	
 	.internal .headerImage h1{
@@ -1125,7 +1128,10 @@ section p{
 	}
 	
 	.textImageArea.imageBgRight article{
-		top:309px;
+		margin-top:150%;
+	}
+	.textImageArea.imageBgRight article:nth-child(2){
+		display:none;
 	}
 	
 	.galeriaArea{
@@ -1172,11 +1178,14 @@ section p{
 	.boxCaracteristicas li{
 		width: 100%;
 	}
-	.el-proyecto .galeriaArea{
+	.el-proyecto .galeriaArea .bx-controls{
 		display: none;
 	}
+	.el-proyecto .galeriaArea{
+		padding: 3.0rem 0;
+	}
 	.imagenMobileArea{
-		padding: 3rem;
+	display:none;
 	}
 	.header h1{
 		margin-bottom:3.5rem;
