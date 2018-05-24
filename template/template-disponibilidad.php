@@ -59,6 +59,7 @@
   			}
   			
   			for($d = 0; $d<$dept;$d++){
+  			
   				if(isset($disponibilidad[$pagina][$a]['deptos'][$d][0])){
   					$titulo 			= $disponibilidad[$pagina][$a]['deptos'][$d][0];
   				}
@@ -83,27 +84,32 @@
   				if($planos){
   					$plano = 'images/planos/planta_'.$a.'/'.$a.'0'.($d+1).'.png';
   				}
-  				
+   				
 				if(isset($titulo) && isset($descripcion)){
-					$disponibilidadContent .= '<h2>'. $titulo;
+ 					$disponibilidadContent .= '<h2>'. $titulo;
 					$disponibilidadContent .= '<span>'.$descripcion.'</span>';
 					$disponibilidadContent .= '<strong>Planta</strong>';
+					$disponibilidadContent .= '</h2>';
 				}
-				$disponibilidadContent .= '</h2>
-									<div>';
+				$disponibilidadContent .= '<div>';
 				$disponibilidadContent .= '<ul class="row">
 											<li class="col-8 col-md-6 superficieArea">';
-				if( isset($superficie) && isset($terraza) && isset($patio) && isset($superficieT)){
-					$disponibilidadContent .= '<ul>
-													<li>'.$superficie.'</li>
-													<li>'.$terraza;
-					if($patio!=''){
-						$disponibilidadContent .= '  /  '.$patio;
+				if( isset($superficie) || isset($terraza) || isset($patio) || isset($superficieT)){
+					$disponibilidadContent .= '<ul>';
+					if( isset($superficie)){
+						$disponibilidadContent .= '<li>'.$superficie.'</li>';
 					}
-				
-					$disponibilidadContent .= '</li>
-													<li><strong>'.$superficieT.'</strong></li>
-												</ul>';
+					if( isset($terraza) || isset($patio) ){
+						$disponibilidadContent .= '<li>'.$terraza;
+						if($patio!=''){
+							$disponibilidadContent .= '  /  '.$patio;
+						}
+						$disponibilidadContent .= '</li>';
+					}
+					if( isset($superficieT)){
+						$disponibilidadContent .= '<li><strong>'.$superficieT.'</strong></li>';
+					}
+					$disponibilidadContent .= '</ul>';
 				}
 				
 				$disponibilidadContent .= '</li>';
