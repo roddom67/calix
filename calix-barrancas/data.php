@@ -219,7 +219,7 @@
 			)
 		),
 		'parrafo' => '',
-		'coordenadas' => '1d5yi85fPdq-vDJUia6l0iYELK1QW1dRn'	
+		'coordenadas' => '1SdtQ6l6plzFhyCBwZ54tO35WT8Z39slj'	
 	);
 	
 	$twoImagesMiddleTextArea['el-barrio']= array(
