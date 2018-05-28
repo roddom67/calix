@@ -34,5 +34,8 @@
 	
 		<title><?php echo $headTitulo[$pagina] ?></title>
 		<meta name="description" content="<?php echo $headDesc[$pagina] ?>" />
-	
+
+<?php
+	include('../analytics.php');
+?>
 	</head>
