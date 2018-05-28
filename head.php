@@ -30,7 +30,7 @@
 	<meta name="description" content="<?php echo $headDesc; ?>" />
 	
 <?php
-	include('Analytics.php');
+	include('analytics.php');
 ?>
 
 </head>
