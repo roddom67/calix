@@ -141,7 +141,7 @@
 		$cant = sizeof($elequipo[$pagina]);
 		for($a = 0; $a < $cant; $a++){
 
-			$elequipoContent .= '<li class="col-12 col-md-4">
+			$elequipoContent .= '<li class="col-12 col-md-4 col'.($a + 1).'">
 											<h2>'.$elequipo[$pagina][$a]['titulo'].'</h2>
 											<span class="imgArea">
 												<img src="../images/equipo/'.$elequipo[$pagina][$a]['logo'].'" alt="">
