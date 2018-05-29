@@ -10,23 +10,20 @@
         <a class="nav-link" href="../<?php echo $proyecto; ?>/" title="<?php echo $proyectoNombre; ?>">Home</a>
       </li>
       <li class="nav-item <?php if(isset($activoEB)){ echo 'active'; } ?>">
-        <a class="nav-link " href="el-barrio.php">El Barrio</a>
+        <a class="nav-link " href="el-barrio.php" title="El Barrio">El Barrio</a>
       </li>
       <li class="nav-item <?php if(isset($activoEP)){ echo 'active'; } ?>">
         <a class="nav-link" href="el-proyecto.php" title="El Proyecto">El Proyecto</a>
       </li>
-      <!--li class="nav-item <?php //if(isset($activoLD)){ echo 'active'; } ?>">
-        <a class="nav-link" href="los-departamentos.php">Los Departamentos</a>
-      </li-->
       <li class="nav-item <?php if(isset($activoD)){ echo 'active'; } ?>">
-        <a class="nav-link " href="disponibilidad.php">Las Plantas</a>
+        <a class="nav-link " href="disponibilidad.php" title="Las Unidades">Las Unidades</a>
       </li>
       
       <li class="nav-item <?php if(isset($activoC)){ echo 'active'; } ?>">
-        <a class="nav-link " href="contacto.php">Contacto</a>
+        <a class="nav-link " href="contacto.php" title="Contacto">Contacto</a>
       </li>
       <li class="nav-item <?php if(isset($activoEE)){ echo 'active'; } ?>">
-        <a class="nav-link " href="el-equipo.php">El Equipo</a>
+        <a class="nav-link " href="el-equipo.php" title="El Equipo">El Equipo</a>
       </li>
       <li class="nav-item">
         <a class="nav-link " href="../" title="Otros Calix">Otros Calix</a>
