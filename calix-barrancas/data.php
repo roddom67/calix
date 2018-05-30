@@ -51,7 +51,7 @@
 	$headTitulo['el-proyecto'] = 'El Proyecto | Calix Barrancas';
 	$headDesc['el-proyecto'] = 'Calix Barrancas - El Proyecto. Departamentos en el barrio de Barrancas. 54 911 4773 6619';
 
-	$titulo['el-proyecto'] = 'Diseñado<br>para capturar <br>la luz y el aire';
+	$titulo['el-proyecto'] = 'Un diseño moderno, <br>ambientes luminosos, <br>una vida muy cómoda';
 	$textGray['el-proyecto'] = '<p>En Calix Barrancas ningún detalle fue librado al azar, <br>los espacios comunes y privados fueron cuidadosamente planeados.</p>';
 	$threeImagesArea['el-proyecto']= array(
 		'imagenes' => array (
@@ -316,48 +316,48 @@
 				'deptos' => array(
 					array(
 						'Depto 201 - Frente',
-						'2 dormitorios / 2 baños completos / Espacio de lavado / Terraza / Patio',
-						'101.pdf',
-						'Superficie Cubierta 67 m2',
-						'Terraza 5,1 m2',
-						'Patio 14.4 m2',
-						'Superficie total: 86,5 m2'
+						'1 dormitorio / 2 baños / Terraza',
+						'201.pdf',
+						'Superficie Cubierta 50,2 m2',
+						'Terraza 10,2 m2',
+						'',
+						'Superficie total: 60,4 m2'
 					),
 					array(
 						'Depto 202 - Frente',
-						'2 dormitorios / 2 baños completos / Espacio de lavado / Terraza / Patio',
-						'102.pdf',
-						'Superficie Cubierta 67 m2',
-						'Terraza 5,1 m2',
-						'Patio 14.4 m2',
-						'Superficie total: 86,5 m2'
+						'1 dormitorio / 2 baños / Terraza',
+						'202.pdf',
+						'Superficie Cubierta 50,2 m2',
+						'Terraza 10,2 m2',
+						'',
+						'Superficie total: 60,4 m2'
 					),
 					array(
 						'Depto 203 - Frente',
-						'1 Dormitorio / 2 Baños / Terraza / Patio',
-						'103.pdf',
-						'Superficie Cubierta 52 m2',
-						'Terraza 4,8 m2',
-						'Patio 14.4 m2',
-						'Superficie total: 71,2 m2'
+						'1 Dormitorio / 2 Baños / Terraza',
+						'203.pdf',
+						'Superficie Cubierta 49,6 m2',
+						'Terraza 10,2 m2',
+						'',
+						'Superficie total: 59,8 m2'
 					),
 					array(
 						'Depto 204 - Contrafrente',
-						'1  Dormitorio / 2 Baños / Terraza / Patio',
-						'104.pdf',
-						'Superficie Cubierta 52 m2',
-						'Terraza 4,8 m2',
-						'Patio 14.4 m2',
-						'Superficie total: 71,2 m2'
+						'2 Dormitorios / 2 Baños Completos / Terraza',
+						'204.pdf',
+						'Superficie Cubierta 66,5 m2',
+						'Terraza 78 m2',
+						'',
+						'Superficie total: 144,5 m2'
 					),
 					array(
 						'Depto 205 - Contrafrente',
-						'1  Dormitorio / 2 Baños / Terraza / Patio',
-						'105.pdf',
-						'Superficie Cubierta 52 m2',
-						'Terraza 4,8 m2',
-						'Patio 14.4 m2',
-						'Superficie total: 71,2 m2'
+						'Monoambiente Divisible / 2 Baños / Terraza',
+						'205.pdf',
+						'Superficie Cubierta 41,3 m2',
+						'Terraza 79,6 m2',
+						'',
+						'Superficie total: 121 m2'
 					)
 				),
 				'show' => true
@@ -369,47 +369,48 @@
 				'deptos' => array(
 					array(
 						'Depto 301 - Frente',
-						'2 Dormitorios / 2 Baños / Balcón',
-						'201.pdf',
-						'Superficie Cubierta 67 m2',
-						'Terraza 5,1 m2',
-						'Superficie total: 72,1 m2'
+						'1 Dormitorio / 2 Baños / Terraza',
+						'301.pdf',
+						'Superficie Cubierta 50,2  m2',
+						'Terraza 5,2 m2',
+						'',
+						'Superficie total: 55,4 m2'
 					),
 					array(
 						'Depto 302 - Frente',
-						'2 Dormitorios / 2 Baños / Balcón',
-						'202.pdf',
-						'Superficie Cubierta 67 m2',
-						'Terraza 5,1 m2',
+						'1 Dormitorio / 2 Baños / Terraza',
+						'302.pdf',
+						'Superficie Cubierta 50,2  m2',
+						'Terraza 5,2 m2',
 						'',
-						'Superficie total: 72,1 m2'
+						'Superficie total: 55,4 m2'
 					),
 					array(
 						'Depto 303 - Frente',
 						'1 Dormitorio / 2 Baños / Terraza',
-						'203.pdf',
-						'Superficie Cubierta 52 m2',
-						'Terraza 4,8 m2',
+						'303.pdf',
+						'Superficie Cubierta 49,6 m2',
+						'Terraza 5,2 m2',
 						'',
-						'Superficie total: 56,8 m2'
+						'Superficie total: 54,8 m2'
 					),
 					array(
 						'Depto  304 - Contrafrente',
-						'1 Dormitorio / 2 Baños / Terraza',
-						'204.pdf',
-						'Superficie Cubierta 52 m2',
-						'Terraza 4,8 m2',
+						'2 Dormitorios / 2 Baños Completos / Terraza',
+						'304.pdf',
+						'Superficie Cubierta 66,5 m2',
+						'Terraza 5,1 m2',
 						'',
-						'Superficie total: 56,8 m2'
+						'Superficie total: 71,6 m2'
 					),
 					array(
 						'Depto  305 - Contrafrente',
-						'1 Dormitorio / 2 Baños / Terraza',
-						'204.pdf',
-						'Superficie Cubierta 52 m2',
-						'Terraza 4,8 m2',
+						'Monoambiente Divisible / 2 Baños / Terraza',
+						'305.pdf',
+						'Superficie Cubierta 41,3 m2',
+						'Terraza 10,2 m2',
 						'',
-						'Superficie total: 56,8 m2'
+						'Superficie total: 51,5 m2'
 					)
 				)
 			),
@@ -420,38 +421,39 @@
 				'deptos' => array(
 					array(
 						'Depto 401 - Frente',
-						'2 Dormitorios / 2 Baños / Terraza',
-						'301.pdf',
-						'Superficie Cubierta 67 m2',
-						'Terraza 5,1 m2',
+						'1 Dormitorio / 2 Baños / Terraza',
+						'401.pdf',
+						'Superficie Cubierta 50,2 m2',		
+						'Terraza 5,2 m2',
 						'',
-						'Superficie total: 72,1 m2'
+						'Superficie total: 55,4 m2'					
 					),
 					array(
 						'Depto 402 - Frente',
-						'2 Dormitorios / 2 Baños / Terraza',
-						'302.pdf',
-						'Superficie Cubierta 67 m2',
-						'Terraza 5,1 m2',
+						'3 Dormitorios / 2 Baños Completos / Terraza',
+						'402.pdf',
+						'Superficie Cubierta 99,7 m2',
+						'Terraza 5,2 m2',
 						'',
-						'Superficie total: 72,1 m2'
+						'Superficie total: 104,9 m2',
 					),
 					array(
 						'Depto 403 - Contrafrente',
-						'1 Dormitorio / 2 Baños / Terraza',
-						'303.pdf',
-						'Superficie Cubierta 52 m2',
-						'Terraza 4,8 m2',
-						'Superficie total: 56,8 m2'
+						'2 Dormitorios / 2 Baños Completos / Terraza',
+						'403.pdf',
+						'Superficie Cubierta 66,5 m2',
+						'Terraza 5,1 m2',
+						'',
+						'Superficie total: 71,6 m2'
 					),
 					array(
 						'Depto 404 - Contrafrente',
-						'1 Dormitorio / 2 Baños / Terraza',
-						'304.pdf',
-						'Superficie Cubierta 52 m2',
-						'Terraza 4,8 m2',
+						'Monoambiente Divisible / 2 Baños / Terraza',
+						'404.pdf',
+						'Superficie Cubierta 41,3 m2',
+						'Terraza 5,2 m2',
 						'',
-						'Superficie total: 56,8 m2'
+						'Superficie total: 46,5 m2'
 					)
 				)
 			),
@@ -462,48 +464,48 @@
 				'deptos' => array(
 					array(
 						'Depto 501 - Frente',
-						'2 Dormitorios / 2 Baños / Terraza 1 / Terraza 2',
-						'401.pdf',
-						'Superficie Cubierta 67 m2',
-						'Terraza A 5,1 m2',
-						'Terraza B 65 m2',
-						'Superficie total: 137,1 m2'
+						'1 Dormitorio / 2 Baños / Terraza',
+						'501.pdf',
+						'Superficie Cubierta 50,2 m2',
+						'Terraza 5,2 m2',
+						'',
+						'Superficie total: 55,4 m2'
 					),
 					array(
 						'Depto 502 - Frente',
-						'2 Dormitorios / 2 Baños / Terraza A / Terraza B',
-						'402.pdf',
-						'Superficie Cubierta 67 m2',
-						'Terraza A 5,1 m2',
-						'Terraza B 65 m2',
-						'Superficie total: 137,1 m2'
+						'1 Dormitorio / 2 Baños / Terraza',
+						'502.pdf',
+						'Superficie Cubierta 50,2 m2',
+						'Terraza 5,2 m2',
+						'',
+						'Superficie total: 55,4 m2'
 					),
 					array(
 						'Depto 503 - Frente',
-						'1 Dormitorio / 2 Baños / Terraza A / Terraza B',
-						'403.pdf',
-						'Superficie Cubierta 52 m2',
-						'Terraza A 4,8 m2',
-						'Terraza B 47 m2',
-						'Superficie total: 103,8 m2'
+						'1 Dormitorio / 2 Baños / Terraza',
+						'503.pdf',
+						'Superficie Cubierta 49,6 m2',
+						'Terraza 5,2 m2',
+						'',
+						'Superficie total: 54,8 m2'
 					),
 					array(
 						'Depto 504 - Contrafrente',
-						'1 Dormitorio / 2 Baños / Terraza A / Terraza B',
-						'404.pdf',
-						'Superficie Cubierta 52 m2',
-						'Terraza A 4,8 m2',
-						'Terraza B 47 m2',
-						'Superficie total: 103,8 m2'
+						'2 Dormitorios / 2 Baños Completos / Terraza',
+						'504.pdf',
+						'Superficie Cubierta 66,5 m2',
+						'Terraza 15,1 m2',
+						'',
+						'Superficie total: 81,6 m2'
 					),
 					array(
 						'Depto 505 - Contrafrente',
-						'1 Dormitorio / 2 Baños / Terraza A / Terraza B',
-						'404.pdf',
-						'Superficie Cubierta 52 m2',
-						'Terraza A 4,8 m2',
-						'Terraza B 47 m2',
-						'Superficie total: 103,8 m2'
+						'Monoambiente Divisible / 2 Baños / Terraza',
+						'505.pdf',
+						'Superficie Cubierta 41,3 m2',
+						'Terraza 5,1 m2',
+						'',
+						'Superficie total: 46,4 m2'
 					)
 				)
 			),
@@ -514,48 +516,48 @@
 				'deptos' => array(
 					array(
 						'Depto 601 - Frente',
-						'2 Dormitorios / 2 Baños / Terraza 1 / Terraza 2',
-						'401.pdf',
-						'Superficie Cubierta 67 m2',
-						'Terraza A 5,1 m2',
-						'Terraza B 65 m2',
-						'Superficie total: 137,1 m2'
+						'1 Dormitorio / 2 Baños / Terraza',
+						'601.pdf',
+						'Superficie Cubierta 50,2 m2',
+						'Terraza 5,2 m2',
+						'',
+						'Superficie total: 55,4 m2'
 					),
 					array(
 						'Depto 602 - Frente',
-						'2 Dormitorios / 2 Baños / Terraza A / Terraza B',
-						'402.pdf',
-						'Superficie Cubierta 67 m2',
-						'Terraza A 5,1 m2',
-						'Terraza B 65 m2',
-						'Superficie total: 137,1 m2'
+						'1 Dormitorio / 2 Baños / Terraza',
+						'602.pdf',
+						'Superficie Cubierta 50,2 m2',
+						'Terraza 5,2 m2',
+						'',
+						'Superficie total: 55,4 m2'
 					),
 					array(
 						'Depto 603 - Frente',
-						'1 Dormitorio / 2 Baños / Terraza A / Terraza B',
-						'403.pdf',
-						'Superficie Cubierta 52 m2',
-						'Terraza A 4,8 m2',
-						'Terraza B 47 m2',
-						'Superficie total: 103,8 m2'
+						'1 Dormitorio / 2 Baños / Terraza',
+						'603.pdf',
+						'Superficie Cubierta 50,2 m2',
+						'Terraza 5,1 m2',
+						'',
+						'Superficie total: 54,8 m2'
 					),
 					array(
 						'Depto 604 - Contrafrente',
-						'1 Dormitorio / 2 Baños / Terraza A / Terraza B',
-						'404.pdf',
-						'Superficie Cubierta 52 m2',
-						'Terraza A 4,8 m2',
-						'Terraza B 47 m2',
-						'Superficie total: 103,8 m2'
+						'2 Dormitorios / 2 Baños Completos / Terraza',
+						'604.pdf',
+						'Superficie Cubierta 66,5 m2',
+						'Terraza 5,1 m2',
+						'',
+						'Superficie total: 71,6 m2'
 					),
 					array(
 						'Depto 605 - Contrafrente',
-						'1 Dormitorio / 2 Baños / Terraza A / Terraza B',
-						'404.pdf',
-						'Superficie Cubierta 52 m2',
-						'Terraza A 4,8 m2',
-						'Terraza B 47 m2',
-						'Superficie total: 103,8 m2'
+						'Monoambiente Divisible / 2 Baños / Terraza',
+						'605.pdf',
+						'Superficie Cubierta 41,3 m2',
+						'Terraza 10,2 m2',
+						'',
+						'Superficie total: 51,5 m2'
 					)
 				)
 			),

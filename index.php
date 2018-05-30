@@ -25,7 +25,7 @@
   					<li class="col-xs-12 col-md-4">
  						<a href="calix-nunez/" title="Calix Núñez" class="calixNunez">
   							<span>Calix Núñez</span>
-  							<small>3 de febrero 2399</small>
+  							<small>3 de febrero 2936</small>
   						</a>
   					</li>
  					<li class="col-xs-12 col-md-4">

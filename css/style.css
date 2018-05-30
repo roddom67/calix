@@ -438,7 +438,7 @@ section p{
 .textImageArea:after{
 	background-position: top right;
 	background-repeat: no-repeat;
-	background-size: cover auto;
+	background-size: cover;
 }
 .textImageArea.imageBgRight:after{
 	left:50%;

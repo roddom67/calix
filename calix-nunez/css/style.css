@@ -114,6 +114,10 @@
 	background-color: var(--white);
 }
 
+.el-equipo .col3{
+	display: none;
+}
+
 /*--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1200px*/
 
 @media (max-width: 575px) {

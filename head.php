@@ -29,5 +29,8 @@
 	<title><?php echo $headTitulo; ?></title>
 	<meta name="description" content="<?php echo $headDesc; ?>" />
 	
+<?php
+	include('analytics.php');
+?>
 
 </head>

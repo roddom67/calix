@@ -32,17 +32,17 @@
 												<label for="phone">Teléfono</label>
 												<input type="text" name="phone" required>
 											</li>
-											<li class="col-12 col-md-6">
+											<!--<li class="col-12 col-md-6">
 												<label for="depto">Tipo de departamento</label>
 												<select type="text" name="depto" required>
 													<option value="">Seleccione un departamento</option>';
 
-				$cant = sizeof($tipoDepto[$pagina]);
-				for($t=0;$t<$cant;$t++){
-					$textHeaderFormContent .= '<option value="'.$tipoDepto[$pagina][$t].'">'.$tipoDepto[$pagina][$t].'</option>';
-				}
+				// $cant = sizeof($tipoDepto[$pagina]);
+				// for($t=0;$t<$cant;$t++){
+					// $textHeaderFormContent .= '<option value="'.$tipoDepto[$pagina][$t].'">'.$tipoDepto[$pagina][$t].'</option>';
+				// }
 				$textHeaderFormContent .= '</select>
-											</li>
+											</li> -->
 											<!-- li class="col-12 col-md-6">
 												<label for="price">Rango de precio</label>
 												<select type="text" name="price" required>

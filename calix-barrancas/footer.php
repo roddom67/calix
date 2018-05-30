@@ -6,20 +6,20 @@
 		<div class="footerTop">
   			<ul class="row addressFooter">
   				<li class="col-6 col-sm-4 col-md-3 col-xl-2">
-  					<a href="<?php echo $calixNunez['link']; ?>" 
-  						title="<?php echo $calixNunez['titulo']; ?>" 
-  						class="logosFooter logoCNunez">
-  						<span><?php echo $calixNunez['titulo']; ?></span>
-  					</a>
-  					<p><?php echo $calixNunez['direccion']; ?></p>
-  				</li>
-  				<li class="col-6 col-sm-4 col-md-3 col-xl-2">
   					<a href="<?php echo $calixBarrancas['link']; ?>" 
   						title="<?php echo $calixBarrancas['titulo']; ?>" 
   						class="logosFooter logoCBarrancas">
   						<span><?php echo $calixBarrancas['titulo']; ?></span>
   					</a>
   					<p><?php echo $calixBarrancas['direccion']; ?></p>
+  				</li>
+  				<li class="col-6 col-sm-4 col-md-3 col-xl-2">
+  					<a href="<?php echo $calixNunez['link']; ?>" 
+  						title="<?php echo $calixNunez['titulo']; ?>" 
+  						class="logosFooter logoCNunez">
+  						<span><?php echo $calixNunez['titulo']; ?></span>
+  					</a>
+  					<p><?php echo $calixNunez['direccion']; ?></p>
   				</li>
   				<li class="col-6 col-sm-4 col-md-3 col-xl-2">
   					<a href="<?php echo $calixPalermo['link']; ?>" 
