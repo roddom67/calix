@@ -129,7 +129,7 @@ $(function(){
 					resizable: true,
 					close: function(){
 						$('html').removeClass('overflow');
-						$('.modalVideo video')[0].pause();
+						$('.modalVideo iframe')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
 						
 					}
 				});

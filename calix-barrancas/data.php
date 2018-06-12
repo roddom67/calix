@@ -137,12 +137,7 @@
 			array (
 				'imagen' => 'praline.jpg',
 				'titulo' => '',
-				'video' => '<video width="100%" poster="video/video.jpg" height="auto" controls>
-                            <source src="video/video.mp4" type="video/mp4">
-                            <source src="video/video.ogg" type="video/ogg">
-                            <source src="images/empresa/video.webm" type="video/webm">
-                            Your browser does not support the video tag.
-                        </video>'
+				'youtube' => '<iframe width="960" height="540" src="https://www.youtube.com/embed/bdwZODNzWqM?rel=0&amp;controls=0&amp;showinfo=0&amp;enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>'
 			),
 			array (
 				'imagen' => 'nunez-buenos-aires.jpg',
