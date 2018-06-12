@@ -10,7 +10,7 @@
 	display:none;
 }
 #navbarSupportedContent .navbar-nav li:nth-child(1),
-#navbarSupportedContent .navbar-nav li:nth-child(8){
+#navbarSupportedContent .navbar-nav li.otrosCalix{
 	display:block;
 }
 /* Hasta acá Eliminar al armar el proyecto */

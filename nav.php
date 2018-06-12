@@ -25,7 +25,7 @@
       <li class="nav-item <?php if(isset($activoEE)){ echo 'active'; } ?>">
         <a class="nav-link " href="el-equipo.php" title="El Equipo">El Equipo</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item otrosCalix">
         <a class="nav-link " href="../" title="Otros Calix">Otros Calix</a>
       </li>
     </ul>
