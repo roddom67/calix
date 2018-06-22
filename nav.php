@@ -1,7 +1,7 @@
 <nav class="navbar">
 	<a class="navbar-brand " href="../<?php echo $proyecto; ?>/"><span><?php echo $proyectoNombre; ?></span></a>
 	<button class="navbar-toggler menu-toggle" aria-controls="main-menu" aria-expanded="false">
-	 	<span class="menu-toggle-box"><span class="menu-toggle-inner"></span></span>
+	 	<strong>Menú</strong><span class="menu-toggle-box"><span class="menu-toggle-inner"></span></span>
 	</button>
 
   <div class="collapse " id="navbarSupportedContent">
