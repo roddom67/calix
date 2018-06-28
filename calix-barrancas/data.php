@@ -18,7 +18,11 @@
 		'titulo' => 'El Proyecto',
 		'parrafo' => 'Ambientes luminosos y versátiles <br>en un edificio de impecable estética <br>y moderna arquitectura',
 		'verMasLink' => 'el-proyecto.php',
-		'verMasTitulo' => 'Ver más del proyecto'			
+		'verMasTitulo' => 'Ver más del proyecto',
+		'imagenes' => array (
+			'titulo' => 'El barrio',
+			'youtube' => '<iframe width="960" height="540" src="https://www.youtube.com/embed/bdwZODNzWqM?rel=0&amp;controls=0&amp;showinfo=0&amp;enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>'
+		)
 	);
 	$textImageArea['right']['index'] = array(
 		'titulo' => 'Barrancas',

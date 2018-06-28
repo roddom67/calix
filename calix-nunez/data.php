@@ -18,7 +18,11 @@
 		'titulo' => 'El Proyecto',
 		'parrafo' => 'Diseño moderno, espacios <br>flexibles, ventanales de piso <br>a techo, mucha luz natural.',
 		'verMasLink' => 'el-proyecto.php',
-		'verMasTitulo' => 'Ver más del proyecto'
+		'verMasTitulo' => 'Ver más del proyecto',
+		'imagenes' => array (
+			'titulo' => 'El barrio',
+			'youtube' => '<iframe width="960" height="540" src="https://www.youtube.com/embed/c6A7EfloSxY?rel=0&amp;controls=0&amp;showinfo=0&amp;enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>'
+		)
 	);
 	$textImageArea['right']['index'] = array(
 		'titulo' => 'Núñez',

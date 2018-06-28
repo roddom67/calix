@@ -18,8 +18,11 @@
 		<section class="textImageArea imageBgLeft bgColor boxElProyecto">
  			<div class="container-fluid">
  				<div class="row">
-  					<article class="col-12 col-md-6">
-  					</article>
+  					<article class="col-12 col-md-6">';
+  		if(isset($textImageArea['left'][$pagina]['imagenes']['youtube'])){
+			$textImageLeftContent .= '<a href="#video1" title="'.$textImageArea['left'][$pagina]['imagenes']['titulo'].'" class="showVideo"><span class="playVideo"></span></a>';
+		}
+  		$textImageLeftContent .= '</article>
   					<article class="col-12 col-md-6">
   						<h2>'.$textImageArea['left'][$pagina]['titulo'].'</h2>
   						<p>'.$textImageArea['left'][$pagina]['parrafo'].'</p>
