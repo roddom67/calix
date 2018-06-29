@@ -64,7 +64,7 @@
 				'titulo' => ''
 			),
 			array (
-				'imagen' => 'el-proyecto-planta1.jpg',
+				'imagen' => 'el-proyecto-planta1.png',
 				'titulo' => ''
 			),
 			array (
@@ -142,7 +142,7 @@
 				'youtube' => '<iframe width="960" height="540" src="https://www.youtube.com/embed/c6A7EfloSxY?rel=0&amp;controls=0&amp;showinfo=0&amp;enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>'
 			),
 			array (
-				'imagen' => 'nunez-buenos-aires.jpg',
+				'imagen' => 'nunez-buenos-aires.png',
 				'titulo' => 'Núñez Buenos Aires'
 			),
 			array (
@@ -245,7 +245,7 @@
 				'titulo' => ''
 			),
 			array (
-				'imagen' => 'todo-a.jpg',
+				'imagen' => 'todo-a.png',
 				'titulo' => ''
 			)
 		)

@@ -1,6 +1,6 @@
 <?php 
 	if(isset($threeImagesArea[$pagina]['imagenes']) || isset($textImageArea['left'][$pagina]['imagenes'])){
-		if($textImageArea['left'][$pagina]['imagenes']){
+		if(isset($textImageArea['left'][$pagina]['imagenes'])){
 			if(isset($textImageArea['left'][$pagina]['imagenes']['youtube'])){
 				echo '<div class="modal modalVideo youtubeVideo">
 				<div class="envio-bad boxArea">
