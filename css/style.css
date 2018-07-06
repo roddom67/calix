@@ -935,7 +935,7 @@ section p{
 }
 .modal .boxArea{
 	padding: 2rem;
-	background: var(--white);
+	background: #000;
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -1003,16 +1003,18 @@ section p{
 
 .embed-container {
     position: relative;
-    padding-bottom: 56.25%;
+    padding-bottom: 100.25%;
     height: 0;
     overflow: hidden;
 }
 .embed-container iframe {
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+	width: auto;
+	height: auto;
+	min-width: 100%;
+	min-height: 100vh;
 }
 
 /*--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1200px*/
