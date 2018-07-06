@@ -10,7 +10,8 @@
 	/* Paginas */
 	/* Home */
 	$headTitulo['index'] = 'Vivir a mano, vivir cómodo, vivir bien. | Calix Barrancas';
-	$headDesc['index'] = 'Calix Barrancas - Vivir a mano, vivir cómodo, vivir bien. Departamentos en el barrio de Barrancas. 54 911 4773 6619';
+	$headDesc['index'] = 'Calix Barrancas - Vivir a mano, vivir cómodo, vivir bien. Departamentos en el barrio de Barrancas. 54 11 4788 2412';
+	$headKeywords['index'] = 'barrancas, barrio, luminosos, ambientees, edificio, moderno, ciudad, departamentos, inmobiliaria, arquitecto, desarrollo, gestión, inmobiliarios, gerenciamiento,edificios, vivienda, oficinas, concursos, construcción, planificación, obras, dirección';
 	
 	$titulo['index'] = 'Vivir a mano,<br>vivir cómodo,<br>vivir bien.';
 	$textGray['index'] = '<p>Lo diseñamos pensando en darte la clase de espacio que necesitás. <br>Calix Barrancas te acerca a todo lo que te importa, <br>para hacerte la vida más fácil, más cómoda.</p>';
@@ -53,7 +54,8 @@
  ***/
  
 	$headTitulo['el-proyecto'] = 'El Proyecto | Calix Barrancas';
-	$headDesc['el-proyecto'] = 'Calix Barrancas - El Proyecto. Departamentos en el barrio de Barrancas. 54 911 4773 6619';
+	$headDesc['el-proyecto'] = 'Calix Barrancas - El Proyecto. Departamentos en el barrio de Barrancas. 54 11 4788 2412';
+	$headKeywords['el-proyecto'] = 'proyecto, espacios, barrancas, barrio, luminosos, ambientees, edificio, moderno, ciudad, departamentos, inmobiliaria, arquitecto, desarrollo, gestión, inmobiliarios, gerenciamiento, edificios, vivienda, oficinas, concursos, construcción, planificación, obras, dirección';
 
 	$titulo['el-proyecto'] = 'Un diseño moderno, <br>ambientes luminosos, <br>una vida muy cómoda';
 	$textGray['el-proyecto'] = '<p>En Calix Barrancas ningún detalle fue librado al azar, <br>los espacios comunes y privados fueron cuidadosamente planeados.</p>';
@@ -85,6 +87,26 @@
 			),
 			array (
 				'imagen' => 'galeria_2.jpg',
+				'titulo' => ''
+			),
+			array (
+				'imagen' => 'PB_piso1.png',
+				'titulo' => ''
+			),
+			array (
+				'imagen' => 'piso2_piso3.png',
+				'titulo' => ''
+			),
+			array (
+				'imagen' => 'piso4_piso5.png',
+				'titulo' => ''
+			),
+			array (
+				'imagen' => 'piso6_piso7.png',
+				'titulo' => ''
+			),
+			array (
+				'imagen' => 'piso8.png',
 				'titulo' => ''
 			),
 			array (
@@ -131,10 +153,11 @@
  ****/
  
 	$headTitulo['el-barrio'] = 'El Barrio | Calix Barrancas';
-	$headDesc['el-barrio'] = 'Calix Barrancas - El Barrio. Departamentos en el barrio de Barrancas. 54 911 4773 6619';
+	$headDesc['el-barrio'] = 'Calix Barrancas - El Barrio. Departamentos en el barrio de Barrancas. 54 11 4788 2412';
+	$headKeywords['el-barrio'] = 'residencial, gastronómicas, paseos, comerciales, proyecto, espacios, barrancas, barrio, luminosos, ambientees, edificio, moderno, ciudad, departamentos, inmobiliaria, arquitecto, desarrollo, gestión, inmobiliarios, gerenciamiento, edificios, vivienda, oficinas, concursos, construcción, planificación, obras, dirección';
 
 	$titulo['el-barrio'] = 'Vivir a mano,<br>cerca de todo.';
-	$textGray['el-barrio'] = '<p>Nuñez es un barrio en transformación, está re inventandose. Es un nuevo polo gastronómico con restaurantes y bares, zonas comerciales y de entretenimiento. Cuenta con un sólido centro de educación primario, secundaria y universitaria. En Buenos Aires no hay otro lugar como este. Sumale las zonas verdes, los extensos enlaces de transporte, los famosos mercados de alimentos, transforman este barrio en un destino tan atractivo y conveniente. Todo esto a solo 5 minutos.</p>';
+	$textGray['el-barrio'] = '<p>Barrancas es un barrio en transformación, está re inventandose. Es un nuevo polo gastronómico con restaurantes y bares, zonas comerciales y de entretenimiento. Cuenta con un sólido centro de educación primario, secundaria y universitaria. En Buenos Aires no hay otro lugar como este. Sumale las zonas verdes, los extensos enlaces de transporte, los famosos mercados de alimentos, transforman este barrio en un destino tan atractivo y conveniente. Todo esto a solo 5 minutos.</p>';
 	
 	$threeImagesArea['el-barrio']= array(
 		'imagenes' => array (
@@ -185,7 +208,8 @@
 			array(
 				'titulo' => 'Interés general',
 				'lugares' => array(
-					'14_Plaza Aberti',								'15_Plaza Barrancas',
+					'14_Plaza Aberti',
+					'15_Plaza Barrancas',
 					'16_Plaza Manuel Belgrano',
 					'17_Farmacity',
 					'18_Barrio Chino',
@@ -278,10 +302,11 @@
  ****/
 	
 	$headTitulo['disponibilidad'] = 'Disponibilidad | Calix Barrancas';
-	$headDesc['disponibilidad'] = 'Calix Barrancas - Disponibilidad. Departamentos en el barrio de Barrancas. 54 911 4773 6619';
+	$headDesc['disponibilidad'] = 'Calix Barrancas - Disponibilidad. Departamentos en el barrio de Barrancas. 54 11 4788 2412';
+	$headKeywords['disponibilidad'] = 'disponibilidad, proyecto, espacios, barrancas, barrio, luminosos, ambientees, edificio, moderno, ciudad, departamentos, inmobiliaria, arquitecto, desarrollo, gestión, inmobiliarios, gerenciamiento, edificios, vivienda, oficinas, concursos, construcción, planificación, obras, dirección';
 
 	$tituloG['disponibilidad'] = 'Disponibilidad';
-	$textGray['disponibilidad'] = '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>';
+	$textGray['disponibilidad'] = '<p></p>';
 	
 	$disponibilidad['disponibilidad'] = array(
 			array(

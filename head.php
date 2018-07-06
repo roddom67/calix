@@ -28,6 +28,7 @@
 	
 	<title><?php echo $headTitulo; ?></title>
 	<meta name="description" content="<?php echo $headDesc; ?>" />
+	<meta name="keywords" content="<?php echo $headKeywords; ?>">
 	
 <?php
 	include('analytics.php');

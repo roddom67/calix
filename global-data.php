@@ -6,14 +6,16 @@
 	$calixNunez = array(
 		'titulo' => 'Calix Núñez',
 		'link' => '../calix-nunez/',
-		'direccion' => '3 de Febrero 2936,<br>Caba, Argentina C1428A<br>T 549 11 4773 6619'
+		'direccion' => '3 de Febrero 2936,<br>
+							Caba, Argentina C1428A<br>
+							T 54 11 4788 2412'
 	);
 	$calixBarrancas = array(
 		'titulo' => 'Calix Barrancas',
 		'link' => '../calix-barrancas/',
 		'direccion' => 'Blanco Encalada 1865,<br>
   						Caba, Argentina C1428A<br>
-  						T 549 11 4773 6619'
+  						T 54 11 4788 2412'
 	);
 	$calixPalermo = array(
 		'titulo' => 'Calix Palermo',
@@ -24,7 +26,8 @@
 	/* Paginas */
 	/* El Equipo */
 	$headTitulo['el-equipo'] = 'El Equipo | '.$proyectoNombre;
-	$headDesc['el-equipo'] = 'Calix Núñez - El Equipo. Departamentos en el barrio de Núñez. 54 911 4773 6619';
+	$headDesc['el-equipo'] = $proyectoNombre.' - El Equipo. Departamentos en el barrio de Núñez. 54 11 4788 2412';
+	$headKeywords['el-equipo'] = 'departamentos, inmobiliaria, arquitecto, desarrollo, gestión, inmobiliarios, gerenciamiento,edificios, vivienda, oficinas, concursos, construcción, planificación, obras, dirección';
 
 	$tituloG['el-equipo'] = 'El Equipo';
 	
@@ -33,7 +36,7 @@
 			'titulo' => 'Desarrolla y Comercializa',
 			'logo' => 'zoning.png',
 			'alt' => 'Zonning Real Estate',
-			'texto' => '<h3>ING. LUIS MARTÍNEZ DI VIRGILIO<span>DESARROLLO Y GERENCIAMIENTO ZONING</span></h3><p>Ingeniero civil con más de 28 años de experiencia en desarrollo y gestión de activos inmobiliarios. MDI de la universidad Politécnica de Madrid. Gerenció el desarrollo de más de 25 edificios de vicienda y oficinas.</p><h3>ARQ. DIEGO ALCHOURRON<span>DESARROLLO Y GERENCIAMIENTO ZONING</span></h3><p>Arquitecto, MDI de la Universidad Politécnica de Madrid y Martillero Público. Es profesor de Marketing en el <strong>Máster de Desarrollo inmobiliario de la UB (MDEI)</strong>. Tiene más de 15 años de experiencia en desarrollo y comercialización de inmuebles.</p>'
+			'texto' => '<h3>ING. LUIS MARTÍNEZ DI VIRGILIO<span>DESARROLLO Y GERENCIAMIENTO ZONING</span></h3><p>Ingeniero civil con más de 28 años de experiencia en desarrollo y gestión de activos inmobiliarios. MDI de la universidad Politécnica de Madrid. Gerenció el desarrollo de más de 25 edificios de vivienda y oficinas.</p><h3>ARQ. DIEGO ALCHOURRON<span>DESARROLLO Y GERENCIAMIENTO ZONING</span></h3><p>Arquitecto, MDI de la Universidad Politécnica de Madrid y Martillero Público. Es profesor de Marketing en el <strong>Máster de Desarrollo inmobiliario de la UB (MDEI)</strong>. Tiene más de 15 años de experiencia en desarrollo y comercialización de inmuebles.</p>'
 		),
 		array(
 			'titulo' => 'Proyecto y Dirección',
@@ -79,13 +82,14 @@
 	/* Contacto */
 
 	$headTitulo['contacto'] = 'Contacto | '.$proyectoNombre;
-	$headDesc['contacto'] = $proyectoNombre.' - Contacto. Departamentos en el barrio de Núñez. 54 911 4773 6619';
+	$headDesc['contacto'] = $proyectoNombre.' - Contacto. Departamentos en el barrio de Núñez. 54 11 4788 2412';
+	$headKeywords['contacto'] = 'departamentos, inmobiliaria, arquitecto, desarrollo, gestión, inmobiliarios, gerenciamiento,edificios, vivienda, oficinas, concursos, construcción, planificación, obras, dirección, contacto, atención, interés';
 
 	$tituloG['contacto'] = 'Contacto';
 	$textHeaderForm['contacto'] = array(
 		'parrafo' => 'Gracias por su interés en '.$proyectoNombre.'. Regístrese a continuación o póngase en contacto con nuestro equipo directamente para programar una cita',
 		'titulo' => 'Equipo de Atención',
-		'telefono' => '11 4788 2412',
+		'telefono' => '54 11 4788 2412',
 		'email' => 'info@zoning.com.ar'
 	);
 	

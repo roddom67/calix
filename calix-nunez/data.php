@@ -10,7 +10,8 @@
 	/* Paginas */
 	/* Home */
 	$headTitulo['index'] = 'Tu vida a 5 minutos de todo | Calix Núñez';
-	$headDesc['index'] = 'Calix Núñez - Tu vida a 5 minutos de todo. Departamentos en el barrio de Núñez. 54 911 4773 6619';
+	$headDesc['index'] = 'Calix Núñez - Tu vida a 5 minutos de todo. Departamentos en el barrio de Núñez. 54 11 4788 2412';
+	$headKeywords['index'] = 'núñez, barrio, flexibles, luminosos, ambientees, edificio, moderno, ciudad, departamentos, inmobiliaria, arquitecto, desarrollo, gestión, inmobiliarios, gerenciamiento,edificios, vivienda, oficinas, concursos, construcción, planificación, obras, dirección';
 	
 	$titulo['index'] = 'Tu vida<br>a 5 minutos<br>de todo.';
 	$textGray['index'] = '<p>Cuando pensamos Calix 3 de Febrero, <br>pensamos un proyecto en el que quisieras vivir, <br>un lugar donde disfrutar cada momento de tu día.</p>';
@@ -53,7 +54,8 @@
  ***/
  
 	$headTitulo['el-proyecto'] = 'El Proyecto | Calix Núñez';
-	$headDesc['el-proyecto'] = 'Calix Núñez - El Proyecto. Departamentos en el barrio de Núñez. 54 911 4773 6619';
+	$headDesc['el-proyecto'] = 'Calix Núñez - El Proyecto. Departamentos en el barrio de Núñez. 54 11 4788 2412';
+	$headKeywords['el-proyecto'] = 'núñez, proyecto, espacios, barrancas, barrio, luminosos, ambientees, edificio, moderno, ciudad, departamentos, inmobiliaria, arquitecto, desarrollo, gestión, inmobiliarios, gerenciamiento, edificios, vivienda, oficinas, concursos, construcción, planificación, obras, dirección';
 	
 	$titulo['el-proyecto'] = 'Diseñado<br>para capturar <br>la luz y el aire';
 	$textGray['el-proyecto'] = '<p>Calix está diseñado pensando en tu comodidad y disfrute. <br>Ya sea que elijas vivir solo, en familia o con amigos, en Calix 3F vas a <br>encontrar espacios privados, espacios para socializar y todas las <br>comodidades que estás buscando.</p>';
@@ -95,6 +97,14 @@
 			array (
 				'imagen' => 'galeria_depto_habitacion.jpg',
 				'titulo' => ''
+			),
+			array (
+				'imagen' => 'sub_pb.png',
+				'titulo' => ''
+			),
+			array (
+				'imagen' => '1P_2P_3P_4P.png',
+				'titulo' => ''
 			)
 		)
 	);
@@ -129,7 +139,8 @@
  ****/
  
 	$headTitulo['el-barrio'] = 'El Barrio | Calix Núñez';
-	$headDesc['el-barrio'] = 'Calix Núñez - El Barrio. Departamentos en el barrio de Núñez. 54 911 4773 6619';
+	$headDesc['el-barrio'] = 'Calix Núñez - El Barrio. Departamentos en el barrio de Núñez. 54 11 4788 2412';
+	$headKeywords['el-barrio'] = 'núñez, residencial, gastronómicas, paseos, comerciales, proyecto, espacios, barrancas, barrio, luminosos, ambientees, edificio, moderno, ciudad, departamentos, inmobiliaria, arquitecto, desarrollo, gestión, inmobiliarios, gerenciamiento, edificios, vivienda, oficinas, concursos, construcción, planificación, obras, dirección';
 
 	$titulo['el-barrio'] = 'Tu vida<br>a 5 minutos de todo<br>lo que te gusta';
 	$textGray['el-barrio'] = '<p>Nuñez es un barrio en transformación, está re inventandose. Es un nuevo polo gastronómico con restaurantes y bares, zonas comerciales y de entretenimiento. Cuenta con un sólido centro de educación primario, secundaria y universitaria. En Buenos Aires no hay otro lugar como este. Sumale las zonas verdes, los extensos enlaces de transporte, los famosos mercados de alimentos, transforman este barrio en un destino tan atractivo y conveniente. Todo esto a solo 5 minutos.</p>';
@@ -276,8 +287,9 @@
  ****/
 	
 	$headTitulo['disponibilidad'] = 'Las Unidades | Calix Núñez';
-	$headDesc['disponibilidad'] = 'Calix Núñez - Disponibilidad. Departamentos en el barrio de Núñez. 54 911 4773 6619';
-
+	$headDesc['disponibilidad'] = 'Calix Núñez - Disponibilidad. Departamentos en el barrio de Núñez. 54 11 4788 2412';
+	$headKeywords['disponibilidad'] = 'disponibilidad, proyecto, espacios, barrancas, barrio, luminosos, ambientees, edificio, moderno, ciudad, departamentos, inmobiliaria, arquitecto, desarrollo, gestión, inmobiliarios, gerenciamiento, edificios, vivienda, oficinas, concursos, construcción, planificación, obras, dirección';
+	
 	$tituloG['disponibilidad'] = 'Las Plantas';
 	$textGray['disponibilidad'] = '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>';
 	
