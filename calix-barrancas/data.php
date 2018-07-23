@@ -590,7 +590,7 @@
 				'titulo' => '7 piso / SUM',
 				'planos' => true,
 				'deptos' => array(
-					array('7 piso / SUM','','sum.pdf')
+					array('7 piso / SUM','','')
 				)
 			)
 		);

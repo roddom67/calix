@@ -61,7 +61,7 @@
   			for($d = 0; $d<$dept;$d++){
   			
   				if(isset($disponibilidad[$pagina][$a]['deptos'][$d][0])){
-  					$titulo 			= $disponibilidad[$pagina][$a]['deptos'][$d][0];
+  					$titulo = $disponibilidad[$pagina][$a]['deptos'][$d][0];
   				}
   				if(isset($disponibilidad[$pagina][$a]['deptos'][$d][1])){
   					$descripcion 	= $disponibilidad[$pagina][$a]['deptos'][$d][1];
@@ -114,7 +114,7 @@
 				
 				$disponibilidadContent .= '</li>';
 				
-				if(isset($pdf)){ 	
+				if(isset($pdf) && $pdf != ''){ 	
 					$disponibilidadContent .= '<li class="col-4 col-md-6 linksArea">
 												<ul class="row">
 													<li>
