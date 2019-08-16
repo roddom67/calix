@@ -2,25 +2,35 @@
 
 
 	/* Footer */
-	
-	$calixNunez = array(
-		'titulo' => 'Calix Núñez',
-		'link' => '../calix-nunez/',
-		'direccion' => '3 de Febrero 2936,<br>
-							Caba, Argentina C1428A<br>
-							T 54 11 4788 2412'
-	);
-	$calixBarrancas = array(
-		'titulo' => 'Calix Barrancas',
-		'link' => '../calix-barrancas/',
-		'direccion' => 'Blanco Encalada 1865,<br>
-  						Caba, Argentina C1428A<br>
-  						T 54 11 4788 2412'
-	);
-	$calixPalermo = array(
-		'titulo' => 'Calix Palermo',
-		'link' => '../calix-palermo/',
-		'direccion' => 'Proyectándose'
+	$direcciones = array(
+		array(
+			'titulo' => 'Calix Barrancas',
+			'link' => '../calix-barrancas/',
+			'logo' => 'logoCBarrancas',
+			'direccion' => 'Blanco Encalada 1865,<br>
+  							Caba, Argentina C1428A<br>
+  							T 54 11 4788 2412'
+		),
+		array(
+			'titulo' => 'Calix Núñez',
+			'link' => '../calix-nunez/',
+			'logo' => 'logoCNunez',
+			'direccion' => '3 de Febrero 2936,<br>
+								Caba, Argentina C1428A<br>
+								T 54 11 4788 2412'
+		),
+		array(
+			'titulo' => 'Calix Palermo',
+			'link' => '../calix-palermo/',
+			'logo' => 'logoCPalermo',
+			'direccion' => 'Proyectándose'
+		),
+		array(
+			'titulo' => 'Calix Madrid',
+			'link' => '../calix-madrid/',
+			'logo' => 'logoCMadrid',
+			'direccion' => 'Proyectándose'
+		)
 	);
 		
 	/* Paginas */

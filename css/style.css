@@ -126,6 +126,13 @@ article h1{
 .home .menuCalix a.calixPalermo span{
 	background: url(../images/home/calix-palermo-home.png) no-repeat top left;
 }
+.home .menuCalix a.calixMadrid {
+	width:99px;
+}
+.home .menuCalix a.calixMadrid span{
+	background: url(../images/home/calix-madrid-home.png) no-repeat top left;
+}
+
 .home .menuCalix a:hover span{
 	background-position: bottom left !important;
 }
@@ -308,6 +315,7 @@ footer .logosFooter span{
 footer .logosFooter.logoCNunez span{background-position: 0 0;}
 footer .logosFooter.logoCBarrancas span{background-position: 0 -35px;}
 footer .logosFooter.logoCPalermo span{background-position: 0 -70px;}
+footer .logosFooter.logoCMadrid span{background-position: 0 -105px;}
 
 footer p{
 	font-size: 1.2rem;

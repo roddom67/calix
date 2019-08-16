@@ -17,21 +17,27 @@
   					<p>Viví tu mejor versión</p>
  				</div>
   				<ul class="row menuCalix">
-  					<li class="col-xs-12 col-md-4">
+  					<li class="col-xs-12 col-md-3">
   						<a href="calix-barrancas/" title="Calix Barrancas" class="calixBarrancas">
   							<span>Calix Barrancas</span>
   							<small>Blanco Encalada 1865</small>
   						</a>
   					</li>
-  					<li class="col-xs-12 col-md-4">
+  					<li class="col-xs-12 col-md-3">
  						<a href="calix-nunez/" title="Calix Núñez" class="calixNunez">
   							<span>Calix Núñez</span>
   							<small>3 de febrero 2936</small>
   						</a>
   					</li>
- 					<li class="col-xs-12 col-md-4">
+ 					<li class="col-xs-12 col-md-3">
   						<a href="calix-palermo/" title="Calix Palermo" class="calixPalermo">
   							<span>Calix Palermo</span>
+  							<small>Proyectándose</small>
+  						</a>
+  					</li>
+ 					<li class="col-xs-12 col-md-3">
+  						<a href="calix-madrid/" title="Calix Madrid" class="calixMadrid">
+  							<span>Calix Madrid</span>
   							<small>Proyectándose</small>
   						</a>
   					</li>

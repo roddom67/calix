@@ -5,30 +5,20 @@
 	<div class="container-fluid">
 		<div class="footerTop">
   			<ul class="row addressFooter">
+  				<?php
+  					for($d=0; $d<count($direcciones); $d++){
+  				?>
   				<li class="col-6 col-sm-4 col-md-3 col-xl-2">
-  					<a href="<?php echo $calixBarrancas['link']; ?>" 
-  						title="<?php echo $calixBarrancas['titulo']; ?>" 
-  						class="logosFooter logoCBarrancas">
-  						<span><?php echo $calixBarrancas['titulo']; ?></span>
+  					<a href="<?php echo $direcciones[$d]['link']; ?>" 
+  						title="<?php echo $direcciones[$d]['titulo']; ?>" 
+  						class="logosFooter <?php echo $direcciones[$d]['logo']; ?>">
+  						<span><?php echo $direcciones[$d]['titulo']; ?></span>
   					</a>
-  					<p><?php echo $calixBarrancas['direccion']; ?></p>
+  					<p><?php echo $direcciones[$d]['direccion']; ?></p>
   				</li>
-  				<li class="col-6 col-sm-4 col-md-3 col-xl-2">
-  					<a href="<?php echo $calixNunez['link']; ?>" 
-  						title="<?php echo $calixNunez['titulo']; ?>" 
-  						class="logosFooter logoCNunez">
-  						<span><?php echo $calixNunez['titulo']; ?></span>
-  					</a>
-  					<p><?php echo $calixNunez['direccion']; ?></p>
-  				</li>
-  				<li class="col-6 col-sm-4 col-md-3 col-xl-2">
-  					<a href="<?php echo $calixPalermo['link']; ?>" 
-  						title="<?php echo $calixPalermo['titulo']; ?>" 
-  						class="logosFooter logoCPalermo">
-  						<span><?php echo $calixPalermo['titulo']; ?></span>
-  					</a>
-  					<p><?php echo $calixPalermo['direccion']; ?></p>
-  				</li>
+  				<?php
+  					}
+  				?>
   			</ul>
 		</div>
 		<div class="footerBottom">

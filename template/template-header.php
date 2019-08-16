@@ -6,6 +6,9 @@
   				<?php
 					include("../nav.php")
 				?>
+				<article>
+  					<h1><?php echo $titulo[$pagina]; ?></h1>
+  				</article>
  			</div>
  		</section>
 <?php
