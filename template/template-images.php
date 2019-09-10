@@ -114,34 +114,37 @@
 		<section class="textMapArea bgGray">
   			<div class="mapArea">
   				<iframe src="https://www.google.com/maps/d/embed?mid='.$textMapArea[$pagina]['coordenadas'].'&hl=es" width="100%" height="100%"></iframe>
-  			</div>
-			<div class="container-fluid">
+  			</div>';
+  			
+  		if(isset($textMapArea[$pagina]['listado'])){
+  		$textMapContent .= '<div class="container-fluid">
  				<div class="row">
-   				<article class="col-12 textos">
-  						<h2>'.$textMapArea[$pagina]['titulo'].'</h2>';
-  						
-  		$cant = sizeof($textMapArea[$pagina]['listado']);
+   				<article class="col-12 textos">';
+  		if(isset($textMapArea[$pagina]['titulo'])){$textMapContent .= '<h2>'.$textMapArea[$pagina]['titulo'].'</h2>';}
   		
-  		$textMapContent .= '<ul class="row accordion">';
-  		for($a = 0; $a < $cant; $a++){
-  			$textMapContent .= '<li class="col-12 col-md-3">';
-  			$textMapContent .= '<h4>'.$textMapArea[$pagina]['listado'][$a]['titulo'].'</h4>';
+
+  			$cant = sizeof($textMapArea[$pagina]['listado']);
+  		
+  			$textMapContent .= '<ul class="row accordion">';
+  			for($a = 0; $a < $cant; $a++){
+  				$textMapContent .= '<li class="col-12 col-md-3">';
+  				if(isset($textMapArea[$pagina]['listado'][$a]['titulo'])){$textMapContent .= '<h4>'.$textMapArea[$pagina]['listado'][$a]['titulo'].'</h4>';}
   			
-  			$lug = sizeof($textMapArea[$pagina]['listado'][$a]['lugares']);
-  			$textMapContent .= '<div><ul>';
-  			for($l = 0; $l < $lug; $l++){
-  				$textMapContent .= '<li>'.$textMapArea[$pagina]['listado'][$a]['lugares'][$l].'</li>';
+  				$lug = sizeof($textMapArea[$pagina]['listado'][$a]['lugares']);
+  				$textMapContent .= '<div><ul>';
+  				for($l = 0; $l < $lug; $l++){
+  					$textMapContent .= '<li>'.$textMapArea[$pagina]['listado'][$a]['lugares'][$l].'</li>';
+  				}
+  			
+  				$textMapContent .= '</ul></div></li>';
   			}
-  			
-  			$textMapContent .= '</ul></div></li>';
-  		}
-  		$textMapContent .= '</ul>';			
-  						
-  		$textMapContent .= '';				
-  		$textMapContent .= '</article>
- 					</div>
-  			</div>
- 		</section>
+  			$textMapContent .= '</ul>';			
+  			$textMapContent .= '';				
+  			$textMapContent .= '</article>
+ 						</div>
+  				</div>';
+  		}				
+ 		$textMapContent .= '</section>
 		';
 	}
 ?>

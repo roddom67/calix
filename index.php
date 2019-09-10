@@ -38,7 +38,7 @@
  					<li class="col-xs-12 col-md-3">
   						<a href="calix-madrid/" title="Calix Madrid" class="calixMadrid">
   							<span>Calix Madrid</span>
-  							<small>Proyectándose</small>
+  							<small>Plaza Fernando VI</small>
   						</a>
   					</li>
   				</ul>
