@@ -29,7 +29,8 @@
 			'titulo' => 'Calix Madrid',
 			'link' => '../calix-madrid/',
 			'logo' => 'logoCMadrid',
-			'direccion' => 'Proyectándose'
+			'direccion' => 'Plaza Fernando VI<br>
+								San Fernando de Henares<br>								Madrid'
 		)
 	);
 		

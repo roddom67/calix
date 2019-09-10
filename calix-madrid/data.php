@@ -78,29 +78,34 @@
 	$galeriaArea['el-proyecto'] = array(
 		'imagenes' => array (
 			array (
-				'imagen' => 'galeria_0.jpg',
-				'titulo' => ''
-			),
-			array (
-				'imagen' => 'galeria_1.jpg',
-				'titulo' => ''
+				'imagen' => 'galeria_3.jpg',
+				'titulo' => 'Salón 1'
 			),
 			array (
 				'imagen' => 'galeria_2.jpg',
-				'titulo' => ''
+				'titulo' => 'Salón 2'
 			),
 			array (
-				'imagen' => 'galeria_3.jpg',
-				'titulo' => ''
+				'imagen' => 'galeria_1.jpg',
+				'titulo' => 'Salón 3'
 			),
 			array (
-				'imagen' => 'galeria_4.jpg',
-				'titulo' => ''
+				'imagen' => 'galeria_0.jpg',
+				'titulo' => 'Salón 4'
 			),
 			array (
 				'imagen' => 'galeria_5.jpg',
-				'titulo' => ''
+				'titulo' => 'Dormitorio 1'
 			),
+			array (
+				'imagen' => 'galeria_4.jpg',
+				'titulo' => 'Dormitorio 2'
+			),
+			array (
+				'imagen' => 'galeria_6.jpg',
+				'titulo' => 'Baño'
+			)
+			/*,
 			array (
 				'imagen' => 'PB_piso1.png',
 				'titulo' => ''
@@ -124,32 +129,23 @@
 			array (
 				'360' => 'https://roundme.com/embed/143840/363611',
 				'titulo' => ''
-			)
+			)*/
 		)
 	);
 
 	$caracteristicasArea['el-proyecto'] = array(
 		'titulo' => 'Características generales',
 		
-		'texto' => '<p>Su moderno diseño optimiza las cualidades naturales de su entorno, ofreciendo cómodos y agradables espacios de 1 y 2 dormitorios para disfrutar de un mejor estilo de vida.</p>',
+		'texto' => '<p>Diseñamos departamenots de 1 a 2 dormitorios pensando cada rincón, cada terminación. Ideales para que cress un "efecto parénteis" de lo cotidiano y construyas un mundo personal donde quieras vivir, disfrutar y relajarte.</p>',
 		'caracteristicas' => array(
-			'20 metros de frente',
-			'Vista abierta al Frente y Contrafrente',
-			'Edificio de 7 plantas',
-			'Acceso de doble altura',
-			'Ventanas de piso a techo',
-			'Todos los ambientes externos',
-			'Unidades de 2 y 3 ambientes',
-			'Cocheras y espacio para motos y bicicletas',
+			'Cómodas cocheras',
+			'Seguridad integrada',
+			'Bajas expensas',
+			'Diseño funcional',
 			'Terminaciones de calidad',
-			'Excelente iluminación',
-			'Salón de usos múltiples',
-			'Solarium con duchones de refresco',
-			
-			'Bauleras',
-			'Laundry',
-			
-			'Bajas expensas'
+			'Carpiterías de piso a techo',
+			'Ascensore de Acero Inoxidable',
+			'Excelente Accesibilidad hacia / desde el centro y el norte de la ciudad'
 		),
 		'sep' => false
 	);
@@ -169,144 +165,14 @@
 	$headKeywords['el-barrio'] = 'residencial, gastronómicas, paseos, comerciales, proyecto, espacios, barrancas, barrio, luminosos, ambientees, edificio, moderno, ciudad, departamentos, inmobiliaria, arquitecto, desarrollo, gestión, inmobiliarios, gerenciamiento, edificios, vivienda, oficinas, concursos, construcción, planificación, obras, dirección';
 
 	$titulo['el-barrio'] = 'Vivir a mano,<br>cerca de todo.';
-	$textGray['el-barrio'] = '<p>Barrancas es un barrio en transformación, está re inventandose. Es un nuevo polo gastronómico con restaurantes y bares, zonas comerciales y de entretenimiento. Cuenta con un sólido centro de educación primario, secundaria y universitaria. En Buenos Aires no hay otro lugar como este. Sumale las zonas verdes, los extensos enlaces de transporte, los famosos mercados de alimentos, transforman este barrio en un destino tan atractivo y conveniente. Todo esto a solo 5 minutos.</p>';
-	
-	$threeImagesArea['el-barrio']= array(
-		'imagenes' => array (
-			array (
-				'imagen' => 'praline.jpg',
-				'titulo' => '',
-				'youtube' => '<iframe width="960" height="540" src="https://www.youtube.com/embed/bdwZODNzWqM?rel=0&amp;controls=0&amp;showinfo=0&amp;enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>'
-			),
-			array (
-				'imagen' => 'nunez-buenos-aires.png',
-				'titulo' => 'Barrancas Buenos Aires'
-			),
-			array (
-				'imagen' => 'chico-bar.jpg',
-				'titulo' => ''
-			)
-		)
-	);
-	$textDosTresImageArea['right']['el-barrio'] = array(
-		'parrafo' => '<span>El barrio que lo tiene todo</span>Barrancas, además de ser una zona residencial, es un distrito reconocido por su amplia variedad de ofertas gastronómicas, espacios verdes y paseos comerciales. También, reconocidas instituciones educativas, médicas y financieras se encuentran en la zona.'
-	);
 
-	$textDosTresImageArea['left']['el-barrio'] = array(
-		'parrafo' => '<span>Proximidad insuperable</span>La ubicación del proyecto es inmejorable. Calix Barrancas tiene una conveniente cercanía a las vías más rápidas de acceso, tanto al centro de la ciudad como a la Zona Norte. Además, está a sólo unos pasos de múltiples medios de transporte.'
-	);
-	
 	$textMapArea['el-barrio'] = array(
-		'titulo' => 'Cerca de todo lo que te gusta',
-		'listado' => array(
-			array(
-				'titulo' => 'Restaurantes y bares',
-				'lugares' => array(
-					'1_Dashi Barrio Chino',
-					'2_Buddah BA',
-					'3_Muu Lechería',
-					'4_Luccianos Heladería',
-					'5_MAD',
-					'6_Cherry Sushi',
-					'7_Muni',
-					'8_Las Carnitas',
-					'9_Pobre Luis',
-					'10_La Parolaccia',
-					'11_El Quinto',
-					'12_Tea Connection',
-					'13_MOOI'
-				)
-			),
-			array(
-				'titulo' => 'Interés general',
-				'lugares' => array(
-					'14_Plaza Aberti',
-					'15_Plaza Barrancas',
-					'16_Plaza Manuel Belgrano',
-					'17_Farmacity',
-					'18_Barrio Chino',
-					'19_Multiplex Belgrano',
-					'20_Showcase Nuñez / Carrefour',
-					'21_Megatlon Belgrano'
-				)
-			),
-			array(
-				'titulo' => 'Educación',
-				'lugares' => array(
-					'22_Universidad Di Tella',
-					'23_Escuela Ort Escuela Normal',
-					'24_UHS United High School',
-					'25_Instituto Santa Ana y San Joaquín',
-					'26_Belgrano Uno',
-					'27_Jacarandá',
-					'28_UAI'
-				)
-			),
-			array(
-				'titulo' => 'Salud',
-				'lugares' => array(
-					'29_Fundación Fleni',
-					'30_CBA Inst. Cardiovascular de BA',
-					'31_Stamboulian Servicio Medico',
-					'31_Cemic Belgrano',
-					'31_Centro Médico Luis Pasteur'
-				)
-			)
-		),
 		'parrafo' => '',
-		'coordenadas' => '1SdtQ6l6plzFhyCBwZ54tO35WT8Z39slj'	
+		'coordenadas' => '1Elh79MRwFd_3KXTTb7C-erqDF0-6Ptv2'	
 	);
 	
-	$twoImagesMiddleTextArea['el-barrio']= array(
-		'imagenes' => array (
-			array (
-				'imagen' => 'tres-cafe.jpg',
-				'titulo' => ''
-			),
-			array (
-				'imagen' => 'mural.jpg',
-				'titulo' => ''
-			),
-			array (
-				'imagen' => 'big-party.jpg',
-				'titulo' => ''
-			)
-		)
-	);
-	$threeImagesArea_1['el-barrio']= array(
-		'imagenes' => array (
-			array (
-				'imagen' => 'cruce.jpg',
-				'titulo' => '',
-			),
-			array (
-				'imagen' => 'transporte.jpg',
-				'titulo' => ''
-			),
-			array (
-				'imagen' => 'todo-a.jpg',
-				'titulo' => ''
-			)
-		)
-	);
-	$threeImagesArea_2['el-barrio']= array(
-		'imagenes' => array (
-			array (
-				'imagen' => 'subte.jpg',
-				'titulo' => '',
-			),
-			array (
-				'imagen' => 'frutas.jpg',
-				'titulo' => ''
-			),
-			array (
-				'imagen' => 'cerveza.jpg',
-				'titulo' => ''
-			)
-		)
-	);
 	
-	$position['el-barrio'] = array('threeImagesContent','textDosTresImageRightContent','textMapContent','twoImagesMiddleTextContent','textDosTresImageLeftContent','threeImages1Content','threeImages2Content');
+	$position['el-barrio'] = array('textMapContent');
 
 /* 
  * Disponibilidad 
@@ -609,6 +475,60 @@
 	
 	$position['disponibilidad'] = array('disponibilidadContent');
 
+/* El Equipo */
+	$headTitulo['el-equipo'] = 'El Equipo | '.$proyectoNombre;
+	$headDesc['el-equipo'] = $proyectoNombre.' - El Equipo. Departamentos en el barrio de Núñez. 54 11 4788 2412';
+	$headKeywords['el-equipo'] = 'departamentos, inmobiliaria, arquitecto, desarrollo, gestión, inmobiliarios, gerenciamiento,edificios, vivienda, oficinas, concursos, construcción, planificación, obras, dirección';
+
+	$tituloG['el-equipo'] = 'El Equipo';
+	
+	$elequipo['el-equipo'] = array(
+		array(
+			'titulo' => 'Desarrolla y Comercializa',
+			'logo' => 'zoning.png',
+			'alt' => 'Zonning Real Estate',
+			'texto' => '<h3>ING. LUIS MARTÍNEZ DI VIRGILIO<span>DESARROLLO Y GERENCIAMIENTO ZONING</span></h3><p>Ingeniero civil con más de 28 años de experiencia en desarrollo y gestión de activos inmobiliarios. MDI de la universidad Politécnica de Madrid. Gerenció el desarrollo de más de 25 edificios de vivienda y oficinas.</p><h3>ARQ. DIEGO ALCHOURRON<span>DESARROLLO Y GERENCIAMIENTO ZONING</span></h3><p>Arquitecto, MDI de la Universidad Politécnica de Madrid y Martillero Público. Es profesor de Marketing en el <strong>Máster de Desarrollo inmobiliario de la UB (MDEI)</strong>. Tiene más de 15 años de experiencia en desarrollo y comercialización de inmuebles.</p>'
+		),
+		array(
+			'titulo' => 'Desarrolla y Comercializa',
+			'logo' => 'urbia.png',
+			'alt' => 'URBIA',
+			'texto' => '<h3>Ing. Luis Martínez Di Virgilio<span>Desarrollo y Gerenciamiento Zoning</span></h3><p>Ingeniero civil con más de 28 años de experiencia en desarrollo y gestión de activos inmobiliarios. MDI de la universidad Politécnica de Madrid. Gerenció el desarrollo de más de 25 edificios de vivienda y oficinas.</p><h3>Arq. Diego Alchourrón<span>Desarrollo y Gerenciamiento Zoning</span></h3><p>Arquitecto, MDI de la Universidad Politécnica de Madrid y Martillero Público. Es profesor de Marketing en el Máster de Desarrollo inmobiliario de la UB (MDEI). Tiene más de 15 años de experiencia en desarrollo y comercialización de inmuebles.</p>'
+		),
+		array(
+			'titulo' => 'Proyecto y Dirección',
+			'logo' => 'ensalada.png',
+			'alt' => 'ENSALADA - office for architecture and beyond',
+			'texto' => '<h3>Arg. Diego Boyadjian<span>Arquitecto UBA</span></h3><p>Ha realizado proyectos residenciales, institucionales y corporativos. Entre ellos el 1º premio en el Concurso para el Corredor Turístico Puerto Madero - La Boca. Es profesor de diseño arquitectónico avanzado en la FADU de la UBA.</p>'
+		),
+/*
+		array(
+
+			'titulo' => 'Construcción',
+
+			'logo' => 'techba.png',
+
+			'alt' => 'Techba SRL',
+
+			'texto' => '<h3>ARQ. HERNAN FERRERO<span>CONSTRUCCIÓN Y PLANIFICACIÓN DE OBRAS</span></h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>'
+
+		),
+
+		array(
+
+			'titulo' => 'Branding & Marketing',
+
+			'logo' => 'Antoni.png',
+
+			'alt' => 'Antoni Branding Shop',
+
+			'texto' => '<h3>ARQ. HERNAN FERRERO<span>CONSTRUCCIÓN Y PLANIFICACIÓN DE OBRAS</span></h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>'
+
+		)*/
+	);
+	
+	$position['el-equipo'] = array('elequipoContent');
+	
 /*
  * Contacto 
  *
