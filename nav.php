@@ -15,10 +15,15 @@
       <li class="nav-item <?php if(isset($activoEP)){ echo 'active'; } ?>">
         <a class="nav-link" href="el-proyecto.php" title="El Proyecto">El Proyecto</a>
       </li>
+      <?php
+      if ($proyecto != 'calix-madrid'){
+      ?>
       <li class="nav-item <?php if(isset($activoD)){ echo 'active'; } ?>">
         <a class="nav-link " href="disponibilidad.php" title="Las Unidades">Las Unidades</a>
       </li>
-      
+      <?php
+     	}
+     	?>
       <li class="nav-item <?php if(isset($activoC)){ echo 'active'; } ?>">
         <a class="nav-link " href="contacto.php" title="Contacto">Contacto</a>
       </li>
