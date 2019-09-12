@@ -9,15 +9,15 @@
 	
 	/* Paginas */
 	/* Home */
-	$headTitulo['index'] = 'A 17 minutos de Madrid, a un paso de la tranquilidad. | Calix Madrid';
-	$headDesc['index'] = 'Calix Madrid - A 17 minutos de Madrid, a un paso de la tranquilidad. Departamentos en el barrio de Madrid. 54 11 4788 2412';
+	$headTitulo['index'] = 'Por fin has encontrado tu casa para vivir en el centro de todo. | Calix Madrid';
+	$headDesc['index'] = 'Calix Madrid - Por fin has encontrado tu casa para vivir en el centro de todo. Departamentos en el barrio de San Fernando de Henares. 54 11 4788 2412';
 	$headKeywords['index'] = 'madrid, barrio, luminosos, ambientees, edificio, moderno, ciudad, departamentos, inmobiliaria, arquitecto, desarrollo, gestión, inmobiliarios, gerenciamiento,edificios, vivienda, oficinas, concursos, construcción, planificación, obras, dirección';
 	
-	$titulo['index'] = 'a 17 minutos de Madrid<br>a un paso de la tranquilidad';
-	$textGray['index'] = '<p>Cuando pensamos Calix Madrid, <br>pensamos un proyecto en el que quisieras vivir,<br> un lugar donde disfrutar cada momento de tu día.</p>';
+	$titulo['index'] = 'Por fin has encontrado tu casa<br>para vivir en el centro de todo';
+	$textGray['index'] = '<p>Casas para compartir, <br>un sitio ideal para vivir <br> y en el corazón de la ciudad.</p>';
 	$textImageArea['left']['index'] = array(
 		'titulo' => 'El Proyecto',
-		'parrafo' => 'Diseño modero, espacios flexibles, ventanales de piso a techo, mucha luz natural.',
+		'parrafo' => 'Diseño moderno, excelente calificación energética (A), cocina abierta, importante iluminación natural.',
 		'verMasLink' => 'el-proyecto.php',
 		'verMasTitulo' => 'Ver más del proyecto',
 		'imagenes' => array (
@@ -27,7 +27,7 @@
 	);
 	$textImageArea['right']['index'] = array(
 		'titulo' => 'San Fernando de Henares',
-		'parrafo' => 'Un barrio en plena transformación.',
+		'parrafo' => 'Una zona totalmente consolidada.',
 		'verMasLink' => 'el-barrio.php',
 		'verMasTitulo' => 'Conocer más del barrio'			
 	);
@@ -53,12 +53,12 @@
  *
  ***/
  
-	$headTitulo['el-proyecto'] = 'El Proyecto | Calix Barrancas';
-	$headDesc['el-proyecto'] = 'Calix Barrancas - El Proyecto. Departamentos en el barrio de Barrancas. 54 11 4788 2412';
-	$headKeywords['el-proyecto'] = 'proyecto, espacios, barrancas, barrio, luminosos, ambientees, edificio, moderno, ciudad, departamentos, inmobiliaria, arquitecto, desarrollo, gestión, inmobiliarios, gerenciamiento, edificios, vivienda, oficinas, concursos, construcción, planificación, obras, dirección';
+	$headTitulo['el-proyecto'] = 'El Proyecto | Calix Madrid';
+	$headDesc['el-proyecto'] = 'Calix Madrid - El Proyecto. Departamentos en el barrio de San Fernando de Henares. 54 11 4788 2412';
+	$headKeywords['el-proyecto'] = 'proyecto, espacios, Madrid, barrio, luminosos, ambientes, edificio, moderno, ciudad, departamentos, inmobiliaria, arquitecto, desarrollo, gestión, inmobiliarios, gerenciamiento, edificios, vivienda, oficinas, concursos, construcción, planificación, obras, dirección';
 
-	$titulo['el-proyecto'] = 'Un diseño moderno, <br>ambientes luminosos, <br>una vida muy cómoda';
-	$textGray['el-proyecto'] = '<p>Calix está diseñado pensando en tu comodidad y disfrute. Ya sea que elijas vivir solo, en familia o con amigos, en Calix M vas a encontrar espacios privados, espacios para socializar y todas las comodidades que estás buscando.</p>';
+	$titulo['el-proyecto'] = 'Viviendas pensadas <br> para tu bienestar y confort';
+	$textGray['el-proyecto'] = '<p>Diseño, cómodo y funcional, alta eficiencia energética y a un paso de todo.</p>';
 	$threeImagesArea['el-proyecto']= array(
 		'imagenes' => array (
 			array (
@@ -136,16 +136,14 @@
 	$caracteristicasArea['el-proyecto'] = array(
 		'titulo' => 'Características generales',
 		
-		'texto' => '<p>Diseñamos departamenots de 1 a 2 dormitorios pensando cada rincón, cada terminación. Ideales para que cress un "efecto parénteis" de lo cotidiano y construyas un mundo personal donde quieras vivir, disfrutar y relajarte.</p>',
+		'texto' => '<p>Pisos de 1,2 y 3 dormitorios pensados para encontrar tu momento perfecto en el día.</p>',
 		'caracteristicas' => array(
-			'Cómodas cocheras',
-			'Seguridad integrada',
-			'Bajas expensas',
-			'Diseño funcional',
-			'Terminaciones de calidad',
-			'Carpiterías de piso a techo',
-			'Ascensore de Acero Inoxidable',
-			'Excelente Accesibilidad hacia / desde el centro y el norte de la ciudad'
+			'Plaza de garaje',
+			'Trastero',
+			'Cocina amueblada, mueble altos y bajos',
+			'Calefacción suelo radiante, por agua',
+			'Preinstalación de eficiencia energética A',
+			
 		),
 		'sep' => false
 	);
@@ -160,11 +158,11 @@
  *
  ****/
  
-	$headTitulo['el-barrio'] = 'El Barrio | Calix Barrancas';
-	$headDesc['el-barrio'] = 'Calix Barrancas - El Barrio. Departamentos en el barrio de Barrancas. 54 11 4788 2412';
+	$headTitulo['el-barrio'] = 'El Barrio | Calix Madrid';
+	$headDesc['el-barrio'] = 'Calix Madrid - El Barrio. Departamentos en el barrio de San Fernando de Henares. 54 11 4788 2412';
 	$headKeywords['el-barrio'] = 'residencial, gastronómicas, paseos, comerciales, proyecto, espacios, barrancas, barrio, luminosos, ambientees, edificio, moderno, ciudad, departamentos, inmobiliaria, arquitecto, desarrollo, gestión, inmobiliarios, gerenciamiento, edificios, vivienda, oficinas, concursos, construcción, planificación, obras, dirección';
 
-	$titulo['el-barrio'] = 'Vivir a mano,<br>cerca de todo.';
+	$titulo['el-barrio'] = 'Vive como en la gran ciudad <br> con las ventajas de una pequeña.';
 
 	$textMapArea['el-barrio'] = array(
 		'parrafo' => '',
@@ -179,9 +177,9 @@
  *
  ****/
 	
-	$headTitulo['disponibilidad'] = 'Disponibilidad | Calix Barrancas';
-	$headDesc['disponibilidad'] = 'Calix Barrancas - Disponibilidad. Departamentos en el barrio de Barrancas. 54 11 4788 2412';
-	$headKeywords['disponibilidad'] = 'disponibilidad, proyecto, espacios, barrancas, barrio, luminosos, ambientees, edificio, moderno, ciudad, departamentos, inmobiliaria, arquitecto, desarrollo, gestión, inmobiliarios, gerenciamiento, edificios, vivienda, oficinas, concursos, construcción, planificación, obras, dirección';
+	$headTitulo['disponibilidad'] = 'Disponibilidad | Calix Madrid';
+	$headDesc['disponibilidad'] = 'Calix Madrid - Disponibilidad. Departamentos en el barrio de San Fernando de Henares. 54 11 4788 2412';
+	$headKeywords['disponibilidad'] = 'disponibilidad, proyecto, espacios, madrid, barrio, luminosos, ambientes, edificio, moderno, ciudad, departamentos, inmobiliaria, arquitecto, desarrollo, gestión, inmobiliarios, gerenciamiento, edificios, vivienda, oficinas, concursos, construcción, planificación, obras, dirección';
 
 	$tituloG['disponibilidad'] = 'Disponibilidad';
 	$textGray['disponibilidad'] = '<p></p>';
