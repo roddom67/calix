@@ -13,11 +13,11 @@
 	$headDesc['index'] = 'Calix Madrid - Por fin has encontrado tu casa para vivir en el centro de todo. Departamentos en el barrio de San Fernando de Henares. 54 11 4788 2412';
 	$headKeywords['index'] = 'madrid, barrio, luminosos, ambientees, edificio, moderno, ciudad, departamentos, inmobiliaria, arquitecto, desarrollo, gestión, inmobiliarios, gerenciamiento,edificios, vivienda, oficinas, concursos, construcción, planificación, obras, dirección';
 	
-	$titulo['index'] = 'Por fin has encontrado tu casa<br>para vivir en el centro de todo';
-	$textGray['index'] = '<p>Casas para compartir, <br>un sitio ideal para vivir <br> y en el corazón de la ciudad.</p>';
+	$titulo['index'] = 'Por fin <br> has encontrado tu casa <br> para vivir en el centro <br> de todo';
+	$textGray['index'] = '<p>Casas para compartir, un sitio ideal para vivir <br> y en el corazón de la ciudad.</p>';
 	$textImageArea['left']['index'] = array(
 		'titulo' => 'El Proyecto',
-		'parrafo' => 'Diseño moderno, excelente calificación energética (A), cocina abierta, importante iluminación natural.',
+		'parrafo' => 'Diseño moderno, excelente calificación energética (A), cocina abierta, importante iluminación natural. <br><br><br>Posibilidad de financiacion bancaria local (Banco Español), en función del scoring de cada comprador',
 		'verMasLink' => 'el-proyecto.php',
 		'verMasTitulo' => 'Ver más del proyecto',
 		'imagenes' => array (
@@ -136,13 +136,15 @@
 	$caracteristicasArea['el-proyecto'] = array(
 		'titulo' => 'Características generales',
 		
-		'texto' => '<p>Pisos de 1,2 y 3 dormitorios pensados para encontrar tu momento perfecto en el día.</p>',
+		'texto' => '<p>Pisos de 1, 2 y 3 dormitorios pensados para encontrar tu momento perfecto en el día.</p>',
 		'caracteristicas' => array(
 			'Plaza de garaje',
 			'Trastero',
-			'Cocina amueblada, mueble altos y bajos',
+			'Cocina amueblada, mueble altos <br> y bajos',
 			'Calefacción suelo radiante, por agua',
-			'Preinstalación de eficiencia energética A',
+			'Preinstalación de aire acondicionado',
+			'VIVIENDAS CON CALIFICACION <br> ENERGETICA “A”',
+                       
 			
 		),
 		'sep' => false
@@ -491,13 +493,13 @@
 			'titulo' => 'Desarrolla y Comercializa',
 			'logo' => 'urbia.png',
 			'alt' => 'URBIA',
-			'texto' => '<h3>Ing. Luis Martínez Di Virgilio<span>Desarrollo y Gerenciamiento Zoning</span></h3><p>Ingeniero civil con más de 28 años de experiencia en desarrollo y gestión de activos inmobiliarios. MDI de la universidad Politécnica de Madrid. Gerenció el desarrollo de más de 25 edificios de vivienda y oficinas.</p><h3>Arq. Diego Alchourrón<span>Desarrollo y Gerenciamiento Zoning</span></h3><p>Arquitecto, MDI de la Universidad Politécnica de Madrid y Martillero Público. Es profesor de Marketing en el Máster de Desarrollo inmobiliario de la UB (MDEI). Tiene más de 15 años de experiencia en desarrollo y comercialización de inmuebles.</p>'
+			'texto' => '<h3>URBIA CAPITAL PARTNERS SL Desarrolladora Inmobiliaria</h3><p>Empresa 100% Española.<br>Sociedad Español con la participación de Zoning y CDAI: <br> CDAI:  Sociedad Española con mas de 20 años de Experiencia <br> Más de 3.600 viviendas desarrolladas, Centros comerciales, oficinas, Hoteles.</p>'
 		),
 		array(
 			'titulo' => 'Proyecto y Dirección',
 			'logo' => 'ensalada.png',
 			'alt' => 'ENSALADA - office for architecture and beyond',
-			'texto' => '<h3>Arg. Diego Boyadjian<span>Arquitecto UBA</span></h3><p>Ha realizado proyectos residenciales, institucionales y corporativos. Entre ellos el 1º premio en el Concurso para el Corredor Turístico Puerto Madero - La Boca. Es profesor de diseño arquitectónico avanzado en la FADU de la UBA.</p>'
+			'texto' => '<p>Un grupo de arquitectos que trabajan y exploran campos arquitectónicos desde 2015. Estamos interesados ​​en nuevas formas de abordar nuestros entornos y contextos. Tomamos en cuenta las relaciones que las generan, desde el individuo hasta la sociedad, y nos enfocamos en la comprensión de la arquitectura y el urbanismo como una pieza de un rompecabezas interconectado. Siempre trabajando en campos intermedios, desde el urbanismo hasta la comunicación, desde el diseño industrial hasta el arte, desde lo digital hasta lo analógico puro, buscamos formas de expandir nuestro conocimiento y comprensión de nuestro entorno.</p>'
 		),
 /*
 		array(

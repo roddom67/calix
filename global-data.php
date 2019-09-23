@@ -29,8 +29,8 @@
 			'titulo' => 'Calix Madrid',
 			'link' => '../calix-madrid/',
 			'logo' => 'logoCMadrid',
-			'direccion' => 'Plaza Fernando VI<br>
-								San Fernando de Henares<br>								Madrid'
+			'direccion' => 'Plaza de Fernando VI – Nº 12<br>
+								San Fernando de Henares<br>								Madrid'
 		)
 	);
 		
