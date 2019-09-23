@@ -1,5 +1,14 @@
 <?php
 	if(isset($textHeaderForm[$pagina])){
+		if(isset($mailContact[$pagina])){
+			$mailContacto = $mailContact[$pagina]['email'];
+			$tituloContacto = $mailContact[$pagina]['titulo'];
+			$telefonoContacto = $mailContact[$pagina]['telefono'];
+		}else{
+			$mailContacto = $textHeaderForm[$pagina]['email'];
+			$tituloContacto = $textHeaderForm[$pagina]['titulo'];
+			$telefonoContacto = $textHeaderForm[$pagina]['telefono'];
+		}
 		$textHeaderFormContent = '
 		<section class="textArea">
  			<div class="container-fluid">
@@ -7,8 +16,12 @@
 					<article class="contactTextArea col-sm-12 col-md-6">
 						<p>'.$textHeaderForm[$pagina]['parrafo'].'</p>
 						<h4>'.$textHeaderForm[$pagina]['titulo'].'</h4>
-						<p><a href="mailto:'.$textHeaderForm[$pagina]['email'].'" title="Email de '.$textHeaderForm[$pagina]['titulo'].'">'.$textHeaderForm[$pagina]['email'].'</a></p>
-						<p>'.$textHeaderForm[$pagina]['telefono'].'</p>
+						<p><a href="mailto:'.$mailContacto.'" title="Email de '.$tituloContacto.'">'.$mailContacto.'</a></p>';
+	if($telefonoContacto != ''){
+		$textHeaderFormContent .= '
+						<p>'.$telefonoContacto.'</p>';
+	}
+		$textHeaderFormContent .= '
 					</article>
  					<article class="contactFormArea col-sm-12">
  						<form method="post" action="send_contacto.php" name="commentForm" id="commentForm">

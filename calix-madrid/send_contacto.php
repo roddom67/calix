@@ -152,20 +152,20 @@
 
 		<div class="linea"></div>
 
-		<br />
+		<br />';
 
-		
-
+if($depto!=''){		
+$content.='
 		<div class="titulo left w_150">Departamento</div>
 
 		<div class="cont left w_550">'.$depto.'</div>
 
 		<div class="clear"></div>
 
-		<div class="linea"></div>
+		<div class="linea"></div>';
 
-		
-
+}		
+$content.='
 		<div class="titulo left w_150">Se enteró de Calix por:</div>
 
 		<div class="cont left w_550">'.$medios.'</div>

@@ -546,6 +546,12 @@
 		'2 dormitorios',
 		'1 dormitorio con terraza',
 		'2 dormitorios con terraza'
+	);
+	
+	$mailContact['contacto'] = array(
+		'email'=> 'info@zonig.com.ar',
+		'titulo'=> 'Equipo de atención',
+		'telefono' => ''
 	)
 	
 ?>
