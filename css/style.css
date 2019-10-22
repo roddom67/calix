@@ -1040,7 +1040,10 @@ section p{
 	.home article ul{
 		padding-bottom: calc( 33.3333vh - 170px);
 	}
-	
+	.calix-madrid.index .headerImage h1{
+		font-size: 4.3em;
+		line-height: 4.3rem;
+	}
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -1065,11 +1068,11 @@ section p{
 		display:none;
 	}
 	.home article div{
-		padding-bottom: 20px;
+		padding-bottom: 10px;
 	}
 	.home article ul li{
-		padding-top: 20px;
-		padding-bottom: 30px;
+		padding-top: 10px;
+		padding-bottom: 20px;
 		overflow:hidden;
 	}
 	.home .menuCalix a small{
@@ -1208,6 +1211,9 @@ section p{
 	}
 	.textImageArea p{
 		padding-right: 20%;
+	}
+	.calix-madrid .boxElProyecto p{
+		line-height: 2.7rem;
 	}
 	.boxCaracteristicas article{
 		padding-left: 0;
