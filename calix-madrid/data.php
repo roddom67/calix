@@ -104,32 +104,83 @@
 			array (
 				'imagen' => 'galeria_6.jpg',
 				'titulo' => 'Baño'
+			),
+			array (
+				'imagen' => 'vista_1.jpg',
+				'titulo' => ''
+			),
+			array (
+				'imagen' => 'vista_2.jpg',
+				'titulo' => ''
+			),
+			array (
+				'imagen' => 'planta_1.jpg',
+				'titulo' => ''
+			),
+			array (
+				'imagen' => 'vivienda_1.jpg',
+				'titulo' => ''
+			),
+			array (
+				'imagen' => 'vivienda_2.jpg',
+				'titulo' => ''
+			),
+			array (
+				'imagen' => 'vivienda_3.jpg',
+				'titulo' => ''
+			),
+			array (
+				'imagen' => 'vivienda_4.jpg',
+				'titulo' => ''
+			),
+			array (
+				'imagen' => 'vivienda_5.jpg',
+				'titulo' => ''
+			),
+			array (
+				'imagen' => 'vivienda_6.jpg',
+				'titulo' => ''
+			),
+			array (
+				'imagen' => 'vivienda_7.jpg',
+				'titulo' => ''
+			),
+			array (
+				'imagen' => 'vivienda_8.jpg',
+				'titulo' => ''
+			),
+			array (
+				'imagen' => 'vivienda_9.jpg',
+				'titulo' => ''
+			),
+			array (
+				'imagen' => 'vivienda_10.jpg',
+				'titulo' => ''
+			),
+			array (
+				'imagen' => 'vivienda_11.jpg',
+				'titulo' => ''
+			),
+			array (
+				'imagen' => 'vivienda_12.jpg',
+				'titulo' => ''
+			),
+			array (
+				'imagen' => 'vivienda_13.jpg',
+				'titulo' => ''
+			),
+			array (
+				'imagen' => 'vivienda_14.jpg',
+				'titulo' => ''
+			),
+			array (
+				'imagen' => 'vivienda_15.jpg',
+				'titulo' => ''
+			),
+			array (
+				'imagen' => 'vivienda_16.jpg',
+				'titulo' => ''
 			)
-			/*,
-			array (
-				'imagen' => 'PB_piso1.png',
-				'titulo' => ''
-			),
-			array (
-				'imagen' => 'piso2_piso3.png',
-				'titulo' => ''
-			),
-			array (
-				'imagen' => 'piso4_piso5.png',
-				'titulo' => ''
-			),
-			array (
-				'imagen' => 'piso6_piso7.png',
-				'titulo' => ''
-			),
-			array (
-				'imagen' => 'piso8.png',
-				'titulo' => ''
-			),
-			array (
-				'360' => 'https://roundme.com/embed/143840/363611',
-				'titulo' => ''
-			)*/
 		)
 	);
 
